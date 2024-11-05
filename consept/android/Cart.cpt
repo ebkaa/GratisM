@@ -1,0 +1,105 @@
+Created by testinium on 20.06.2023
+
+This is a concept file with following syntax for each concept.
+# Gratis Kart indirimli urun sepete eklenir.
+* Elementin yüklenmesini bekle "kampanyaSec"
+* "1" kere aşağıya kaydır
+* "gratisCardPrice"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "productAddButton"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementine tıkla "productAddButton"
+* Elementin yüklenmesini bekle "AddedToCartText"
+* Elementine tıkla "alisveriseDevamEt"
+* Elementin yüklenmesini bekle "productAddButton"
+* Elementine tıkla "productAddButton"
+* Elementin yüklenmesini bekle "AddedToCartText"
+* Elementine tıkla "goToCartButton"
+* "1" saniye bekle
+
+# Ana sayfadan bir urun sepete eklenir.
+* Elementin yüklenmesini bekle "kampanyaSec"
+* "1" kere aşağıya kaydır
+* "productAddButton"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementine tıkla "productAddButton"
+* Elementin yüklenmesini bekle "AddedToCartText"
+* Elementine tıkla "goToCartButton"
+
+# Kasa arkası popup'inda swipe yapilir ve urun sepete eklenir.
+* Elementin yüklenmesini bekle "cartAddButton"
+* "cartAddButton" elementinin hizasından sağdan sola "3" kere kaydır
+* Elementin yüklenmesini bekle "productItemTitle"
+* "productItemTitle" elementinin hizasından soldan sağa "3" kere kaydır
+* Elementin yüklenmesini bekle "cartAddButton"
+* Elementine tıkla "cartAddButton"
+
+# Sepet kasa arkasi popup'i varsa kapatilir.
+* "sepetReklamKapat" li element varsa tıkla
+
+# Listeleme alanından bir ürün sepete eklenir.
+* Element var mı kontrol et "urunDetay"
+* Element var mı kontrol et "urunDetayy"
+* Elementine tıkla "productAddButton"
+
+# Kasa arkasında swipe yapilir ve urun sepete eklenir.
+* Elementin yüklenmesini bekle "cartHeaderText"
+* Elementine tıkla "cartHeaderText"
+* "cartAddButton" elementinin hizasından sağdan sola "3" kere kaydır
+* Elementin yüklenmesini bekle "productItemTitle"
+* "productItemTitle" elementinin hizasından soldan sağa "3" kere kaydır
+* Elementin yüklenmesini bekle "cartAddButton"
+* Elementine tıkla "cartAddButton"
+* Elementine tıkla "cartHeaderText"
+
+# Urun adedi arttirilir.
+* Element var mı kontrol et "numberPlusBtn"
+* Elementine tıkla "numberPlusBtn"
+
+# Maximum ürün uyarısı kontrol edilir.
+* "2" saniye bekle
+* "Sepete bu üründen maksimum 4 adet ekleyebilirsiniz" değerini sayfa üzerinde olup olmadığını kontrol et.
+* Elementine tıkla "popupOkayButton"
+
+# Urun adedi azaltilir.
+* Element var mı kontrol et "numberMinusBtn"
+* Elementine tıkla "numberMinusBtn"
+* Elementin yüklenmesini bekle "numberMinusBtn"
+* Elementine tıkla "numberMinusBtn"
+* Elementin yüklenmesini bekle "numberMinusBtn"
+* Elementine tıkla "numberMinusBtn"
+* Elementin yüklenmesini bekle "numberMinusBtn"
+* Elementine tıkla "numberMinusBtn"
+
+# Bos sepetten ana sayfaya yonlendirme yapilir.
+* Element var mı kontrol et "bosSepetListesi"
+* Elementine tıkla "bosSepetListesi"
+* Elementin yüklenmesini bekle "kampanyaSec"
+
+# Sepette favoriye ekleme ve cikarma yapilir.
+* Elementin yüklenmesini bekle "shoppingItemFavBtn"
+* Elementine tıkla "shoppingItemFavBtn"
+* Elementin yüklenmesini bekle "addFavoritePopup"
+* Elementine tıkla "popupOkayButton"
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "shoppingItemFavBtn"
+* Elementine tıkla "shoppingItemFavBtn"
+* "2" saniye bekle
+
+# Sepette favori butonuna tiklanir.
+* Element var mı kontrol et "shoppingItemFavBtn"
+* "productCartName" li elementi bul ve değerini "ürün adı" olarak sakla
+* Elementine tıkla "shoppingItemFavBtn"
+
+# Sepete gidilir.
+* Element var mı kontrol et "sepetBtn"
+* Elementine tıkla "sepetBtn"
+
+# Kasa arkasi urun detayina gidilir.
+* Elementin yüklenmesini bekle "sepetReklamKapat"
+* Elementine tıkla "cartPopupProduct"
+* Elementin yüklenmesini bekle "productDetailTitle"
+
+# Urun detay sayfasinda urun sepete eklenir.
+* "1" kere aşağıya kaydır
+* Elementin yüklenmesini bekle "addBasketBtn"
+* Elementine tıkla "addBasketBtn"
+* Element var mı kontrol et "goToCartButton"
+* Elementine tıkla "goToCartButton"

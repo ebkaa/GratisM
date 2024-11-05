@@ -1,0 +1,3445 @@
+[
+  {
+  "key": "anasayfa",
+  "androidValue": "",
+  "androidType": "",
+  "iosValue": "//XCUIElementTypeButton[@name=\"Diğer\"]",
+  "iosType": "xpath"
+  },
+  {
+    "key": "digerSekmesi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Diğer\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "kampanyalarSekmesi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Kampanyalar\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "markalarSekmesi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Markalar\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "kategorilerSekmesi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Kategoriler\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "uyeOlVeyaGirisYap",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Üye Ol veya Giriş Yap\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "digerProfilimSekmesi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Profilim\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "EpostaInputAlani",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTextField[`value == \"E-Posta adresinizi giriniz\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "sifreInputAlani",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeSecureTextField[`value == \"Şifrenizi giriniz\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "girisYapBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"GİRİŞ YAP\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "profilim",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"Profilim\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "kategorilerNavbar",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeNavigationBar[@name=\"Kategoriler\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "kategorilerListesi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeCell/XCUIElementTypeStaticText",
+    "iosType": "xpath"
+  },
+  {
+    "key": "kategorilerListesiTumUrunler",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeCell/XCUIElementTypeStaticText)[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "urunSepeteEkleBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"SEPETE EKLE\"`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "urunListelemeSayfasiFiltreleBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton",
+    "iosType": "classChain"
+  },
+  {
+    "key": "urunFiltrelemeMarkayaGore",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Marka\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "filtrelemeMarkalarIlkMarkaSecenegi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeCell/XCUIElementTypeStaticText)[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "filtreSeciliIconTik",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`name == \"tickIcon\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "filtreleriUygulaBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[contains(@name,\"Filtrele\")]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "urunListelemeIlkUrun",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeCollectionView//XCUIElementTypeOther/XCUIElementTypeStaticText)[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "urunDetaySayfasiSepeteEkleBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"SEPETE EKLE\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "urunListelemeSayfasindaFavorilereEkleIcon",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"favoriteOffPurpleIcon\"`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "urunFavorilereKaydetBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Kaydet\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "urunDetaySepeteEklePopUpSepeteGit",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Sepete Git\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "sepetPopUpKapatBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"navigationCrossIcon\"`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "sepetiKapatmaBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"navigationCrossIcon\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "sepetiKapatmaTitle",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Sepet\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "sepetPopUpKapatTwoBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"navigationCrossIcon\"`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "kategorilerSearchBox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeNavigationBar[@name=\"Ürün Detay\"]/XCUIElementTypeButton[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "searchBoxOnerilenArama",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]//XCUIElementTypeStaticText[@name]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "kampanyalarIlkKampanyaSlider",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeImage",
+    "iosType": "classChain"
+  },
+  {
+    "key": "markalarListesiIlkMarka",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeScrollView/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeImage",
+    "iosType": "classChain"
+  },
+  {
+    "key": "geriBtn",
+    "androidValue": "com.gratis.android:id/btnBack",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeNavigationBar/XCUIElementTypeButton",
+    "iosType": "xpath"
+  },
+  {
+    "key": "digerSepetIcon",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeNavigationBar[`name == \"Diğer\"`]/XCUIElementTypeButton[3]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "sepetimSilBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"cartItemDeleteIcon\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "sepetimSilPopUpSil",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Sil\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "sepetimAlisveriseDevamEt",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"Alışverişe Devam Et\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "cikisYapBtnn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther",
+    "iosType": "xpath"
+  },
+  {
+    "key": "cikisYapPopUpCikisBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Çıkış Yap\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "navbarDigerTitle",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeNavigationBar[`name == \"Diğer\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "kampanyalarMagazaIcon",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeNavigationBar[`name == \"Kampanyalar\"`]/XCUIElementTypeButton[2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "kampanyalarMagazaAdana",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"ADANA\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "kampanyalarMagazaAdanaCukurova",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"ÇUKUROVA\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "kampanyalarMagazaAdanaCukurova",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"ÇUKUROVA\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "uygulamaIzinver",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"İzin Ver\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "uygulamaKullanirkenIzinver",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Uygulamayı Kullanırken İzin Ver\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ForgotPasswordIos",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Şifremi Unuttum']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "PasswordResetPageIos",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Şifre Yenileme']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ForgotPasswordSendBtnIos",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='GÖNDER']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "AlertSuccessfulPopupIos",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='İşlem Başarılı']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "PopupOkayBtnIos",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Tamam']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "RegisterBtnIos",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='ÜYE OL']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ProfileRoot",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Profilim']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ProfilePageMyPassword",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Şifrem']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "PageToolbarTitle",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@type='XCUIElementTypeNavigationBar']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "MyPasswordOldPassword",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@value='Lütfen eski şifrenizi giriniz']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "MyPasswordNewPassword",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@value='Lütfen yeni şifrenizi giriniz']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "MyPasswordAgainNewPassword",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@value='Lütfen yeni şifrenizi tekrar giriniz']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "MyPasswordSavedIcon",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Kaydet']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "MyPasswordChangesEditDone",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Şifreniz başarıyla değiştirilmiştir.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "RegisterPageTitle",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Üye Ol']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "RegisterName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@value='Adınızı giriniz']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "RegisterSurname",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@value='Soyadınızı giriniz']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "RegisterMail",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@value='E-Posta adresinizi giriniz']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "RegisterPhone",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@value='0(5__) ___ __ __']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "RegisterBirth",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[4]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "RegisterGender",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Erkek']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "RegisterPasswordIos",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@value='Şifrenizi giriniz']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "RegisterPasswordAgainIos",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[7]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeSecureTextField",
+    "iosType": "xpath"
+  },
+  {
+    "key": "CustomerInformationSMS",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Cep telefonu numarama SMS yoluyla ticari elektronik ileti gönderilmesine ve bu kapsamda hizmet alınan tedarikçiye aktarılmasına, telefon numaramın sosyal medya ortamlarında bana özel reklamların sunulması için sunucuları yurt dışında bulunan Facebook, Twitter ve Google firmalarına aktarılmasına açık rızam vardır.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "SmsCheckboxCheckedIos",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='checkboxUnselectedIcon'][@enabled='true']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "CustomerInformationEmail",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Elektronik postama ticari elektronik ileti gönderilmesine ve bu kapsamda hizmet alınan tedarikçiye eposta adresimin aktarılmasına, eposta adresimin sosyal medya ortamlarında bana özel reklamların sunulması için sunucuları yurt dışında bulunan Facebook, Twitter ve Google firmalarına aktarılmasına açık rızam vardır.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "EmailCheckboxCheckedIos",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//*[@name='checkboxUnselectedIcon'][@enabled='true'])[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "CustomerInformationCall",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Cep telefonu numarama arama yoluyla ticari elektronik ileti gönderilmesine ve bu kapsamda hizmet alınan tedarikçiye telefon numaramın aktarılmasına, telefon numaramın sosyal medya ortamlarında bana özel reklamların sunulması için sunucuları yurt dışında bulunan Facebook, Twitter ve Google firmalarına aktarılmasına açık rızam vardır.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "RegisterMembershipText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Üyelik Sözleşmesini okudum ve onaylıyorum.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "RegisterAgreementTextOne",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='2 - Bu sözleşme Gratis’e ait internet sitesinden üyenin faydalanmasına ilişkin şartları ve üyelik ilişkisine ilişkin hak ve borçları düzenler']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "PageRegisterAgreementBackBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@label='Üye Ol']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "RegisterOtherAgreementText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Aydınlatma Metnini okudum ve onaylıyorum.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "RegisterAgreementTextTwo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Veri Sorumlusu Tanımı ve Verilerin Toplanma Yöntemi']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "RegisterMembershipAgreement",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[10]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton[1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "RegisterOtherAgreement",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[8]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton[1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "RegisterOtherAgreementTwo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[8]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton[1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "RegisterPersonalInfo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[12]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton[1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "RegisterButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='ÜYE OL']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "RegisterSmsAcceptButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='Gönder']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "SmsAcceptButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'Gönder'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "RegisterAgeErrorPopup",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='16 yaşından küçükler üye olamaz.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "RegisterEmailErrorPopup",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Email adresi zaten var.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "RegisterPhoneErrorPopup",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Telefon numarası zaten var.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "KeyboardDismisserIcon",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='KeyboardDismisserIcon']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ForgetPasswordFailPopup",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Lütfen e-posta adresi giriniz']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "PageForgetPasswordBackBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@label='Giriş Yap']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "EmptyPasswordFailure",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Şifre alanı boş bırakılamaz.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "EmptyMailFailure",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Lütfen e-posta adresi giriniz']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "WrongMailFailure",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Lütfen geçerli bir e-posta adresi giriniz']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "NotMemberFailureIos",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Böyle bir üye kaydı bulunmamaktadır. Lütfen üye kaydı yapınız.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "WrongPasswordFailure",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='E-posta adresiniz ve/veya şifreniz hatalı.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "PageCloseIcon",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'navigationCrossIcon'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "PageCloseIconTwo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'navigationCrossIcon'`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "RegisterMailFull",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//*[@type='XCUIElementTypeTextField'][@enabled='true'][@visible='true'][@accessible='true'])[3]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "RegisterPhoneFull",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//*[@type='XCUIElementTypeTextField'][@enabled='true'][@visible='true'][@accessible='true'])[4]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "RegisterNameFull",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//*[@type='XCUIElementTypeTextField'][@enabled='true'][@visible='true'][@accessible='true'])[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "RegisterSurnameFull",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//*[@type='XCUIElementTypeTextField'][@enabled='true'][@visible='true'][@accessible='true'])[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ProfilePageMyAddress",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Adreslerim']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "DeleteAddressButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Sil']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "DeleteAddressPopupButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Evet']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "NewAddressCard",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@type='XCUIElementTypeCell']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "MyAddressNewAddAddress",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='+ Yeni Adres Ekle']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "NewAddressCustomerName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@value='Adınızı giriniz']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "NewAddressCustomerSurname",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@value='Soyadınızı giriniz']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "NewAddressCustomerPhone",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@value='Telefon numaranızı giriniz']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "NewAddressCustomerAddressTitle",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@value='Yazınız']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "NewAddressCustomerAddressDetail",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//*[@value='Lütfen buraya yazınız'])[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "NewAddressCustomerPostcode",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTextField[`value == \"Posta kodu giriniz\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "NewAddressSavedBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Kaydet']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "UpdateAddressButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Güncelle']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "NewAddressCustomerNameFull",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "xpath"
+  },
+  {
+    "key": "NewAddressCustomerSurnameFull",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "xpath"
+  },
+  {
+    "key": "NewAddressCustomerPhoneFull",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "xpath"
+  },
+  {
+    "key": "NewAddressCustomerAddressTitleFull",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "xpath"
+  },
+  {
+    "key": "NewAddressCustomerAddressDetailFull",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[7]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTextView",
+    "iosType": "xpath"
+  },
+  {
+    "key": "NewAddressCustomerPostcodeFull",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[8]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ProfilePageFavoriteButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Favorilerim']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "EditListNameButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Liste Adını Düzenle']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "EditListPopupTitle",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Liste Düzenle']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "EditListTextbox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@type='XCUIElementTypeTextField'][@enabled='true'][@visible='true'][@accessible='true']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "AlertSuccessfulFavoritePopupIos",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Favori listenizin adı güncellendi.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "EditListDropdownName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@type='XCUIElementTypeTextField'][@enabled='true'][@visible='false'][@accessible='true']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "NewAddressAddCityDropdown",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`name == \"dropDownArrowIcon\"`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "NewAddressAddDistrictDropdown",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`name == \"dropDownArrowIcon\"`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "NewAddressAddNeighbourhoodDropdown",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`name == \"dropDownArrowIcon\"`][3]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "AnasayfaTab",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='Anasayfa']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "KampanyaSec",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeScrollView",
+    "iosType": "classChain"
+  },
+  {
+    "key": "EnCokSatanlarProduct",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeImage[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "FavBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeButton[@name=\"favorite off\"])[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "FavBtnTwo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeButton[@name=\"favorite off\"])[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "AddFavoritePopup",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Listeye Ekle']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "PopupSavedBtnIos",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='Kaydet']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "AddFavoriteSuccessfulPopupIos",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Ürün favori listesine eklendi.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "RemoveFavoriteSuccessfulPopupIos",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Ürün favori listesinden çıkarıldı.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "AddListButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='Yeni Liste Oluştur']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "AddListPopupTitle",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Liste Oluştur']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "AddListTextbox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "xpath"
+  },
+  {
+    "key": "PopupAddBtnIos",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='Ekle']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "AddListSuccessfulPopupIos",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Favori listeniz oluşturuldu.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ProfilePageFavoriteIcon",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Favorilerim']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "FavListSpinner",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`name == \"dropDownArrowIcon\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "FavListSpinnerText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "xpath"
+  },
+  {
+    "key": "FavListSpinnerTextTwo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTextField[`value == \"Yeni Liste Adı\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "FavListDeleteButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='Sil']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "FavListDeletePopupButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeButton[@name='Sil'])[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ProductDetailFromFavoriteList",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "PageFavoriteBackBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='Favorilerim']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "FavAddCartButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='SEPETE EKLE']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "AddedToCartSuccessfulPopupIos",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Ürün sepetinize eklendi.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "FavoriteAddToCartControl",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='2']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "EmptyFavoriteList",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Favori ürünleriniz henüz yok!']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ContinueShoppingButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='Alışverişe Devam Et']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "GoToCartButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='Sepete Git']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "EmptyFavButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Alışverişe başla!']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "GratisCardPrice",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//*[@name='Gratis Kart ile'])[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ProductAddButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeButton[@name='SEPETE EKLE'])[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "BosSepetListesi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"Sepetin şu an boş\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "NumberPlusBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='cartQuantityIncreaseIcon']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "NumberMinusBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='cartQuantityDecreaseIcon']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "BosSepetListesiBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Alışverişe Devam Et']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ShoppingItemFavBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeCollectionView/XCUIElementTypeCell/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeButton",
+    "iosType": "xpath"
+  },
+  {
+    "key": "CartPageAddListTextbox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "xpath"
+  },
+  {
+    "key": "GratisBeautyAnasayfaIcon",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeNavigationBar[`name == \"Gratis.HomeView\"`]/XCUIElementTypeStaticText[1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "GratisBeautyPage",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeLink[@name='Alternate Text'])[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "CartAddButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//*[@name='Sepete Ekle'])[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ProductItemTitle",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[2]/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "CartHeaderText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ProductDropwdownItemTitle",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeStaticText",
+    "iosType": "classChain"
+  },
+  {
+    "key": "CartPopupProduct",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeStaticText",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ProductDetailTitle",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Ürün Detay']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "StoreBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeNavigationBar[@name='Gratis.HomeView']/XCUIElementTypeButton[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "LocationPermissionBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Uygulamayı Kullanırken İzin Ver']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "LocationPermissionBtn2",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='İzin Ver']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "StoreList",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "XCUIElementTypeTable",
+    "iosType": "class"
+  },
+  {
+    "key": "UrunSearchTxt",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "XCUIElementTypeTextField",
+    "iosType": "class"
+  },
+  {
+    "key": "StoreChosenList",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "XCUIElementTypeTable",
+    "iosType": "class"
+  },
+  {
+    "key": "KeyboardSearchIcon",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'Ara'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "StoreName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='İZM HİLLTOWN AVM']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ElementListOne",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='BURSA']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ElementListTwo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='İZNİK']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "StoreHours",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='Çalışma saatleri']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "StoreHoursPopupIos",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeAlert[@name=\"Çalışma saatleri\"]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "StoreLocationBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Konumu Gör']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "GetDirectionsBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='YOL TARİFİ AL']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "SelectAppMapsPopup",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='Apple Maps']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "MapBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Harita']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "MapTabCtrl",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='crosshair']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ToolbarUrunler",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='Ürünler']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "%50indirimIos",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"%50 ve Üzeri İndirimler\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "%60indirimIos",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"%60 ve Üzeri İndirimler\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "Trademark",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView/XCUIElementTypeCell[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ElementListThree",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Activex']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "FastScroller",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeOther[`label == 'Bölüm İndeksi'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ElementListFour",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Remove']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "GratisCardBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Gratis Kartım']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "GratisCardBackGround",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "XCUIElementTypeImage",
+    "iosType": "class"
+  },
+  {
+    "key": "NearbyStore",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Yakındaki Mağazalar']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "BeautyDigerBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Gratis Beauty']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "SearchBox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeNavigationBar[`name == \"Gratis.HomeView\"`]/XCUIElementTypeButton[1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "SearchBoxCloseBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='closeSearchIcon']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "SearchBoxCloseBtnNew",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeButton[2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "SearchBoxText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther",
+    "iosType": "classChain"
+  },
+  {
+    "key": "SearchBoxTextOne",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTextField[`value == 'Ürün, kategori veya marka ara..'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "SearchBoxText2",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name='Gratis']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther",
+    "iosType": "xpath"
+  },
+  {
+    "key": "SearchBoxText3",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name='Gratis']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeTextField",
+    "iosType": "xpath"
+  },
+  {
+    "key": "SearchBoxText4",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "XCUIElementTypeTextField",
+    "iosType": "class"
+  },
+  {
+    "key": "SearchNoResultFound",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='\"ASDASD\" için sonuç bulunamamıştır.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "SearchToolbarTitle",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeStaticText[@name='Pastel Oje 106'])[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "SearchCategoryName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Erkek Parfüm']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "SearchCategoryToolbarTitle",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Erkek Parfüm']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "SearchTrademarkName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Arko Men']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "SearchTrademarkToolbarTitle",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Arko Men']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "SearchPopularSubCategories",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "SearchPopularSubTrademarks",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[4]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "CareerBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Kariyer']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "CareerPage",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Kariyer']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "AgreementTxtBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Üyelik Sözleşmesi']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "AgreementPageToolbar",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Üyelik Sözleşmesi']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "PolicyBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Gizlilik ve Güvenlik']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "PolicyPageToolbar",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeStaticText[@name='Gizlilik ve Güvenlik'])[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "PolicyPageText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='çerez ( cookie) kullanır. Bir internet sitesine bağlanmakta olan cihazın sabit diskine ya da cihazın siteye erişmekte kullandığı tarayıcı programa kaydolan içeriğinde harf veya rakamlar bulunan ve cihazın tespitini sağlayan bilgisayar dosyasına çerez denir.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "TermOfUseBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Kullanım Koşulları']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "TermOfUsePageToolbar",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Kullanım Koşulları']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "TermOfUsePageText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther[@name='web dialog']/XCUIElementTypeOther[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "SsiBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Bilgi Toplumu Hizmetleri']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "SsiPageElement",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='GRATİS İÇ VE DIŞ TİCARET ANONİM ŞİRKETİ']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "KvkkBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Yasal Uyarı KVKK Aydınlatma Metni']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "KvkkPageToolbar",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Yasal Uyarı KVKK Aydınlatma Metni']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "AboutBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Hakkımızda']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "AboutPageToolbar",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Hakkımızda']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "AboutPageText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='“Güzel Bak Kendine” \u200Cmottosu ile yola çıkan Gratis’in amacı; müşterilerine kolay ulaşılabilir, hızlı ve rahat alışveriş imkânı sunarken temel kişisel bakım ihtiyaçlarının yanı sıra heyecan veren yeni markalar ve ürünler ile müşterilerine kişiye özel keyifli bir alışveriş deneyimi sunmaktır.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "Contact",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='İletişim']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "SepetBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeNavigationBar[@name='Gratis.HomeView']/XCUIElementTypeButton[3]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "CartToolbar",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Sepet']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "FacebookBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='facebookIcon']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "InstagramBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='instagramIcon']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "TwitterBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='twitterIcon']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "FacebookPage",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@value='\u200Efacebook.com, güvenli ve onaylanmış bağlantı']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "InstagramPage",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@value='\u200Einstagram.com, güvenli ve onaylanmış bağlantı']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "TwitterPage",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@value='\u200Etwitter.com, güvenli ve onaylanmış bağlantı']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "CustomerInformation",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Üye Bilgilerim']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "CustomerInformationPage",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Üye Bilgilerim']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "SavedBtnIos",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='Kaydet']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "SuccessfulProfileInformationPopup",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Profil bilgileriniz başarıyla güncellendi.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "PopupOkayBTNIos",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='TAMAM']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ContactCallNumber",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='0 850 210 69 00']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "SupportBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Yardım ve Destek']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "HsMembership",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Üyelik']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "HsPay",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Ödeme']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "HsOrder",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Sipariş ve Teslimat Süreci']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "HsProduct",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='İade, Ürün ve Şikayet']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "HsMembershipSolution",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"Üyelik ücretli mi?\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "HsMembershipSolutionText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"Gratis.com'a üye olmak ücretsizdir.\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "HsPaySolution",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Havale yoluyla ödeme yapabiliyor muyum?']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "HsPaySolutionText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"Gratis.com'da havale ile alışveriş geçerli değildir.\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "HsOrderSolution",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Siparişi Oluşturmadan Önce Sepetime Farklı Markalardan Ürün/Ürünler Ekleyebiliyor muyum?']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "HsOrderSolutionText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"İstediğiniz ürünü sepetinize ekleyebilirsiniz.\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "HsProductSolution",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Siparişim hazırlanma aşamasına geçmeden iptal edebilmem için ne kadar sürem var?']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "HsProductSolutionText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"Siparişinizi verdiğiniz andan itibaren ilk 30 dakika içinde hesabınız üzerinden iptal edebilirsiniz. Bu süreden sonra iade yapabilmek için siparişinizin uygunluğunu öğrenmek için müşteri deneyimlerimiz ile iletişime geçmeniz gerekmektedir.\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "KeyboardSearchButtonNew",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeKeyboard[1]/**/XCUIElementTypeButton[-1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "CatalogBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Gratis Katalog']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "CatalogOptions",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='Ana menü']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "CatalogPage",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeWebView/XCUIElementTypeWebView/XCUIElementTypeWebView/XCUIElementTypeOther/XCUIElementTypeOther",
+    "iosType": "classChain"
+  },
+  {
+    "key": "CatalogPagesBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeLink[`label == \"Bu yayındaki sayfaların listesi olarak sayfaya genel bakış\"`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "CatalogPages",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeMenuItem[@name='10-11. sayfa']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "CatalogFav",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeLink[`label == \"Paylaşılacak ürünlerin listesi olarak favorilerim\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "CatalogCloseIcon",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='Kapat']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "CatalogPdf",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeLink[`label == \"Bu yayını PDF olarak indirin (erişilebilir)\"`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "CatalogDownloadPage",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther[@name='URL']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "DigerSearchBox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeNavigationBar[@name=\"Diğer\"]/XCUIElementTypeButton[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "TabHeader",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView[1]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeStaticText",
+    "iosType": "xpath"
+  },
+  {
+    "key": "TabHeaderSlct",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Makyaj']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ProductName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeStaticText",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ProductNameOne",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ProductNameTwo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ProductNameThree",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell[3]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "MainPageCampaignOne",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeImage",
+    "iosType": "xpath"
+  },
+  {
+    "key": "MainPageCampaignTwo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeImage",
+    "iosType": "xpath"
+  },
+  {
+    "key": "MainPageCampaignThree",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell[3]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeImage",
+    "iosType": "xpath"
+  },
+  {
+    "key": "MainPageCampaignFour",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell[4]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeImage",
+    "iosType": "xpath"
+  },
+  {
+    "key": "MainPageCampaignFive",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell[5]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeImage",
+    "iosType": "xpath"
+  },
+  {
+    "key": "MainPageCampaignSix",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell[6]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeImage",
+    "iosType": "xpath"
+  },
+  {
+    "key": "MainPageCampaignSeven",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell[7]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeImage",
+    "iosType": "xpath"
+  },
+  {
+    "key": "MainPageCampaignEight",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell[8]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeImage",
+    "iosType": "xpath"
+  },
+  {
+    "key": "MainPageCampaignNine",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell[9]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeImage",
+    "iosType": "xpath"
+  },
+  {
+    "key": "MainPageCampaignTen",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell[10]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeImage",
+    "iosType": "xpath"
+  },
+  {
+    "key": "MainPageCampaignEleven",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell[11]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeImage",
+    "iosType": "xpath"
+  },
+  {
+    "key": "VisitedAddBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"SEPETE EKLE\"`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "VisitedTitle",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='En Son Gezdiklerim']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "VisitedText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeStaticText",
+    "iosType": "classChain"
+  },
+  {
+    "key": "uygulamaKullan",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Kullan\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "SıralaBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeButton",
+    "iosType": "classChain"
+  },
+  {
+    "key": "SortBySmart",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypePickerWheel[`value == \"Akıllı Sıralama\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ProductsName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeStaticText",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ProductsNameTwo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell[3]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeStaticText",
+    "iosType": "classChain"
+  },
+  {
+    "key": "CartPageProductsName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeCollectionView/XCUIElementTypeCell/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeStaticText",
+    "iosType": "xpath"
+  },
+  {
+    "key": "SortByMost",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypePickerWheel[`value == \"Çok Satanlar\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "SortByNew",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypePickerWheel[`value == \"En Yeniler\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "SortByLowPrice",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypePickerWheel[`value == \"En Düşük Fiyat\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "SortByHighPrice",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypePickerWheel[`value == \"En Yüksek Fiyat\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "SortByHighPoint",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypePickerWheel[`value == \"En Yüksek Puan\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "GratisProductPrice",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "GratisCardProductPrice",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ScrollToTop",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'upArrow icon'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "MakyajTab",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == 'Makyaj'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "TumMakyajUrunleriTab",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == 'Tüm Makyaj Ürünleri'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "PageToolbarTitleText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name='Gratis']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeNavigationBar/XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "GozMakyajTab",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == 'Göz Makyajı'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "TumGozMakyajUrunleriTab",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == 'Tüm Göz Makyajı Ürünleri'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "UrunDetay",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ProductDetailFromFavoriteListText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeStaticText",
+    "iosType": "classChain"
+  },
+  {
+    "key": "BeautyPopup",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='closeSearchIcon']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "BeautyPopupTwo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//*[@name='X']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "FilterOkayTwoBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'Filtrele'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "FilterBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton",
+    "iosType": "classChain"
+  },
+  {
+    "key": "FilterName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell/XCUIElementTypeStaticText",
+    "iosType": "xpath"
+  },
+  {
+    "key": "SubFilterName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell/XCUIElementTypeStaticText",
+    "iosType": "classChain"
+  },
+  {
+    "key": "FilterOkayBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`value == 'Filtrele'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "FilterResetBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'Sıfırla'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "PageToolbarTitleTextTwo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeNavigationBar/XCUIElementTypeStaticText",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ProductDetailImage",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[4]/XCUIElementTypeImage[2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "DetailShareBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'productShareIcon'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ShareDrag",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'Kapat'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "DetailZoomBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'zoomIcon'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ZoomPhoto",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeScrollView/XCUIElementTypeImage",
+    "iosType": "classChain"
+  },
+  {
+    "key": "CloseImg",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'Tamam'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "DetailGratisCardBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`name == \"gratisPriceCardIcon\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "AlertTitle",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeAlert[`label == \"İşlem Başarılı\"`]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "CategoryName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell/XCUIElementTypeStaticText",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ProductSubDetailTitle",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeStaticText",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ColorList",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[5]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeCollectionView",
+    "iosType": "classChain"
+  },
+  {
+    "key": "SecondColor",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[6]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeImage",
+    "iosType": "classChain"
+  },
+  {
+    "key": "PieceSpinner",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeStaticText[@name='Adet']/..//*)[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "PieceSpinnerNumberOne",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypePickerWheel[`value == '1'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "PieceSpinnerNumberTwo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypePickerWheel[`value == '2'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "PieceSpinnerNumberThree",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypePickerWheel[`value == '3'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "DetailFavBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[6]/XCUIElementTypeOther[2]/XCUIElementTypeButton",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ProductDetailAddListTextbox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ProductReturn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == 'İade Koşulları'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ReturnTxt",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[7]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ProductPayment",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == 'Ödeme Seçenekleri'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ProductFeatures",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == 'Ürün Özellikleri'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ProductInfoTable",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "XCUIElementTypeTable",
+    "iosType": "class"
+  },
+  {
+    "key": "Keyword",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[9]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeButton/XCUIElementTypeStaticText",
+    "iosType": "classChain"
+  },
+  {
+    "key": "PriceTwo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeCollectionView/XCUIElementTypeCell[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText[2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "PriceOne",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeCollectionView/XCUIElementTypeCell[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText[1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "PurchaseButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'SATIN AL'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "SalePriceOne",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[4]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText[1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "SalePriceTwo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[4]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText[2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ContinueBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'DEVAM ET'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "StoreCloseImg",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'white cross'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "HeaderTxt",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeStaticText",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ShippingPriceOne",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable/XCUIElementTypeCell/XCUIElementTypeStaticText[2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ShippingPriceTwo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable/XCUIElementTypeCell/XCUIElementTypeStaticText[3]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ShippingCheckBox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable/XCUIElementTypeCell/XCUIElementTypeStaticText[5]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "PreInfo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == 'Ön bilgilendirme formunu kabul ediyorum'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "PreInfoText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextView",
+    "iosType": "classChain"
+  },
+  {
+    "key": "SalesContact",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == 'Mesafeli satış sözleşmesini kabul ediyorum.'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "SalesContactText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextView",
+    "iosType": "classChain"
+  },
+  {
+    "key": "InfoCheckbox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton[1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "SalesContractCheckbox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton[1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "PurchaseAgreementToolbarTitle",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeStaticText",
+    "iosType": "classChain"
+  },
+  {
+    "key": "SalePriceOnee",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText[1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "SalePriceTwoo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText[2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "IyzPaymentBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeWebView/XCUIElementTypeWebView/XCUIElementTypeWebView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton",
+    "iosType": "xpath"
+  },
+  {
+    "key": "AddressBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ShippingAddressBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'Yeni Adres Ekle'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "AddressTypeTxt",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ShippingNewAddressCustomerAddressTitle",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "classChain"
+  },
+  {
+    "key": "SelectAddressCheckbox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton[1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "NewBillingAddressBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'Yeni Adres Ekle'`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "BillingHeaderTxt",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[4]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText",
+    "iosType": "classChain"
+  },
+  {
+    "key": "EditAddressBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'Düzenle'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ShippingCustomerName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ShippingCustomerSurname",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ShippingCustomerPhone",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ShippingCustomerAddressTitle",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ShippingCustomerAddressDetail",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[7]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTextView",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ShippingCustomerPostcode",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[8]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "classChain"
+  },
+  {
+    "key": "DeleteAddressBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeButton",
+    "iosType": "classChain"
+  },
+  {
+    "key": "AlertTitleText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeAlert[`label == \"Uyarı\"`]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "PopupDeleteBtnIos",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeAlert[`label == \"Uyarı\"`]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeButton",
+    "iosType": "classChain"
+  },
+  {
+    "key": "NewShippingCustomerName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "classChain"
+  },
+  {
+    "key": "NewShippingCustomerSurname",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "classChain"
+  },
+  {
+    "key": "NewShippingCustomerPhone",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTextField[`value == '0(5__) ___ __ __'`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "NewShippingCustomerPhoneTwo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[4]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "xpath"
+  },
+  {
+    "key": "NewShippingCustomerAddressTitle",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "classChain"
+  },
+  {
+    "key": "NewShippingCustomerAddressDetail",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "XCUIElementTypeTextView",
+    "iosType": "class"
+  },
+  {
+    "key": "NewShippingCustomerPostcode",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTextField[`value == \"Posta kodu giriniz\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "NewShippingAddressCustomerAddressTitle",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ProductInfoInTableAllText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[7]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell/XCUIElementTypeStaticText",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ProductInfoInTableTextForm",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == 'Form'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ProductInfoInTableText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[7]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeStaticText[1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "StoreCitySpinner",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`name == 'dropDownArrowIcon'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "StoreTownSpinner",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`name == 'dropDownArrowIcon'`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "SelectStoreRoot",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == 'Mağazayı seç'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "StoreFirstName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[4]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "classChain"
+  },
+  {
+    "key": "StoreSurName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[4]/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "classChain"
+  },
+  {
+    "key": "StorePhoneNumber",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[4]/XCUIElementTypeOther[4]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "classChain"
+  },
+  {
+    "key": "StoreAddressName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "classChain"
+  },
+  {
+    "key": "StoreBilCitySpinner",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`name == 'dropDownArrowIcon'`][3]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "StoreBilTownSpinner",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`name == 'dropDownArrowIcon'`][4]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "StoreBilDistrictSpinner",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`name == 'dropDownArrowIcon'`][5]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "StoreAddressPostCode",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[4]/XCUIElementTypeOther[9]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "xpath"
+  },
+  {
+    "key": "StoreAddressDetail",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[4]/XCUIElementTypeOther[8]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTextView",
+    "iosType": "xpath"
+  },
+  {
+    "key": "MeRadioBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == 'Kendim Teslim Alacağım'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "OtherRadioBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == 'Başkası Teslim Alacak'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ReceiverSurNameEt",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[5]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[4]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ReceiverNameEt",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[5]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ReceiverPhoneNumber",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[5]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[4]/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "classChain"
+  },
+  {
+    "key": "OtherShippingAddressBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == 'Başka Adres Seç'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "OtherBillingAddressBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == 'Başka Adres Seç'`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "BilAddressEditBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \" \"`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "AddBillingAddressBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'Yeni'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "StoreBillingAddressName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[4]/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTextView",
+    "iosType": "classChain"
+  },
+  {
+    "key": "StoreBillingAddressHeaderTxt",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Fatura Bilgileri']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "BilAddressRemoveBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \" \"`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "StoreBillingAddressBook",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'Adres Defteri'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "PageToolbarTitleThree",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ChangeAddressBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'Değiştir'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "SelectStoreBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'Mağaza Seç!'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "Cargo_info_txt",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText",
+    "iosType": "classChain"
+  },
+  {
+    "key": "Cargo_info_img",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeImage",
+    "iosType": "classChain"
+  },
+  {
+    "key": "IyzOthersTab",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeOther[`label == 'iyzico Ortak Ödeme Sayfası'`]/XCUIElementTypeImage[2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "Iyz-BkmExpress",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "XCUIElementTypeSwitch",
+    "iosType": "class"
+  },
+  {
+    "key": "NewIyzPaymentBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"GratisUAT\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeWebView/XCUIElementTypeWebView/XCUIElementTypeWebView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton",
+    "iosType": "xpath"
+  },
+  {
+    "key": "Iyz-submitBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='Submit']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "OrderOkBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='Devam Et']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "OrderPopupClose",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='Bir daha gösterme']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "OrderNo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"GratisUAT\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeStaticText[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "EyeIcon",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'eyeIcon'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "RegisterSmsTextbox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "classChain"
+  },
+  {
+    "key": "AlertSuccessfulPopup",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[3]/XCUIElementTypeOther[2]/XCUIElementTypeAlert/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther/XCUIElementTypeStaticText[1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "AlertSuccessfulPopupTwo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[3]/XCUIElementTypeOther[2]/XCUIElementTypeAlert/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther/XCUIElementTypeStaticText[2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "AlertVisiblePopup",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText",
+    "iosType": "classChain"
+  },
+  {
+    "key": "TickIconIos",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`name == 'tickIcon'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "StockCheckBox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "AlertFailedPopup",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeAlert[`label == \"Hata\"`]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "ProductSubTwoDetailTitle",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[6]/XCUIElementTypeOther/XCUIElementTypeStaticText",
+    "iosType": "classChain"
+  },
+  {
+    "key": "AccountDelete",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == 'Hesabı Sil'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "CancelBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'İptal'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "AccountDeletePopupAlert",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeAlert[`label == \"Hesabınızı Silmek İstediğinizden Emin Misiniz?\"`]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText",
+    "iosType": "classChain"
+  },
+  {
+    "key": "AccountDeletePopupAlertTwo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeAlert[`label == \"Hesabınızı Silmek İstediğinizden Emin Misiniz?\"`]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "AccountDeleteBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='Hesabı Sil']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "AccountDeleteAlertLast",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeAlert/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText",
+    "iosType": "classChain"
+  },
+  {
+    "key": "GratisCardConnectBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'Gratis Kartı Bağla'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "GratisCardGetBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'Gratis Kart Al'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "GratisCardSmsTextbox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField",
+    "iosType": "classChain"
+  },
+  {
+    "key": "AlertShippingCheckbox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[3]/XCUIElementTypeOther[2]/XCUIElementTypeAlert/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText",
+    "iosType": "classChain"
+  },
+  {
+    "key": "SearchIcon",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"Ürün, kategori veya marka ara…\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "SearchInput",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "XCUIElementTypeTextField",
+    "iosType": "class"
+  },
+  {
+    "key": "GratisCardTitle",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == 'Gratis Kartınız'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "cargoText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == '81 ilde mağazadan ÜCRETSİZ TESLİMAT fırsatları'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "AcceptButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='Gönder']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "xxxx",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "",
+    "iosType": "classChain"
+  },
+  {
+    "key": "xxxx",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "xxxx",
+    "iosType": "classChain"
+  },
+  {
+    "key": "xxxx",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "xxxx",
+    "iosType": "classChain"
+  },
+  {
+    "key": "xxxx",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "xxxx",
+    "iosType": "classChain"
+  },
+  {
+    "key": "xxxx",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "xxxx",
+    "iosType": "classChain"
+  },
+  {
+    "key": "xxxx",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "xxxx",
+    "iosType": "classChain"
+  },
+  {
+    "key": "xxxx",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "xxxx",
+    "iosType": "classChain"
+  },
+  {
+    "key": "xxxx",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "xxxx",
+    "iosType": "classChain"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "key": "anasayfa",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Anasayfa\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "Kategoriler",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Kategoriler\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "Kampanyalar",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Kampanyalar\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "Markalar",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[contains(@name, \"Markalar\")]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "Diger",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Diğer\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "Kategoriler",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Kategoriler\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "Kategoriler",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Kategoriler\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "Kategoriler",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Kategoriler\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "KategorilerTabiKatagorilerText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Kategoriler\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "KategorilerTabMakyaj",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Makyaj\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "KategorilerTabCiltBakim",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Cilt Bakım\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "KategorilerTabSacBakim",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Saç Bakım\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "KategorilerTabParfumDeodorant",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Parfüm & Deodorant\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "KategorilerTabErkekBakim",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Erkek Bakım\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "KategorilerTabKisiselBakim",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Kişisel Bakım\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "KategorilerTabAnneBebek",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Anne & Bebek\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "KategorilerTabEvYasam",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Ev & Yaşam\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "KategorilerTabModaAksesuar",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Moda & Aksesuar\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "KategorilerTabSupermarket",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Süpermarket\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "KategorilerTabElektrikliUrunler",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Elektrikli Ürünler\"]",
+    "iosType": "xpath"
+  }
+]

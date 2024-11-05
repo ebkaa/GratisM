@@ -1,0 +1,124 @@
+# Search ikonuna tiklanir
+* "SearchIcon" elementi bulunana kadar en fazla "30" saniye kadar bekle
+* "SearchIcon" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+
+# Diger sayfasindan search ikonuna tiklanir
+* Elementin yüklenmesini bekle "digerSekmesi"
+* "digerSekmesi" elementine sayacli tikla "navbarDigerTitle" value degerini bekle
+* Elementin yüklenmesini bekle "DigerSearchBox"
+* Elementine tıkla "DigerSearchBox"
+
+# Arama sayfasinin acildigi gorulur
+* Elementin yüklenmesini bekle "searchBoxOnerilenArama"
+//* Elementin yüklenmesini bekle "SearchBoxCloseBtn"
+
+# Urun adi <text> yazilir, arama yapilir
+* "SearchInput" elementi bulunana kadar en fazla "5" saniye kadar bekle
+* "SearchInput" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "SearchInput" elementi bulunana kadar en fazla "30" saniye kadar bekle
+* Elementin yüklenmesini bekle "searchBoxOnerilenArama"
+* "5" saniye bekle
+* <text> textini "SearchInput" elemente yaz
+//* Elementin yüklenmesini bekle "SearchBoxCloseBtn"
+//* "KeyboardSearchIcon" elementi bulunana kadar en fazla "30" saniye kadar bekle
+//* Elementin yüklenmesini bekle "searchBoxOnerilenArama"
+* "5" saniye bekle
+* iOS Enter tıkla
+
+# Urun kodu <text> yazilir, arama yapilir
+* "SearchInput" elementi bulunana kadar en fazla "5" saniye kadar bekle
+* "SearchInput" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "SearchInput" elementi bulunana kadar en fazla "30" saniye kadar bekle
+* Elementin yüklenmesini bekle "searchBoxOnerilenArama"
+* "5" saniye bekle
+* <text> textini "SearchInput" elemente yaz
+//* Elementin yüklenmesini bekle "SearchBoxCloseBtn"
+//* "KeyboardSearchIcon" elementi bulunana kadar en fazla "30" saniye kadar bekle
+//* Elementin yüklenmesini bekle "searchBoxOnerilenArama"
+* "5" saniye bekle
+* iOS Enter tıkla
+
+# Aradiginiz sonuc bulunamadi sayfasinin acildigi gorulur
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "SearchNoResultFound"
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+* "1" saniye bekle
+
+# Aratilan urun adina ait urunlerin listelendigi gorulur
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "PageToolbarTitleText"
+* "PageToolbarTitleText" elementinin "Pastel Oje 106" textini içerdiği kontrol edilir
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+* "1" saniye bekle
+
+# Urun detay sayfasinin acildigi gorulur
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "PageToolbarTitleText"
+* "PageToolbarTitleText" elementinin "Ürün Detay" textini içerdiği kontrol edilir
+* "1" saniye bekle
+
+# Kategori adi <text> yazilir, kategori secilir
+* "SearchInput" elementi bulunana kadar en fazla "5" saniye kadar bekle
+* "SearchInput" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "SearchInput" elementi bulunana kadar en fazla "30" saniye kadar bekle
+* Elementin yüklenmesini bekle "searchBoxOnerilenArama"
+* "5" saniye bekle
+* <text> textini "SearchInput" elemente yaz
+//* Elementin yüklenmesini bekle "SearchBoxCloseBtn"
+//* "KeyboardSearchIcon" elementi bulunana kadar en fazla "30" saniye kadar bekle
+* "5" saniye bekle
+//* Elementin yüklenmesini bekle "searchBoxOnerilenArama"
+//* Elementine tıkla "searchBoxOnerilenArama"
+* <text> değerini sayfa üzerinde olup olmadığını kontrol et.
+* <text> text degerine sahip elemente tikla
+* "1" saniye bekle
+
+# Kategori ile ilgili urunlerin listelendigi gorulur
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "PageToolbarTitleText"
+* "PageToolbarTitleText" elementinin "Erkek Parfüm" textini içerdiği kontrol edilir
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+* "1" saniye bekle
+
+# Marka adi <text> yazilir, marka secilir
+* "SearchInput" elementi bulunana kadar en fazla "5" saniye kadar bekle
+* "SearchInput" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "SearchInput" elementi bulunana kadar en fazla "30" saniye kadar bekle
+* Elementin yüklenmesini bekle "searchBoxOnerilenArama"
+* "5" saniye bekle
+* <text> textini "SearchInput" elemente yaz
+//* Elementin yüklenmesini bekle "SearchBoxCloseBtn"
+//* "KeyboardSearchIcon" elementi bulunana kadar en fazla "30" saniye kadar bekle
+* "5" saniye bekle
+//* Elementin yüklenmesini bekle "searchBoxOnerilenArama"
+//* Elementine tıkla "searchBoxOnerilenArama"
+* <text> değerini sayfa üzerinde olup olmadığını kontrol et.
+* <text> text degerine sahip elemente tikla
+* "1" saniye bekle
+
+# Marka ile ilgili urunlerin listelendigi gorulur
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "PageToolbarTitleText"
+* "PageToolbarTitleText" elementinin "Arko Men" textini içerdiği kontrol edilir
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+* "1" saniye bekle
+
+# Populer kategoriler altindan kategori uzerine tiklanir
+* Elementin yüklenmesini bekle "SearchPopularSubCategories"
+* Elementine tıkla "SearchPopularSubCategories"
+
+# Populer markalar altindan marka uzerine tiklanir
+* Elementin yüklenmesini bekle "SearchPopularSubTrademarks"
+* Elementine tıkla "SearchPopularSubTrademarks"
+
+# Aramaya gore urunlerin listelendigi gorulur
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "PageToolbarTitle"
+* Elementin yüklenmesini bekle "ProductAddButton"
+* "geriBtn" elementi bulunana kadar en fazla "10" saniye kadar bekle
+* Elementine tıkla "geriBtn"
+* "3" saniye bekle

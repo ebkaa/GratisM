@@ -1,0 +1,795 @@
+# E-posta alanina <eposta> girilir
+* Elementin yüklenmesini bekle "EpostaInputAlani"
+* <eposta> textini "EpostaInputAlani" elemente yaz
+
+# Sifre alanına <sifre> girilir
+* Elementin yüklenmesini bekle "sifreInputAlani"
+* <sifre> textini "sifreInputAlani" elemente yaz
+
+# Sifremi Unuttum ikonuna tiklanir
+* Element var mı kontrol et "ForgotPasswordIos"
+* "ForgotPasswordIos" elementine sayacli tikla "PasswordResetPageIos" value degerini bekle
+
+# Sifremi unuttum Gonder butonuna tiklanir
+* Element var mı kontrol et "ForgotPasswordSendBtnIos"
+* Elementine tıkla "ForgotPasswordSendBtnIos"
+
+# Popup Tamam butonuna tiklanir
+* Elementin yüklenmesini bekle "AlertSuccessfulPopupIos"
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+//* "ForgotPasswordSendBtnIos" elementine sayacli tikla "AlertSuccessfulPopupIos" value degerini bekle
+//* "PopupOkayBtnIos" elementine sayacli tikla "RegisterBtnIos" value degerini bekle
+* Elementine tıkla "PopupOkayBtnIos"
+* Elementin yüklenmesini bekle "RegisterBtnIos"
+
+# Profil'e tiklanir profilim sayfasinin acildigi gorulur
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "ProfileRoot"
+* "ProfileRoot" elementine sayacli tikla "PageToolbarTitle" value degerini bekle
+
+# Sifrem'e tiklanir sifre yenileme sayfasinin acildigi gorulur
+* Element var mı kontrol et "ProfilePageMyPassword"
+* "ProfilePageMyPassword" elementine sayacli tikla "PageToolbarTitle" value degerini bekle
+
+# Diger'e tiklanir diger sayfasinin acildigi gorulur
+//* "PageCloseIcon" li element varsa tıkla
+* "PageCloseIcon" li element varsa tıkla yoksa devam et
+* Elementin yüklenmesini bekle "digerSekmesi"
+* "digerSekmesi" elementine sayacli tikla "navbarDigerTitle" value degerini bekle
+* "1" saniye bekle
+
+# Sifre basarili sekilde degistirilir
+* Profil'e tiklanir profilim sayfasinin acildigi gorulur
+* Sifrem'e tiklanir sifre yenileme sayfasinin acildigi gorulur
+* "AndroidPassword" csv dosyasindan rastgele sifre sec
+* Eski sifre "MyPasswordOldPassword" elementine, yeni sifre "MyPasswordNewPassword" elementine, tekrar yeni sifre "MyPasswordAgainNewPassword" elementine yazilir
+//* Kaydet ikonuna tiklanir
+//* Duzenlemeleriniz basariyla kaydedilmistir uyarisi gorulmelidir
+
+# Sifre değiştirme alanına gidilir
+* Profil'e tiklanir profilim sayfasinin acildigi gorulur
+* Sifrem'e tiklanir sifre yenileme sayfasinin acildigi gorulur
+
+# Eski şifre eksik yazılır ve uyarı mesajı görülür
+* Elementin yüklenmesini bekle "MyPasswordOldPassword"
+* "1A2s3d." textini "MyPasswordOldPassword" elemente yaz
+* Kaydet ikonuna tiklanir
+//* Elementin yüklenmesini bekle "AlertSuccessfulPopupTwo"
+//* "AlertSuccessfulPopupTwo" elementinin "Şifreniz en az 8 karakter olmalı, büyük ve küçük harf, en az bir sayı ve özel karakter içermelidir. " textini içerdiği kontrol edilir
+* "Şifreniz en az 8 karakter olmalı, büyük ve küçük harf, en az bir sayı ve özel karakter içermelidir. " text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+* Sifrem'e tiklanir sifre yenileme sayfasinin acildigi gorulur
+
+# Yeni şifre ve tekrarı uyuşmuyor uyarı mesajı görülür
+* Elementin yüklenmesini bekle "MyPasswordOldPassword"
+* "1A2s3d.." textini "MyPasswordOldPassword" elemente yaz
+* Elementin yüklenmesini bekle "MyPasswordNewPassword"
+* "1A2s3d..." textini "MyPasswordNewPassword" elemente yaz
+* Elementin yüklenmesini bekle "MyPasswordAgainNewPassword"
+* "1A2s3d...." textini "MyPasswordAgainNewPassword" elemente yaz
+* Kaydet ikonuna tiklanir
+//* Elementin yüklenmesini bekle "AlertSuccessfulPopupTwo"
+//* "AlertSuccessfulPopupTwo" elementinin "Girdiğiniz şifreler eşleşmiyor" textini içerdiği kontrol edilir
+* "Girdiğiniz şifreler eşleşmiyor" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+* Sifrem'e tiklanir sifre yenileme sayfasinin acildigi gorulur
+
+# Eski şifre hatalı uyarı mesajı görülür
+* Elementin yüklenmesini bekle "MyPasswordOldPassword"
+* "1A2s3d..." textini "MyPasswordOldPassword" elemente yaz
+* Elementin yüklenmesini bekle "MyPasswordNewPassword"
+* "1A2s3d...." textini "MyPasswordNewPassword" elemente yaz
+* Elementin yüklenmesini bekle "MyPasswordAgainNewPassword"
+* "1A2s3d...." textini "MyPasswordAgainNewPassword" elemente yaz
+* Kaydet ikonuna tiklanir
+* Elementin yüklenmesini bekle "AlertVisiblePopup"
+* "AlertVisiblePopup" elementinin "Eski şifrenizi hatalı girdiniz" textini içerdiği kontrol edilir
+
+# Kaydet ikonuna tiklanir
+* Element var mı kontrol et "MyPasswordSavedIcon"
+* Elementine tıkla "MyPasswordSavedIcon"
+//* "MyPasswordSavedIcon" elementine sayacli tikla "MyPasswordChangesEditDone" value degerini bekle
+
+# Duzenlemeleriniz basariyla kaydedilmistir uyarisi gorulmelidir
+* Element var mı kontrol et "MyPasswordChangesEditDone"
+* Element var mı kontrol et "PageToolbarTitle"
+
+# Register'a tıklanır
+* Element var mı kontrol et "RegisterBtnIos"
+* "RegisterBtnIos" elementine sayacli tikla "RegisterPageTitle" value degerini bekle
+
+# Üye Ol Ad <ad>, Soyad <soyad>, Telefon <telefon> ve Eposta İsmi <ePosta> girilir
+* Element var mı kontrol et "RegisterName"
+* <ad> textini "RegisterName" elemente yaz
+* Element var mı kontrol et "RegisterSurname"
+* <soyad> textini "RegisterSurname" elemente yaz
+* Element var mı kontrol et "RegisterPhone"
+* <telefon> textini "RegisterPhone" elemente yaz
+* Element var mı kontrol et "RegisterMail"
+* <ePosta> textini "RegisterMail" elemente yaz
+* Klavye kapatilir
+
+# Kullanıcı bilgileri girilir
+* "AndroidInfo" csv dosyasindan rastgele register kullanicisi sec
+* Rastgele secilen kullanici adi "RegisterName" elementine, soyadi "RegisterSurname" elementine, mail "RegisterMail" elementine yazilir
+* "RegisterMailFull" li elementi bul, temizle ve "gratis.testinium11@gmail.com" değerini yaz
+* "321111125" textini "RegisterPhone" elemente yaz
+* "KeyboardDismisserIcon" li element varsa tıkla
+* "RegisterBirth" elementi bulunana kadar en fazla "15" saniye kadar bekle
+* "RegisterBirth" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "1" saniye bekle
+* "PopupOkayBtnIos" elementi bulunana kadar en fazla "15" saniye kadar bekle
+//* "30","90" oranlarından "30","70" oranlarına "2" kere swipe et
+//* "50","90" oranlarından "50","70" oranlarına "2" kere swipe et
+//* "70","90" oranlarından "70","70" oranlarına "2" kere swipe et
+* "1" saniye bekle
+* "70","90" oranlarından "70","70" oranlarına "1" kere yukarı swipe et
+* Elementine tıkla "PopupOkayBtnIos"
+* Elementin yüklenmesini bekle "RegisterGender"
+* "RegisterGender" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+//* Rastgele secilen şifre "RegisterPassword" elementine, şifre tekrar "RegisterPasswordAgain"  elementine yazilir
+* Element var mı kontrol et "RegisterPasswordIos"
+* "Gratis12." textini "RegisterPasswordIos" elemente yaz
+* Element var mı kontrol et "RegisterPasswordAgainIos"
+* "Gratis12." textini "RegisterPasswordAgainIos" elemente yaz
+* "KeyboardDismisserIcon" li element varsa tıkla
+* "1" kere aşağıya kaydır
+
+# Kullanıcı şartlarına tıklanır ve üye olunur
+* Elementin yüklenmesini bekle "RegisterOtherAgreementText"
+* "RegisterOtherAgreementText" li  elementin x ekseninde yukaridan %"10" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* Elementin yüklenmesini bekle "RegisterAgreementTextTwo"
+* "1" kere aşağıya kaydır
+* "1" saniye bekle
+* "PageRegisterAgreementBackBtn" elementi bulunana kadar en fazla "15" saniye kadar bekle
+* Elementine tıkla "PageRegisterAgreementBackBtn"
+* "1" saniye bekle
+* Element var mı kontrol et "RegisterOtherAgreement"
+* Elementine tıkla "RegisterOtherAgreement"
+* Element var mı kontrol et "CustomerInformationSMS"
+* "CustomerInformationSMS" li  elementin x ekseninde yukaridan %"10" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* Element var mı kontrol et "CustomerInformationEmail"
+* "CustomerInformationEmail" li  elementin x ekseninde yukaridan %"10" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* Element var mı kontrol et "CustomerInformationCall"
+* "CustomerInformationCall" li  elementin x ekseninde yukaridan %"10" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "1" saniye bekle
+* Element var mı kontrol et "RegisterButton"
+* Elementine tıkla "RegisterButton"
+* Elementin yüklenmesini bekle "RegisterSmsAcceptButton"
+* "SMS Onayı" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "RegisterSmsTextbox"
+* "5" saniye bekle
+* "12345" textini "RegisterSmsTextbox" elemente yaz
+* Elementin yüklenmesini bekle "RegisterSmsAcceptButton"
+* "RegisterSmsAcceptButton" elementinin "Gönder" textini içerdiği kontrol edilir
+* Elementine tıkla "RegisterSmsAcceptButton"
+* "5" saniye bekle
+* Elementin yüklenmesini bekle "profilim"
+
+# Sms uyarısı kontrol edilir
+//* Elementin yüklenmesini bekle "AlertSuccessfulPopup"
+//* "AlertSuccessfulPopup" elementinin "Sms kodu geçersiz" textini içerdiği kontrol edilir
+* "SMS kodu geçersiz" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+
+# 16 yasindan kucuk dogum tarihi secilir ve uyarı mesaji gorulur
+* Elementin yüklenmesini bekle "RegisterName"
+* "Burhan" textini "RegisterName" elemente yaz
+* Elementin yüklenmesini bekle "RegisterSurname"
+* "Aydın" textini "RegisterSurname" elemente yaz
+* Elementin yüklenmesini bekle "RegisterMail"
+* "javaautomationtest@gmail.com" textini "RegisterMail" elemente yaz
+* Elementin yüklenmesini bekle "RegisterPhone"
+* "326637273" textini "RegisterPhone" elemente yaz
+* "KeyboardDismisserIcon" li element varsa tıkla
+* "RegisterBirth" elementi bulunana kadar en fazla "15" saniye kadar bekle
+* "RegisterBirth" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+//* "30","90" oranlarından "30","70" oranlarına "2" kere swipe et
+//* "50","90" oranlarından "50","70" oranlarına "2" kere swipe et
+* "70","90" oranlarından "70","70" oranlarına "1" kere swipe et
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* Elementin yüklenmesini bekle "RegisterGender"
+* "RegisterGender" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* Element var mı kontrol et "RegisterPasswordIos"
+* "123456Asdf." textini "RegisterPasswordIos" elemente yaz
+* Element var mı kontrol et "RegisterPasswordAgainIos"
+* "123456Asdf." textini "RegisterPasswordAgainIos" elemente yaz
+* "KeyboardDismisserIcon" li element varsa tıkla
+* "1" kere aşağıya kaydır
+* "1" saniye bekle
+* Element var mı kontrol et "RegisterOtherAgreement"
+* Elementine tıkla "RegisterOtherAgreement"
+* Elementin yüklenmesini bekle "RegisterButton"
+* Elementine tıkla "RegisterButton"
+* Elementin yüklenmesini bekle "RegisterAgeErrorPopup"
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+
+# Kayıtlı Mail ile register olunur ve uyarı mesajı gorulur
+* "2" kere yukarı doğru kaydır
+* "RegisterBirth" elementi bulunana kadar en fazla "15" saniye kadar bekle
+* "RegisterBirth" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+//* "30","40" oranlarından "30","65" oranlarına "2" kere swipe et
+//* "50","40" oranlarından "50","65" oranlarına "2" kere swipe et
+//* "70","90" oranlarından "30","70" oranlarına "1" kere swipe et
+* "1" saniye bekle
+* "70","90" oranlarından "70","70" oranlarına "1" kere yukarı swipe et
+* Elementine tıkla "PopupOkayBtnIos"
+* "2" kere aşağıya kaydır
+* Elementin yüklenmesini bekle "RegisterButton"
+* Elementine tıkla "RegisterButton"
+* Elementin yüklenmesini bekle "RegisterEmailErrorPopup"
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+
+# Kayıtlı Telefon ile register olunur ve uyarı mesajı gorulur
+* "2" kere yukarı doğru kaydır
+* Elementin yüklenmesini bekle "RegisterMailFull"
+* "RegisterMailFull" li elementi bul, temizle ve "javatesttautomation@gmail.com" değerini yaz
+* Elementin yüklenmesini bekle "RegisterPhoneFull"
+* "RegisterPhoneFull" li elementi bul, temizle ve "555217475" değerini yaz
+* "KeyboardDismisserIcon" li element varsa tıkla
+* "RegisterBirth" elementi bulunana kadar en fazla "15" saniye kadar bekle
+* "RegisterBirth" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* "1" saniye bekle
+* "70","90" oranlarından "70","70" oranlarına "1" kere yukarı swipe et
+* Elementine tıkla "PopupOkayBtnIos"
+* "2" kere aşağıya kaydır
+* Elementin yüklenmesini bekle "RegisterButton"
+* Elementine tıkla "RegisterButton"
+* Elementin yüklenmesini bekle "RegisterPhoneErrorPopup"
+
+# Üye Ol ikonuna tiklanir <key> uyarı mesajı görülür
+* "RegisterButton"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* Elementine tıkla "RegisterButton"
+* "1" saniye bekle
+* <key> text degerine sahip elementin goruntulendigi kontrol edilir
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+
+# Sifremi unuttum bos mail uyarısı gorulur
+* Elementin yüklenmesini bekle "ForgetPasswordFailPopup"
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* Element var mı kontrol et "PageForgetPasswordBackBtn"
+* Elementine tıkla "PageForgetPasswordBackBtn"
+* Elementin yüklenmesini bekle "girisYapBtn"
+
+# Login icin bos mail ve sifre uyarısı gorulur
+* Element var mı kontrol et "girisYapBtn"
+* Elementine tıkla "girisYapBtn"
+* Elementin yüklenmesini bekle "EmptyMailFailure"
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* "javatestautomation@gmail.com" textini "EpostaInputAlani" elemente yaz
+* Element var mı kontrol et "girisYapBtn"
+* Elementine tıkla "girisYapBtn"
+* Elementin yüklenmesini bekle "EmptyPasswordFailure"
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+* Elementin yüklenmesini bekle "uyeOlVeyaGirisYap"
+* Elementine tıkla "uyeOlVeyaGirisYap"
+* "EpostaInputAlani" elementi bulunana kadar en fazla "15" saniye kadar bekle
+* "1" saniye bekle
+
+# Yanlıs eposta ve sifre uyarıları gorulur
+* Element var mı kontrol et "girisYapBtn"
+* Elementine tıkla "girisYapBtn"
+* Elementin yüklenmesini bekle "WrongMailFailure"
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+//* Element var mı kontrol et "shortPasswordFailure"
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+* Elementin yüklenmesini bekle "uyeOlVeyaGirisYap"
+* Elementine tıkla "uyeOlVeyaGirisYap"
+* "EpostaInputAlani" elementi bulunana kadar en fazla "15" saniye kadar bekle
+* "1" saniye bekle
+
+# Kayıtlı olmayan eposta ile login olma uyarısı gorulur
+* Element var mı kontrol et "girisYapBtn"
+* Elementine tıkla "girisYapBtn"
+* Element var mı kontrol et "NotMemberFailureIos"
+* "2" saniye bekle
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+* Elementin yüklenmesini bekle "uyeOlVeyaGirisYap"
+* Elementine tıkla "uyeOlVeyaGirisYap"
+* "EpostaInputAlani" elementi bulunana kadar en fazla "15" saniye kadar bekle
+* "1" saniye bekle
+
+# Yanlıs sifre veya email/cep telefonu uyarısı gorulur
+* Element var mı kontrol et "girisYapBtn"
+* Elementine tıkla "girisYapBtn"
+* Element var mı kontrol et "WrongPasswordFailure"
+* "2" saniye bekle
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* "1" saniye bekle
+
+# Klavye kapatilir
+//* Elementin yüklenmesini bekle "KeyboardDismisserIcon"
+//* Elementine tıkla "KeyboardDismisserIcon"
+* "KeyboardDismisserIcon" li element varsa tıkla yoksa devam et
+
+# Adreslerim'e tiklanir adreslerim sayfasinin acildigi gorulur
+* Element var mı kontrol et "ProfilePageMyAddress"
+* "ProfilePageMyAddress" elementine sayacli tikla "PageToolbarTitle" value degerini bekle
+
+# Adres silinir
+* Elementin yüklenmesini bekle "DeleteAddressButton"
+* Elementine tıkla "DeleteAddressButton"
+* Elementin yüklenmesini bekle "DeleteAddressPopupButton"
+* Elementine tıkla "DeleteAddressPopupButton"
+
+# Adres varsa Silme'ye tıklanır, adres silme pop-up'ın açıldığı görülür ve adres silinir
+* "DeleteAddressButton" li elementi bul ve varsa tıkla
+* "DeleteAddressPopupButton" li elementi bul ve varsa tıkla
+//* "NewAddressCard" değerini sayfa üzerinde olmadıgını kontrol et
+
+# Yeni Adres Ekle'ye tiklanir adres ekleme sayfasinin acildigi gorulur
+* "1" saniye bekle
+* Element var mı kontrol et "MyAddressNewAddAddress"
+* "MyAddressNewAddAddress" elementine sayacli tikla "PageToolbarTitle" value degerini bekle
+
+# Adres icin Ad, Soyad, Telefon ve Adres Ismi bilgileri girilir
+* "IOS" csv dosyasindan rastgele adres bilgileri sec
+* Adres icin Ad "NewAddressCustomerName" elementine, Soyad "NewAddressCustomerSurname" elementine, Telefon "NewAddressCustomerPhone" elementine, Adres Ismi "NewAddressCustomerAddressTitle" elementine yazilir
+* Klavye kapatilir
+
+# Adres Ad <ad>, Soyad <soyad>, Telefon <telefon> ve Adres İsmi <adresIsmi> girilir
+* Element var mı kontrol et "NewAddressCustomerName"
+* <ad> textini "NewAddressCustomerName" elemente yaz
+* Element var mı kontrol et "NewAddressCustomerSurname"
+* <soyad> textini "NewAddressCustomerSurname" elemente yaz
+* Element var mı kontrol et "NewAddressCustomerPhone"
+* <telefon> textini "NewAddressCustomerPhone" elemente yaz
+* Element var mı kontrol et "NewAddressCustomerAddressTitle"
+* <adresIsmi> textini "NewAddressCustomerAddressTitle" elemente yaz
+* Klavye kapatilir
+
+# Yukarı scroll et ve <text> textini <key> elementine yaz
+* "1" saniye bekle
+* "1" kere yukarı doğru kaydır
+* "1" saniye bekle
+* <key> li elementi bul, temizle ve <text> değerini yaz
+* Klavye kapatilir
+
+# Adres icin Ad, Soyad, Telefon ve Adres Ismi bilgilerinin guncelleri girilir
+/* "IOS" csv dosyasindan rastgele adres bilgileri sec
+/* Adres icin Ad "NewAddressCustomerNameFull" elementine, Soyad "NewAddressCustomerSurnameFull" elementine, Telefon "NewAddressCustomerPhoneFull" elementine, Adres Ismi "NewAddressCustomerAddressTitleFull" elementine yazilir
+* Element var mı kontrol et "NewAddressCustomerNameFull"
+* "NewAddressCustomerNameFull" li elementi bul, temizle ve "Fatih" değerini yaz
+* Element var mı kontrol et "NewAddressCustomerSurnameFull"
+* "NewAddressCustomerSurnameFull" li elementi bul, temizle ve "Terim" değerini yaz
+* Element var mı kontrol et "NewAddressCustomerPhoneFull"
+* "NewAddressCustomerPhoneFull" li elementi bul, temizle ve "326637275" değerini yaz
+* Element var mı kontrol et "NewAddressCustomerAddressTitleFull"
+* "NewAddressCustomerAddressTitleFull" li elementi bul, temizle ve "İş" değerini yaz
+* Klavye kapatilir
+
+# Adres Ekleme icin Adres Detay ve Posta Kodu bilgilerinin guncelleri girilir
+* "1" kere aşağıya kaydır
+* Element var mı kontrol et "NewAddressCustomerAddressDetailFull"
+* "NewAddressCustomerAddressDetailFull" li elementi bul, temizle ve "İş detayı için tarif giriliyordur" değerini yaz
+* "KeyboardDismisserIcon" li element varsa tıkla yoksa devam et
+* Element var mı kontrol et "NewAddressCustomerPostcodeFull"
+* "NewAddressCustomerPostcodeFull" li elementi bul, temizle ve "34599" değerini yaz
+//* Yeni Adres Ekleme icin Adres Detay "NewAddressCustomerAddressDetailFull" elementine, Posta Kodu "NewAddressCustomerPostcodeFull" elementine yazilir
+
+# Adres Ekle Sehir ismi secilir
+* "1" kere yukarı doğru kaydır
+* "1" saniye bekle
+* Element var mı kontrol et "NewAddressAddCityDropdown"
+* "NewAddressAddCityDropdown" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "1" saniye bekle
+* "50","90" oranlarından "50","70" oranlarına "1" kere swipe et
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* "1" saniye bekle
+
+# Adres Ekle Sehir ismi guncelleme icin <count> swipe ile secilir
+* "1" kere yukarı doğru kaydır
+* "1" saniye bekle
+* Element var mı kontrol et "NewAddressAddCityDropdown"
+* "NewAddressAddCityDropdown" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "1" saniye bekle
+* "50","90" oranlarından "50","70" oranlarına <count> kere swipe et
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* "1" saniye bekle
+
+# Adres Ekle Ilce ismi secilir
+* Element var mı kontrol et "NewAddressAddDistrictDropdown"
+* "NewAddressAddDistrictDropdown" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "1" saniye bekle
+* "50","90" oranlarından "50","70" oranlarına "2" kere swipe et
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* "1" saniye bekle
+
+# Adres Ekle Ilce ismi guncelleme icin <count> swipe ile secilir
+* Element var mı kontrol et "NewAddressAddDistrictDropdown"
+* "NewAddressAddDistrictDropdown" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "1" saniye bekle
+* "50","90" oranlarından "50","70" oranlarına <count> kere swipe et
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* "1" saniye bekle
+
+# Adres Ekle Mahalle ismi secilir
+* "NewAddressAddNeighbourhoodDropdown"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Element var mı kontrol et "NewAddressAddNeighbourhoodDropdown"
+* "NewAddressAddNeighbourhoodDropdown" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "1" saniye bekle
+* "50","90" oranlarından "50","70" oranlarına "1" kere swipe et
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* "1" saniye bekle
+
+# Adres Ekle Mahalle ismi guncelleme icin <count> swipe ile secilir
+* "NewAddressAddNeighbourhoodDropdown"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Element var mı kontrol et "NewAddressAddNeighbourhoodDropdown"
+* "NewAddressAddNeighbourhoodDropdown" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "1" saniye bekle
+* "50","90" oranlarından "50","70" oranlarına <count> kere swipe et
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* "1" saniye bekle
+
+# Adres Ekleme icin Adres Detay ve Posta Kodu bilgileri girilir
+* "1" kere aşağıya kaydır
+//* "AndroidAddress" csv dosyasindan rastgele adres bilgileri sec
+//* Yeni Adres Ekleme icin Adres Detay "NewAddressCustomerAddressDetail" elementine, Posta Kodu "NewAddressCustomerPostcode" elementine yazilir
+* Element var mı kontrol et "NewAddressCustomerAddressDetail"
+* "NewAddressCustomerAddressDetail" li elementi bul, temizle ve "Test ortamı icin adres detay bilgisi No:109" değerini yaz
+* "KeyboardDismisserIcon" li element varsa tıkla yoksa devam et
+* Element var mı kontrol et "NewAddressCustomerPostcode"
+* "NewAddressCustomerPostcode" li elementi bul, temizle ve "35917" değerini yaz
+
+# Kaydet ikonuna tiklanir eklenen adresin adreslerim alanina geldigi gorulur
+* Element var mı kontrol et "NewAddressSavedBtn"
+* Elementine tıkla "NewAddressSavedBtn"
+* Element var mı kontrol et "NewAddressCard"
+
+# Kaydet ikonuna tiklanir <String> uyarı mesajı görülür
+* "NewAddressSavedBtn"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* Elementine tıkla "NewAddressSavedBtn"
+* "1" saniye bekle
+* <String> text degerine sahip elementin goruntulendigi kontrol edilir
+* "1" saniye bekle
+//* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+
+# Devam Et ikonuna tiklanir <String> uyarı mesajı görülür
+* "ContinueBtn"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* Elementine tıkla "ContinueBtn"
+* "1" saniye bekle
+* <String> text degerine sahip elementin goruntulendigi kontrol edilir
+* "1" saniye bekle
+//* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+
+# Adres güncellemeye tıklanır
+* Element var mı kontrol et "UpdateAddressButton"
+* Elementine tıkla "UpdateAddressButton"
+
+# Profil sayfasındaki Favori butonuna tiklanir
+* Element var mı kontrol et "ProfilePageFavoriteButton"
+* Elementine tıkla "ProfilePageFavoriteButton"
+
+# Favori Liste Adi Duzenle alani kontrol edilir
+* Element var mı kontrol et "EditListNameButton"
+* Elementine tıkla "EditListNameButton"
+* Element var mı kontrol et "EditListPopupTitle"
+* Elementin yüklenmesini bekle "EditListTextbox"
+* "EditListTextbox" li elementi bul ve temizle
+* Elementin yüklenmesini bekle "NewAddressSavedBtn"
+* Elementine tıkla "NewAddressSavedBtn"
+* "Hata" text degerine sahip elementin goruntulendigi kontrol edilir
+* "Lütfen liste adı giriniz" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* "EditListTextbox" li elementi bul, temizle ve "A" değerini yaz
+* "EditListTextbox" elementi bulunana kadar en fazla "15" saniye kadar bekle
+* "EditListTextbox" elementinin "A" textini içerdiği kontrol edilir
+* Elementin yüklenmesini bekle "NewAddressSavedBtn"
+* Elementine tıkla "NewAddressSavedBtn"
+* Elementin yüklenmesini bekle "AlertSuccessfulFavoritePopupIos"
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+
+# Favori sayfasindaki Liste Adini Duzenle butonuna tiklanir ve yeni isim girilir
+* Element var mı kontrol et "EditListNameButton"
+* Elementine tıkla "EditListNameButton"
+* Element var mı kontrol et "EditListPopupTitle"
+* "EditListTextbox" li elementi bul, temizle ve "Favori Listesi" değerini yaz
+* "EditListTextbox" elementi bulunana kadar en fazla "15" saniye kadar bekle
+* "EditListTextbox" elementinin "Favori Listesi" textini içerdiği kontrol edilir
+* Elementin yüklenmesini bekle "NewAddressSavedBtn"
+* Elementine tıkla "NewAddressSavedBtn"
+* Elementin yüklenmesini bekle "AlertSuccessfulFavoritePopupIos"
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* Elementin yüklenmesini bekle "EditListDropdownName"
+* "EditListDropdownName" elementinin "Favori Listesi" textini içerdiği kontrol edilir
+
+# En Cok Satanlar alanindan bir urunun favori butonuna tıklanir
+* Elementin yüklenmesini bekle "AnasayfaTab"
+* Elementine tıkla "AnasayfaTab"
+//* Elementin yüklenmesini bekle "KampanyaSec"
+//* Elementin yüklenmesini bekle "EnCokSatanlarProduct"
+* "ProductName" li elementi bul ve değerini "ürün adı" olarak sakla
+* "FavBtn" elementi bulunana kadar en fazla "15" saniye kadar bekle
+* Elementine tıkla "FavBtn"
+* "2" saniye bekle
+//* Element var mı kontrol et "AddFavoritePopup"
+
+# En Cok Satanlar alanindan ikinci urunun favori butonuna tıklanir
+* Elementin yüklenmesini bekle "AnasayfaTab"
+* Elementine tıkla "AnasayfaTab"
+* "ProductName" li elementi bul ve değerini "ürün adı" olarak sakla
+* "FavBtnTwo" elementi bulunana kadar en fazla "15" saniye kadar bekle
+* Elementine tıkla "FavBtnTwo"
+* "2" saniye bekle
+
+# Urun favorilere eklenir
+* Elementin yüklenmesini bekle "AddFavoritePopup"
+* Elementin yüklenmesini bekle "PopupSavedBtnIos"
+* Elementine tıkla "PopupSavedBtnIos"
+* Elementin yüklenmesini bekle "AddFavoriteSuccessfulPopupIos"
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+
+# Ana sayfadaki urun favorilerden cikarilir
+* "FavBtn" elementi bulunana kadar en fazla "15" saniye kadar bekle
+* Elementine tıkla "FavBtn"
+* Elementin yüklenmesini bekle "RemoveFavoriteSuccessfulPopupIos"
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+
+# Yeni favori listesi olusturulur ve secilen urun favori eklenir
+* Elementin yüklenmesini bekle "AddListButton"
+* Elementine tıkla "AddListButton"
+* Elementin yüklenmesini bekle "AddListPopupTitle"
+//* Element var mı kontrol et "AddListTextbox"
+* "Yeni Liste Adı" textini "AddListTextbox" elemente yaz
+* "PopupAddBtnIos" elementi bulunana kadar en fazla "15" saniye kadar bekle
+* Elementine tıkla "PopupAddBtnIos"
+* "AddListSuccessfulPopupIos" elementi bulunana kadar en fazla "15" saniye kadar bekle
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* Elementin yüklenmesini bekle "PopupSavedBtnIos"
+* Elementine tıkla "PopupSavedBtnIos"
+* Elementin yüklenmesini bekle "AddFavoriteSuccessfulPopupIos"
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+
+# Istek listesi adi benzersiz olmali uyarisi gorulur
+* Elementin yüklenmesini bekle "AddListButton"
+* Elementine tıkla "AddListButton"
+* Elementin yüklenmesini bekle "AddListPopupTitle"
+* "Yeni Liste Adı" textini "AddListTextbox" elemente yaz
+* "PopupAddBtnIos" elementi bulunana kadar en fazla "15" saniye kadar bekle
+* Elementine tıkla "PopupAddBtnIos"
+* Elementin yüklenmesini bekle "AlertFailedPopup"
+* "AlertFailedPopup" elementinin "İstek listesi adı benzersiz olmalıdır." textini içerdiği kontrol edilir
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+*"PageCloseIconTwo" li element varsa tıkla "PageCloseIcon" tıkla
+
+# <yeniListe> isimli yeni favori listesi olusturulur ve secilen urun favori eklenir
+* Elementin yüklenmesini bekle "AddListButton"
+* Elementine tıkla "AddListButton"
+* Elementin yüklenmesini bekle "AddListPopupTitle"
+//* Element var mı kontrol et "AddListTextbox"
+* <yeniListe> textini "ProductDetailAddListTextbox" elemente yaz
+* Elementin yüklenmesini bekle "PopupAddBtnIos"
+* Elementine tıkla "PopupAddBtnIos"
+* Elementin yüklenmesini bekle "AddListSuccessfulPopupIos"
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* Elementin yüklenmesini bekle "PopupSavedBtnIos"
+* Elementine tıkla "PopupSavedBtnIos"
+* Elementin yüklenmesini bekle "AddFavoriteSuccessfulPopupIos"
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+
+# Profil sayfasındaki Favorilerim ikonuna tiklanir
+* Elementin yüklenmesini bekle "ProfilePageFavoriteIcon"
+* Elementine tıkla "ProfilePageFavoriteIcon"
+
+# Listeden yeni eklenen favori listesi secilir
+* Elementin yüklenmesini bekle "EditListNameButton"
+* Elementin yüklenmesini bekle "FavListSpinner"
+* "FavListSpinner" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "1" saniye bekle
+* "70","90" oranlarından "70","70" oranlarına "1" kere swipe et
+* "1" saniye bekle
+//* Element var mı kontrol et "PopupOkayBtnIos"
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* Elementin yüklenmesini bekle "EditListDropdownName"
+* "EditListDropdownName" elementinin "Yeni Liste Adı" textini içerdiği kontrol edilir
+* "ProductDetailFromFavoriteListText" li elementin text degeri hafizada "ürün adı" olarak saklanan text ile esit mi kontrol et
+
+# Listeden adı <yeniListe> olan favori listesi secilir
+* Elementin yüklenmesini bekle "EditListNameButton"
+* Elementin yüklenmesini bekle "FavListSpinner"
+* "FavListSpinner" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "1" saniye bekle
+* "70","90" oranlarından "70","70" oranlarına "1" kere swipe et
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* Elementin yüklenmesini bekle "EditListDropdownName"
+* "EditListDropdownName" elementinin <yeniListe> textini içerdiği kontrol edilir
+* "ProductDetailFromFavoriteListText" li elementin text degeri hafizada "ürün adı" olarak saklanan text ile esit mi kontrol et
+
+# Favori listesi silinir
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "FavListDeleteButton"
+* Elementine tıkla "FavListDeleteButton"
+* Elementin yüklenmesini bekle "FavListDeletePopupButton"
+* Elementine tıkla "FavListDeletePopupButton"
+* Elementin yüklenmesini bekle "FavListSpinner"
+* "2" saniye bekle
+* Elementin yüklenmesini bekle "EditListDropdownName"
+* "EditListDropdownName" elementinin "Yeni Liste Adı" textini içermediği kontrol edilir
+* Elementin yüklenmesini bekle "EmptyFavoriteList"
+
+# <yeniListe> isimli favori listesi silindiği kontrol edilir
+* Elementin yüklenmesini bekle "EditListDropdownName"
+* "EditListDropdownName" elementinin <yeniListe> textini içermediği kontrol edilir
+* Elementin yüklenmesini bekle "EmptyFavoriteList"
+
+# Favorilerden urun detay sayfasına gecilir
+* Elementin yüklenmesini bekle "ProductDetailFromFavoriteList"
+* Elementine tıkla "ProductDetailFromFavoriteList"
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+
+# Favorilerdeki urun sepete eklenir ve alısverise devam edilir
+* Elementin yüklenmesini bekle "FavListSpinner"
+* "1" kere aşağıya kaydır
+* Elementin yüklenmesini bekle "FavAddCartButton"
+* Elementine tıkla "FavAddCartButton"
+* Element var mı kontrol et "AddedToCartSuccessfulPopupIos"
+* Elementin yüklenmesini bekle "ContinueShoppingButton"
+* Elementine tıkla "ContinueShoppingButton"
+* Elementin yüklenmesini bekle "FavAddCartButton"
+
+# Favorilerdeki ürünün sepete ekleme butonuna tıklanır
+* Elementin yüklenmesini bekle "FavListSpinner"
+* "1" kere aşağıya kaydır
+* Elementin yüklenmesini bekle "FavAddCartButton"
+* Elementine tıkla "FavAddCartButton"
+
+# Favorilerdeki urun sepete eklenir ve sepete gidilir
+* Elementine tıkla "FavAddCartButton"
+* Elementin yüklenmesini bekle "GoToCartButton"
+* Elementine tıkla "GoToCartButton"
+* "2" saniye bekle
+
+# Urunlerin sepete eklendigi kontrol edilir
+//* Elementin yüklenmesini bekle "sepetPopUpKapatBtn"
+//* Elementine tıkla "sepetPopUpKapatBtn"
+//* "sepetPopUpKapatBtn" li element varsa tıkla
+* Element var mı kontrol et "FavoriteAddToCartControl"
+* Elementin yüklenmesini bekle "sepetimSilBtn"
+* "sepetimSilBtn" li element varsa tıkla "sepetimSilPopUpSil" tıkla
+* "sepetimSilBtn" li element varsa tıkla "sepetimSilPopUpSil" tıkla
+* "1" saniye bekle
+* "PageCloseIcon" li element varsa tıkla yoksa devam et
+
+# Favori listesi kontrol edilerek temizlenir
+* "digerSekmesi" elementine sayacli tikla "ProfileRoot" value degerini bekle
+* "ProfileRoot" elementine sayacli tikla "ProfilePageFavoriteIcon" value degerini bekle
+* "ProfilePageFavoriteIcon" elementine sayacli tikla "EditListNameButton" value degerini bekle
+* Element var mı kontrol et "FavListSpinner"
+* "FavListSpinner" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "1" saniye bekle
+* "70","90" oranlarından "70","70" oranlarına "1" kere swipe et
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* "FavBtn" li elementi bul ve varsa tıkla
+* Elementin yüklenmesini bekle "RemoveFavoriteSuccessfulPopupIos"
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* Elementin yüklenmesini bekle "EmptyFavoriteList"
+
+# Favori listesinden ana sayfaya yonlendirme yapilir
+* Element var mı kontrol et "EmptyFavButton"
+* Elementine tıkla "EmptyFavButton"
+* Elementin yüklenmesini bekle "KampanyaSec"
+
+# Uye bilgilerim sayfasina gecilir
+* Elementin yüklenmesini bekle "CustomerInformation"
+* "CustomerInformation" elementine sayacli tikla "CustomerInformationPage" value degerini bekle
+* "CustomerInformationPage" elementinin "Üye Bilgilerim" textini içerdiği kontrol edilir
+
+# Uye bilgileri basarili sekilde guncellenir
+* "1" saniye bekle
+* "1" kere aşağıya kaydır
+* Element var mı kontrol et "CustomerInformationSMS"
+* "CustomerInformationSMS" li  elementin x ekseninde yukaridan %"10" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* Element var mı kontrol et "CustomerInformationEmail"
+* "CustomerInformationEmail" li  elementin x ekseninde yukaridan %"10" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* Element var mı kontrol et "CustomerInformationCall"
+* "CustomerInformationCall" li  elementin x ekseninde yukaridan %"10" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "SavedBtnIos"
+* Elementine tıkla "SavedBtnIos"
+* Elementin yüklenmesini bekle "SuccessfulProfileInformationPopup"
+* "Profil bilgileriniz başarıyla güncellendi." text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "PopupOkayBTNIos"
+* Elementine tıkla "PopupOkayBTNIos"
+* Element var mı kontrol et "ProfileRoot"
+
+# Hesabı Sil islemi yapilir
+* Elementin yüklenmesini bekle "AccountDelete"
+* "AccountDelete" elementine sayacli tikla "AccountDeletePopupAlert" value degerini bekle
+* "AccountDeletePopupAlert" elementinin "Hesabınızı Silmek İstediğinizden Emin Misiniz?" textini içerdiği kontrol edilir
+* Elementin yüklenmesini bekle "AccountDeletePopupAlertTwo"
+* "AccountDeletePopupAlertTwo" elementinin "Hesabınızı silmeniz verdiğiniz siparişleri görüntülemenizi ve alışveriş sırasında daha iyi bir kullanıcı deneyimi yaratmanızı engelleyecektir." textini içerdiği kontrol edilir
+* Elementin yüklenmesini bekle "CancelBtn"
+* Elementine tıkla "CancelBtn"
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "AccountDelete"
+* "AccountDelete" elementine sayacli tikla "AccountDeletePopupAlert" value degerini bekle
+* Elementin yüklenmesini bekle "AccountDeleteBtn"
+* Elementine tıkla "AccountDeleteBtn"
+* Elementin yüklenmesini bekle "AccountDeleteAlertLast"
+* "AccountDeleteAlertLast" elementinin "Hesabınız silinmiştir. Kısa bir süre sonra tekrar deneyerek Gratis avantajlarından yararlanıp müşterimiz olabilirsiniz. Tekrar görüşmeyi umuyoruz." textini içerdiği kontrol edilir
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* Elementin yüklenmesini bekle "anasayfa"
+
+# Gratis Card baglama islemi yapilir
+* Non login Gratis Kartim sayfasina gecilir
+* "Gratis Kartınızı henüz bağlamadınız!" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "GratisCardConnectBtn"
+* Elementine tıkla "GratisCardConnectBtn"
+* "Gratis Kart Al,  İndirimlerden Faydalan!" text degerine sahip elementin goruntulendigi kontrol edilir
+* "Gratis kartın avantajları:" text degerine sahip elementin goruntulendigi kontrol edilir
+* "- Size özel puanlar - Size özel indirimler - Farklı markalarda avantajlar" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "CancelBtn"
+* Elementine tıkla "CancelBtn"
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "GratisCardConnectBtn"
+* Elementine tıkla "GratisCardConnectBtn"
+* Elementin yüklenmesini bekle "GratisCardGetBtn"
+* Elementine tıkla "GratisCardGetBtn"
+* "SMS Onayı" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "GratisCardSmsTextbox"
+* "5" saniye bekle
+* "12345" textini "GratisCardSmsTextbox" elemente yaz
+* Elementin yüklenmesini bekle "SmsAcceptButton"
+* Elementine tıkla "SmsAcceptButton"
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "GratisCardTitle"

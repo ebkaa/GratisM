@@ -1,0 +1,597 @@
+Created by testinium on 23.05.2023
+
+This is a concept file with following syntax for each concept.
+
+# Register'a tıklanır.
+* Element var mı kontrol et "registerBtn"
+
+* "registerBtn" elementine sayacli tikla "digerTab" value degerini bekle
+
+# Kayıtlı Mail ile register olunur ve uyarı mesajı gorulur.
+* "Mehmet" textini "newAddressCustomerName" elemente yaz
+* "Uludağ" textini "newAddressCustomerSurname" elemente yaz
+* "javatestautomation@gmail.com" textini "registerMail" elemente yaz
+* "5555217475" textini "registerPhone" elemente yaz
+* Elementine tıkla "registerBirth"
+* Element var mı kontrol et "popupOkayButton"
+* "30","40" oranlarından "30","65" oranlarına "2" kere swipe et
+* "50","40" oranlarından "50","65" oranlarına "2" kere swipe et
+* "70","40" oranlarından "70","65" oranlarına "2" kere swipe et
+* Elementine tıkla "popupOkayButton"
+* Elementine tıkla "registerManGender"
+* "123456Asdf." textini "registerPassword" elemente yaz
+* "123456Asdf." textini "registerPasswordAgain" elemente yaz
+* "1" kere aşağıya kaydır
+* "registerOtherAgreementText" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* Elementin yüklenmesini bekle "registerAgreementText"
+* "register2AgreementText" elementi "" degerine esit mi
+* Elementine tıkla "popupOkayButton"
+* "registerOtherAgreement" li elementi bul ve varsa tıkla
+* Elementine tıkla "SmsCheckbox"
+* Element var mı kontrol et "SmsCheckboxChecked"
+* Elementine tıkla "EmailCheckbox"
+* Element var mı kontrol et "EmailCheckboxChecked"
+* Elementine tıkla "callCheckbox"
+* Element var mı kontrol et "callCheckboxChecked"
+* "registerButton" li elementi bul ve varsa tıkla
+* Element var mı kontrol et "registerEmailErrorPopup"
+* Elementine tıkla "popupOkayButton"
+
+# Kayıtlı Telefon ile register olunur ve uyarı mesajı gorulur.
+* "2" kere yukarı doğru kaydır
+* "yenimail@gmail.com" textini "registerMail" elemente yaz
+* "registerButton"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "registerButton" li elementi bul ve varsa tıkla
+* Element var mı kontrol et "registerPhoneErrorPopup"
+* Elementine tıkla "popupOkayButton"
+
+# Şifre hata popup'ı görülür.
+* "2" kere yukarı doğru kaydır
+* "5550001100" textini "registerPhone" elemente yaz
+* "123" textini "registerPassword" elemente yaz
+* "123" textini "registerPasswordAgain" elemente yaz
+* "registerButton"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementine tıkla "registerButton"
+* "alertSuccessfulPopup" li elementin değeri "Şifreniz en az 8 karakter olmalı, büyük ve küçük harf, en az bir sayı ve özel karakter içermelidir." e içerdiğini kontrol et
+//* Element var mı kontrol et "registerPasswordErrorPopup"
+* Elementine tıkla "popupOkayButton"
+
+# Kullanıcı bilgileri girilir.
+* "AndroidInfo" csv dosyasindan rastgele register kullanicisi sec
+* Rastgele secilen kullanici adi "registerName" elementine, soyadi "registerSurname" elementine, mail "registerMail" elementine yazilir
+* Rastgele secilen telefon "registerPhone" elementine, doğum tarihi "registerBirth"  elementine yazilir
+* Elementine tıkla "registerBirth"
+* Element var mı kontrol et "popupOkayButton"
+* "30","40" oranlarından "30","65" oranlarına "2" kere swipe et
+* "50","40" oranlarından "50","65" oranlarına "2" kere swipe et
+* "70","40" oranlarından "70","65" oranlarına "2" kere swipe et
+* Elementine tıkla "popupOkayButton"
+* "registerManGender" li element varsa tıkla
+* Rastgele secilen şifre "registerPassword" elementine, şifre tekrar "registerPasswordAgain"  elementine yazilir
+* "1" kere aşağıya kaydır
+
+# Kullanıcı şartlarına tıklanır ve üye olunur.
+* "registerOtherAgreementText" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* Elementin yüklenmesini bekle "registerAgreementText"
+* "register2AgreementText" elementi "" degerine esit mi
+* Elementine tıkla "popupOkayButton"
+* "registerOtherAgreement" li elementi bul ve varsa tıkla
+* Elementine tıkla "SmsCheckbox"
+* Element var mı kontrol et "SmsCheckboxChecked"
+* Elementine tıkla "EmailCheckbox"
+* Element var mı kontrol et "EmailCheckboxChecked"
+* Elementine tıkla "callCheckbox"
+* Element var mı kontrol et "callCheckboxChecked"
+* "1" saniye bekle
+//* "registerMembershipText" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+//* Elementin yüklenmesini bekle "registerAgreementText"
+//* "registerAgreementText" elementi "" degerine esit mi
+//* Elementine tıkla "popupOkayButton"
+//* "registerMembershipAgreement" li elementi bul ve varsa tıkla
+//* "registerPersonalInfo" li elementi bul ve varsa tıkla
+* "registerButton" li elementi bul ve varsa tıkla
+* Element var mı kontrol et "registerSmsAcceptButton"
+* "alertTitle" li elementin değeri "SMS ONAYI" e içerdiğini kontrol et
+* "12345" textini "editListTextbox" elemente yaz
+* "popupOkayButton" li elementin değeri "GÖNDER" e içerdiğini kontrol et
+* Elementine tıkla "popupOkayButton"
+* "pageToolbarTitle" li elementin değeri "Diğer" e içerdiğini kontrol et
+* Element var mı kontrol et "profilTab"
+
+# Sms uyarısı kontrol edilir.
+* "alertSuccessfulPopup" li elementin değeri "SMS kodu geçersiz" e içerdiğini kontrol et
+* Elementine tıkla "popupOkayButton"
+
+# Sifremi Unuttum ikonuna tiklanir.
+* Element var mı kontrol et "forgotPassword"
+* "forgotPassword" elementine sayacli tikla "passwordResetPage" value degerini bekle
+
+# E-posta alanina <eposta> girilir.
+* <eposta> textini "emailInput" elemente yaz
+
+# Sifre alanına <sifre> girilir.
+* <sifre> textini "passwordInput" elemente yaz
+
+# Sifremi unuttum Gonder butonuna tiklanir.
+* Element var mı kontrol et "forgotPasswordSendButton"
+* "forgotPasswordSendButton" elementine sayacli tikla "alertSuccessfulPopup" value degerini bekle
+
+# Sifremi unuttum bos mail uyarısı gorulur.
+* Element var mı kontrol et "forgetPasswordFailPopup"
+* Elementine tıkla "popupOkayButton"
+
+# Login icin bos mail ve sifre uyarısı gorulur.
+* Elementine tıkla "loginBtn"
+* Element var mı kontrol et "emptyMailFailure"
+* Elementine tıkla "popupOkayButton"
+* E-posta alanina "javaautomationtest@gmail.com" girilir.
+* Elementine tıkla "loginBtn"
+* Element var mı kontrol et "emptyPasswordFailure"
+* Elementine tıkla "popupOkayButton"
+* "2" saniye bekle
+
+# Yanlıs eposta ve sifre uyarıları gorulur.
+* Elementine tıkla "loginBtn"
+* Element var mı kontrol et "wrongMailFailure"
+* Elementine tıkla "popupOkayButton"
+* E-posta alanina "javaautomationtest@gmail.com" girilir.
+* Elementine tıkla "loginBtn"
+* Element var mı kontrol et "passwordFailure"
+* Elementine tıkla "popupOkayButton"
+* "2" saniye bekle
+
+# Kayıtlı olmayan eposta ile login olma uyarısı gorulur.
+* Elementine tıkla "loginBtn"
+* Element var mı kontrol et "NotMemberFailure"
+* "2" saniye bekle
+* Elementine tıkla "popupOkayButton"
+* "1" saniye bekle
+
+
+# Yanlıs sifre veya email/cep telefonu uyarısı gorulur.
+* Elementine tıkla "loginBtn"
+* Element var mı kontrol et "wrongPasswordFailure"
+* "2" saniye bekle
+* Elementine tıkla "popupOkayButton"
+* "2" saniye bekle
+
+# Popup Tamam butonuna tiklanir.
+* Element var mı kontrol et "popupOkayButton"
+* "Verilen bilgiler geçerliyse, şifre değiştirmenizi sağlayacak link e-posta adresinize gönderilmiştir." değerini sayfa üzerinde olup olmadığını kontrol et.
+* Elementine tıkla "popupOkayButton"
+* "pageToolbarTitle" li elementin değeri "Giriş Yap" e içerdiğini kontrol et
+
+# Sifre basarili sekilde degistirilir.
+* Profil'e tiklanir profilim sayfasinin acildigi gorulur.
+* Sifrem'e tiklanir sifre yenileme sayfasinin acildigi gorulur.
+* "AndroidPassword" csv dosyasindan rastgele sifre sec
+* Eski sifre "myPasswordOldPassword" elementine, yeni sifre "myPasswordNewPassword" elementine, tekrar yeni sifre "myPasswordAgainNewPassword" elementine yazilir
+//* Kaydet ikonuna tiklanir.
+//* Duzenlemeleriniz basariyla kaydedilmistir uyarisi gorulmelidir.
+
+# Sifre değiştirme alanına gidilir.
+* Profil'e tiklanir profilim sayfasinin acildigi gorulur.
+* Sifrem'e tiklanir sifre yenileme sayfasinin acildigi gorulur.
+
+# Eski şifre eksik yazılır ve uyarı mesajı görülür.
+* "12345" textini "myPasswordOldPassword" elemente yaz
+* Elementine tıkla "myPasswordSavedIcon"
+* "alertSuccessfulPopup" li elementin değeri "Eski şifreniz hatalı, lütfen kontrol ediniz" e içerdiğini kontrol et
+* Elementine tıkla "popupOkayButton"
+
+# Yeni şifre ve tekrarı uyuşmuyor uyarı mesajı görülür.
+* "1A2s3d.." textini "myPasswordOldPassword" elemente yaz
+* "1A2s3d..." textini "myPasswordNewPassword" elemente yaz
+* "1A2s3d...." textini "myPasswordAgainNewPassword" elemente yaz
+* Elementine tıkla "myPasswordSavedIcon"
+* "1" saniye bekle
+* "Girdiğiniz şifreler eşleşmiyor" değerini sayfa üzerinde olup olmadığını kontrol et.
+* Elementine tıkla "popupOkayButton"
+
+# Eski şifre hatalı uyarı mesajı görülür.
+* "1A2s3d" textini "myPasswordOldPassword" elemente yaz
+* "1A2s3d..." textini "myPasswordNewPassword" elemente yaz
+* "1A2s3d..." textini "myPasswordAgainNewPassword" elemente yaz
+* Elementine tıkla "myPasswordSavedIcon"
+* "1" saniye bekle
+* "alertSuccessfulPopup" li elementin değeri "Eski şifreniz hatalı, lütfen kontrol ediniz" e içerdiğini kontrol et
+
+# Sifrem'e tiklanir sifre yenileme sayfasinin acildigi gorulur.
+* Element var mı kontrol et "profilePageMyPassword"
+* "profilePageMyPassword" elementine sayacli tikla "pageToolbarTitle" value degerini bekle
+
+# Kaydet ikonuna tiklanir.
+* Element var mı kontrol et "myPasswordSavedIcon"
+* Elementine tıkla "myPasswordSavedIcon"
+//* "myPasswordSavedIcon" elementine sayacli tikla "myPasswordChangesEditDone" value degerini bekle
+
+# Duzenlemeleriniz basariyla kaydedilmistir uyarisi gorulmelidir.
+* Element var mı kontrol et "pageToolbarTitle"
+//* Element var mı kontrol et "myPasswordChangesEditDone"
+
+# Profil'e tiklanir profilim sayfasinin acildigi gorulur.
+* Elementin yüklenmesini bekle "digerTab"
+* Elementine tıkla "digerTab"
+* Element var mı kontrol et "profileRoot"
+* "profileRoot" elementine sayacli tikla "pageToolbarTitle" value degerini bekle
+
+# Adreslerim'e tiklanir adreslerim sayfasinin acildigi gorulur.
+* Element var mı kontrol et "profilePageMyAddress"
+* "profilePageMyAddress" elementine sayacli tikla "pageToolbarTitle" value degerini bekle
+
+# Adres silinir.
+* Elementine tıkla "deleteAddressButton"
+* "isimli adresi silmek istediğinize emin misiniz?" text degerine sahip elementin sayfada gorundugu kontrol edilir
+* "deleteAddressPopupButton" li elementin değeri "SİL" e içerdiğini kontrol et
+* Elementine tıkla "deleteAddressPopupButton"
+
+# Adres varsa Silme'ye tıklanır, adres silme pop-up'ın açıldığı görülür ve adres silinir.
+* "3" saniye bekle
+* "deleteAddressButton" li element varsa tıkla
+* "deleteAddressPopupButton" li element varsa tıkla
+//* "newAddressCard" değerini sayfa üzerinde olmadıgını kontrol et
+
+# Yeni Adres Ekle'ye tiklanir adres ekleme sayfasinin acildigi gorulur.
+* "1" saniye bekle
+* Element var mı kontrol et "myAddressNewAddAddress"
+* "myAddressNewAddAddress" elementine sayacli tikla "pageToolbarTitle" value degerini bekle
+
+# Adres güncellemeye tıklanır.
+* "updateAddressButton" li elementi bul ve varsa dokun
+
+# Adres icin Ad, Soyad, Telefon ve Adres Ismi bilgileri girilir.
+* Klavyeyi kapat
+* "AndroidAddress" csv dosyasindan rastgele adres bilgileri sec
+* Adres icin Ad "newAddressCustomerName" elementine, Soyad "newAddressCustomerSurname" elementine, Telefon "newAddressCustomerPhone" elementine, Adres Ismi "newAddressCustomerAddressTitle" elementine yazilir
+
+# Adres Ad <ad>, Soyad <soyad>, Telefon <telefon> ve Adres İsmi <adresIsmi> girilir.
+* <ad> textini "newAddressCustomerName" elemente yaz
+* <soyad> textini "newAddressCustomerSurname" elemente yaz
+* <telefon> textini "newAddressCustomerPhone" elemente yaz
+* <adresIsmi> textini "newAddressCustomerAddressTitle" elemente yaz
+
+# Yukarı scroll et ve <text> textini <key> elementine yaz.
+* <key>li elementi bulana kadar "3" kere yukarı swipe yap ve elementi bul
+* <text> textini <key> elemente yaz
+
+# Adres Ekle Sehir ismi secilir.
+* "newAddressAddNeighbourhoodDropdown"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* "1" saniye bekle
+* Element var mı kontrol et "newAddressAddCityDropdown"
+* Elementine tıkla "newAddressAddCityDropdown"
+* "2" saniye bekle
+* sayfadaki "20" "75" alana dokun
+* "2" saniye bekle
+* Element var mı kontrol et "newAddressAddCityDropdown"
+* Elementine tıkla "newAddressAddCityDropdown"
+* "2" saniye bekle
+* "newAddressAddCityDropdown" elementinin koordinatlarına x="0" y="-100" degerlerini ekleyerek tıkla
+
+# Adres Ekle Ilce ismi secilir.
+* Element var mı kontrol et "newAddressAddDistrictDropdown"
+* Elementine tıkla "newAddressAddDistrictDropdown"
+* "2" saniye bekle
+//* sayfadaki "20" "60" alana dokun
+* "newAddressAddDistrictDropdown" elementinin koordinatlarına x="0" y="150" degerlerini ekleyerek tıkla
+* "2" saniye bekle
+* Elementine tıkla "newAddressAddDistrictDropdown"
+* "2" saniye bekle
+//* sayfadaki "20" "60" alana dokun
+* "newAddressAddDistrictDropdown" elementinin koordinatlarına x="0" y="-100" degerlerini ekleyerek tıkla
+
+# Adres Ekle Mahalle ismi secilir.
+* "1" kere aşağıya kaydır
+* Elementine tıkla "newAddressAddNeighbourhoodDropdown"
+* "2" saniye bekle
+//* sayfadaki "20" "80" alana dokun
+* "newAddressAddNeighbourhoodDropdown" elementinin koordinatlarına x="0" y="150" degerlerini ekleyerek tıkla
+* Elementin yüklenmesini bekle "newAddressCustomerAddressDetail"
+* Elementine tıkla "newAddressAddNeighbourhoodDropdown"
+* "2" saniye bekle
+//* sayfadaki "20" "80" alana dokun
+* "newAddressAddNeighbourhoodDropdown" elementinin koordinatlarına x="0" y="-90" degerlerini ekleyerek tıkla
+
+# Adres Ekleme icin Adres Detay ve Posta Kodu bilgileri girilir.
+* "newAddressCustomerAddressDetail"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* "AndroidAddress" csv dosyasindan rastgele adres bilgileri sec
+* Yeni Adres Ekleme icin Adres Detay "newAddressCustomerAddressDetail" elementine, Posta Kodu "newAddressCustomerPostcode" elementine yazilir
+
+# Kaydet ikonuna tiklanir eklenen adresin adreslerim alanina geldigi gorulur.
+* Element var mı kontrol et "newAddressSavedBtn"
+* Elementine tıkla "newAddressSavedBtn"
+//* Element var mı kontrol et "newAddressCard"
+
+# Kaydet ikonuna tiklanir <key> uyarı mesajı görülür.
+* "newAddressSavedBtn"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* Elementine tıkla "newAddressSavedBtn"
+* toast message <key> değerine eşit mi
+
+# Devam Et ikonuna tiklanir <text> uyarı mesajı görülür.
+* "continueBtn"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* Elementine tıkla "continueBtn"
+* "1" saniye bekle
+* "alertSuccessfulPopup" li elementin değeri <text> e içerdiğini kontrol et
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "popupOkayButton"
+* Elementine tıkla "popupOkayButton"
+
+# Profil sayfasındaki Favori butonuna tiklanir.
+* Element var mı kontrol et "profilepageFavoriteButton"
+* Elementine tıkla "profilepageFavoriteButton"
+
+# Favori Liste Adi Duzenle alani kontrol edilir.
+* Element var mı kontrol et "editListNameButton"
+* Elementine tıkla "editListNameButton"
+* Element var mı kontrol et "editListPopupTitle"
+* Elementin yüklenmesini bekle "editListTextbox"
+* "editListTextbox" li elementi bul ve temizle
+* Elementin yüklenmesini bekle "popupOkayButton"
+* Elementine tıkla "popupOkayButton"
+* toast message "Lütfen liste adı giriniz" değerine eşit mi
+* Element var mı kontrol et "editListNameButton"
+* Elementine tıkla "editListNameButton"
+* "editListTextbox" li elementi bul, temizle ve "A" değerini yaz
+* "editListTextbox" elementi bulunana kadar en fazla "15" saniye kadar bekle
+* "editListTextbox" elementinin "A" textini içerdiği kontrol edilir
+* Elementin yüklenmesini bekle "popupOkayButton"
+* Elementine tıkla "popupOkayButton"
+* toast message "Favori listenizin adı güncellendi" değerine eşit mi
+
+# Favori sayfasindaki Liste Adini Duzenle butonuna tiklanir ve yeni isim girilir.
+* Element var mı kontrol et "editListNameButton"
+* Elementine tıkla "editListNameButton"
+* Element var mı kontrol et "editListPopupTitle"
+* "editListTextbox" li elementi bul, temizle ve "new list name" değerini yaz
+* Elementine tıkla "popupOkayButton"
+* Elementin yüklenmesini bekle "editListNameButton"
+
+# En Cok Satanlar alanindan bir urunun favori butonuna tıklanir.
+* Elementin yüklenmesini bekle "kampanyaSec"
+* "productName"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "productName" li elementi bul ve değerini "ürün adı" olarak sakla
+* "1" kere yukarı doğru kaydır
+* "favBtn"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "favBtn"
+* "2" saniye bekle
+* Elementine tıkla "favBtn"
+
+# En Cok Satanlar alanindan ikinci urunun favori butonuna tıklanir.
+* Elementin yüklenmesini bekle "kampanyaSec"
+* "productName2"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "favBtn2"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "favBtn2"
+* "2" saniye bekle
+* Elementine tıkla "favBtn2"
+
+# Yeni favori listesi olusturulur ve secilen urun favori eklenir.
+* Elementine tıkla "addListButton"
+* Element var mı kontrol et "addListPopupTitle"
+* Elementin yüklenmesini bekle "1"
+* "yeni liste adı" textini "addListTextbox" elemente yaz
+* Elementin yüklenmesini bekle "1"
+* Elementine tıkla "popupOkayButton"
+* "1" saniye bekle
+* "popupOkayButton" li element varsa tıkla
+
+# Yeni favori listesi olusturulur ve aynı isim uyarısı görülür.
+* Elementine tıkla "addListButton"
+* Element var mı kontrol et "addListPopupTitle"
+* Elementin yüklenmesini bekle "1"
+* "yeni liste adı" textini "addListTextbox" elemente yaz
+* Elementin yüklenmesini bekle "1"
+* Elementine tıkla "popupOkayButton"
+* "1" saniye bekle
+* "alertSuccessfulPopup" li elementin değeri "İstek listesi adı benzersiz olmalıdır" e içerdiğini kontrol et
+* "popupOkayButton" li element varsa tıkla
+
+# <yeniListe> isimli yeni favori listesi olusturulur ve secilen urun favori eklenir.
+* Elementine tıkla "addListButton"
+* Element var mı kontrol et "addListPopupTitle"
+* Elementin yüklenmesini bekle "1"
+* <yeniListe> textini "addListTextbox" elemente yaz
+* Elementin yüklenmesini bekle "1"
+* Elementine tıkla "popupOkayButton"
+* "1" saniye bekle
+* "popupOkayButton" li element varsa tıkla
+
+# Urun favorilere eklenir.
+* Elementin yüklenmesini bekle "popupOkayButton"
+* Element var mı kontrol et "addFavoritePopup"
+* Elementine tıkla "popupOkayButton"
+* "1" saniye bekle
+//* toast message "Ürün favori listesine eklendi" değerine eşit mi
+//* "1" saniye bekle
+
+# Ana sayfadaki urun favorilerden cikarilir.
+* Elementine tıkla "favBtn"
+* "addFavoritePopup" değerini sayfa üzerinde olmadıgını kontrol et
+* "1" saniye bekle
+
+# Listeden yeni eklenen favori listesi secilir.
+* Element var mı kontrol et "editListNameButton"
+* Elementine tıkla "favListSpinner"
+* Element var mı kontrol et "newFavListElement"
+* Elementine tıkla "newFavListElement"
+* "favListSpinner" elementinin "yeni liste adı" textini içerdiği kontrol edilir
+* "productDetailFromFavoriteList" li elementin text degeri hafizada "ürün adı" olarak saklanan text ile esit mi kontrol et
+
+# Listeden adı <yeniListe> olan favori listesi secilir.
+* Element var mı kontrol et "editListNameButton"
+* Elementine tıkla "favListSpinner"
+* Element var mı kontrol et "newFavListElement"
+* <yeniListe> text degerine sahip elemente tikla.
+* "favListSpinner" elementinin <yeniListe> textini içerdiği kontrol edilir
+* "productDetailFromFavoriteList" li elementin text degeri hafizada "ürün adı" olarak saklanan text ile esit mi kontrol et
+
+# Favori listesi silinir.
+* Elementine tıkla "favListDeleteButton"
+* "favListDeletePopupButton" li element varsa tıkla
+* Elementin yüklenmesini bekle "favListSpinner"
+
+# Favorilerim alanında ürün favorilerden çıkarılır.
+* Elementine tıkla "favCikar"
+* Element var mı kontrol et "bosFavoriListesi"
+* "favCikar" değerini sayfa üzerinde olmadıgını kontrol et
+
+# <yeniListe> isimli favori listesi silindiği kontrol edilir.
+* "favListSpinner" elementinin <yeniListe> textini içermediği kontrol edilir
+* "favListItem" değerini sayfa üzerinde olmadıgını kontrol et
+
+# Favorilerden urun detay sayfasına gecilir.
+* Elementine tıkla "productDetailFromFavoriteList"
+* Elementin yüklenmesini bekle "1"
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+
+# Favorilerdeki urun sepete eklenir ve alısverise devam edilir.
+* Elementin yüklenmesini bekle "favListSpinner"
+* "1" kere aşağıya kaydır
+* Elementin yüklenmesini bekle "favAddCartButton"
+* Elementine tıkla "favAddCartButton"
+* Element var mı kontrol et "AddedToCart"
+* Elementine tıkla "continueShoppingButton"
+* Elementin yüklenmesini bekle "favAddCartButton"
+* Elementin yüklenmesini bekle "1"
+
+# Favorilerdeki ürünün sepete ekleme butonuna tıklanır.
+* Elementin yüklenmesini bekle "favListSpinner"
+* "1" kere aşağıya kaydır
+* Elementin yüklenmesini bekle "favAddCartButton"
+* Elementine tıkla "favAddCartButton"
+
+# Favorilerdeki urun sepete eklenir ve sepete gidilir.
+* "favAddCartButton"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementine tıkla "favAddCartButton"
+* Elementin yüklenmesini bekle "goToCartButton"
+* Elementine tıkla "goToCartButton"
+* Elementin yüklenmesini bekle "2"
+
+# Urunlerin sepete eklendigi kontrol edilir.
+* Element var mı kontrol et "favoriteAddToCartControl"
+* Elementine tıkla "sepetTemizleBtn"
+* Elementine tıkla "popupOkayButton"
+* Elementin yüklenmesini bekle "1"
+
+# Favori listesinden ana sayfaya yonlendirme yapilir.
+* Element var mı kontrol et "emptyFavButton"
+* Elementine tıkla "emptyFavButton"
+* Elementin yüklenmesini bekle "kampanyaSec"
+
+# Uye bilgilerim sayfasina gecilir.
+* Elementin yüklenmesini bekle "customerInformation"
+* Elementine tıkla "customerInformation"
+* "pageToolbarTitle" elementinin "Üye Bilgilerim" textini içerdiği kontrol edilir
+
+# Uye bilgileri basarili sekilde guncellenir.
+* "1" saniye bekle
+* "1" kere aşağıya kaydır
+* Element var mı kontrol et "customerInformation1"
+* Element var mı kontrol et "customerInformation2"
+* Element var mı kontrol et "customerInformation3"
+
+* Elementine tıkla "customerInformation1"
+* Elementine tıkla "customerInformation1"
+* Elementine tıkla "customerInformation1"
+
+* Element var mı kontrol et "customerInformationCheck1"
+* Element var mı kontrol et "customerInformationCheck2"
+* Element var mı kontrol et "customerInformationCheck3"
+* "registerButton"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementine tıkla "registerButton"
+* Elementin yüklenmesini bekle "pageToolbarTitle"
+* toast message "Profil bilgileriniz başarıyla güncellendi" değerine eşit mi
+
+# Uye bilgileri güncellemesi geri alınır.
+* "1" saniye bekle
+* "1" kere aşağıya kaydır
+* Element var mı kontrol et "customerInformationCheck1"
+* Element var mı kontrol et "customerInformationCheck2"
+* Element var mı kontrol et "customerInformationCheck3"
+
+* Elementine tıkla "customerInformationCheck1"
+* Element var mı kontrol et "customerInformation1"
+
+* Elementine tıkla "customerInformationCheck1"
+* Element var mı kontrol et "customerInformation2"
+
+* Elementine tıkla "customerInformationCheck1"
+* Element var mı kontrol et "customerInformation3"
+"
+* "registerButton"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementine tıkla "registerButton"
+* Elementin yüklenmesini bekle "pageToolbarTitle"
+* toast message "Profil bilgileriniz başarıyla güncellendi" değerine eşit mi
+
+# Uye bilgileri guncellendiği kontrol edilir.
+* "1" kere aşağıya kaydır
+* Element var mı kontrol et "customerInformationSMSCheck"
+* Element var mı kontrol et "customerInformationEmailCheck"
+* Element var mı kontrol et "customerInformationCallCheck"
+
+# Uye bilgileri güncellemesi geri alındığı kontrol edilir.
+* "1" kere aşağıya kaydır
+* Element var mı kontrol et "customerInformationSMS"
+* Element var mı kontrol et "customerInformationEmail"
+* Element var mı kontrol et "customerInformationCall"
+
+# Üye Ol Ad <ad>, Soyad <soyad> ve Eposta İsmi <ePosta> girilir.
+* Element var mı kontrol et "registerName"
+* <ad> textini "registerName" elemente yaz
+* Element var mı kontrol et "registerSurname"
+* <soyad> textini "registerSurname" elemente yaz
+* Element var mı kontrol et "registerPhone"
+* Element var mı kontrol et "registerMail"
+* <ePosta> textini "registerMail" elemente yaz
+* Klavye kapatilir
+
+# Üye Ol ikonuna tiklanir <text> uyarı mesajı görülür.
+* "registerButton"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* Elementine tıkla "registerButton"
+* "1" saniye bekle
+* "alertSuccessfulPopup" li elementin değeri <text> e içerdiğini kontrol et
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "popupOkayButton"
+* Elementine tıkla "popupOkayButton"
+
+# Hesabı Sil islemi yapilir.
+* Elementin yüklenmesini bekle "accountDelete"
+* Elementine tıkla "accountDelete"
+* "alertTitle2" elementinin "Hesabınızı Silmek İstediğinizden Emin Misiniz?" textini içerdiği kontrol edilir
+* Elementin yüklenmesini bekle "alertSuccessfulPopup"
+* "alertSuccessfulPopup" elementinin "Hesabınızı silmeniz verdiğiniz siparişleri görüntülemenizi ve alışveriş sırasında daha iyi bir kullanıcı deneyimi yaratmanızı engelleyecektir." textini içerdiği kontrol edilir
+* Elementin yüklenmesini bekle "popupBtn2"
+* Elementine tıkla "popupBtn2"
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "accountDelete"
+* "accountDelete" elementine sayacli tikla "alertTitle2" value degerini bekle
+* "popupOkayButton" li elementin değeri "Hesabı Sil" e içerdiğini kontrol et
+* Elementin yüklenmesini bekle "popupOkayButton"
+* Elementine tıkla "popupOkayButton"
+* Elementin yüklenmesini bekle "alertSuccessfulPopup"
+* "alertSuccessfulPopup" elementinin "Hesabınız silinmiştir. Kısa bir süre sonra tekrar deneyerek Gratis avantajlarından yararlanıp müşterimiz olabilirsiniz. Tekrar görüşmeyi umuyoruz." textini içerdiği kontrol edilir
+* Elementin yüklenmesini bekle "popupOkayButton"
+* Elementine tıkla "popupOkayButton"
+* Elementin yüklenmesini bekle "anasayfaTab"
+
+# Gratis Card baglama islemi yapilir.
+* Elementin yüklenmesini bekle "gratisCardConnectBtn"
+* "Gratis Kartınızı henüz bağlamadınız!" değerini sayfa üzerinde olup olmadığını kontrol et.
+* Elementin yüklenmesini bekle "gratisCardConnectBtn"
+* "Gratis kartın avantajları:" değerini sayfa üzerinde olup olmadığını kontrol et.
+* "- Size özel puanlar - Size özel indirimler - Farklı markalarda avantajlar" değerini sayfa üzerinde olup olmadığını kontrol et.
+* Elementine tıkla "gratisCardConnectBtn"
+* Elementin yüklenmesini bekle "popupBtn2"
+* Elementine tıkla "popupBtn2"
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "gratisCardConnectBtn"
+* Elementine tıkla "gratisCardConnectBtn"
+//* Elementin yüklenmesini bekle "GratisCardGetBtn"
+//* Elementine tıkla "GratisCardGetBtn"
+* "SMS Onayı" değerini sayfa üzerinde olup olmadığını kontrol et.
+* Elementin yüklenmesini bekle "editListTextbox"
+* "5" saniye bekle
+//* "12345" textini "GratisCardSmsTextbox" elemente yaz
+* Elementin yüklenmesini bekle "popupOkayButton"
+* Elementine tıkla "popupOkayButton"
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "GratisCardBackGround"

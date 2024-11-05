@@ -1,0 +1,702 @@
+# Mağazadan seç popup'ı varsa kapatilir
+* "StoreCloseImg" li element varsa tıkla yoksa devam et
+
+# Tek ürünün ve toplam fiyatın kontrolü yapılır
+//* "ProductCartName" li elementi bul ve değerini "urun1" olarak sakla
+//* "ProductSecondCartName" li elementi bul ve değerini "urun2" olarak sakla
+* Elementin yüklenmesini bekle "PriceTwo"
+* "PriceTwo" li elementli küsüratı bul ve değerini "ilkKüsür" olarak sakla
+* Elementin yüklenmesini bekle "PriceOne"
+* "PriceOne" li elementi bul ve değerini "fiyat1" olarak sakla
+* "PurchaseButton"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "SalePriceOne"
+* Elementin yüklenmesini bekle "SalePriceTwo"
+* Saklanan tek ürün fiyat değerlerini "ilkKüsür", "fiyat1" toplam fiyat "SalePriceOne", "SalePriceTwo" ile eşit mi kontrol et
+* Elementin yüklenmesini bekle "PurchaseButton"
+* Elementine tıkla "PurchaseButton"
+
+# Adrese Teslim butonuna tıklanır
+* Elementin yüklenmesini bekle "AddressBtn"
+* Elementine tıkla "AddressBtn"
+
+# Adrese Teslim teslimat Bilgileri alanı kontrol edilir
+* "Teslim Türü" text degerine sahip elementin goruntulendigi kontrol edilir
+* "Adrese Teslim" text degerine sahip elementin goruntulendigi kontrol edilir
+* "Teslimat Adresi" text degerine sahip elementin goruntulendigi kontrol edilir
+
+# Mağazadan Teslim teslimat Bilgileri alanı kontrol edilir
+//* "Mağazadan Teslim (ÜCRETSİZ)" text degerine sahip elementin sayfada gorundugu kontrol edilir
+* "Teslim Türü" text degerine sahip elementin goruntulendigi kontrol edilir
+* "Mağazadan Teslim ( ÜCRETSİZ )" text degerine sahip elementin goruntulendigi kontrol edilir
+* "Mağaza Bul" text degerine sahip elementin goruntulendigi kontrol edilir
+
+# Adrese Teslim seçeneğine tıklanır ve devam edilir
+* Elementin yüklenmesini bekle "AddressBtn"
+* Elementine tıkla "AddressBtn"
+* "ContinueBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementine tıkla "ContinueBtn"
+
+# Yeni teslimat adresi alanına gidilir
+* Elementin yüklenmesini bekle "AddressBtn"
+* Elementine tıkla "AddressBtn"
+* Elementin yüklenmesini bekle "ShippingAddressBtn"
+* Elementine tıkla "ShippingAddressBtn"
+
+# Teslimat bilgileri alanında adres bilgileri girilir
+* Adres icin Ad, Soyad, Telefon ve Adres Ismi bilgileri girilir
+* Elementin yüklenmesini bekle "ShippingNewAddressCustomerAddressTitle"
+* "ShippingNewAddressCustomerAddressTitle" li elementi bul ve değerini "AdresIsmi" olarak sakla
+* Adres Ekle Sehir ismi secilir
+* Adres Ekle Ilce ismi secilir
+* Adres Ekle Mahalle ismi secilir
+* Adres Ekleme icin Adres Detay ve Posta Kodu bilgileri girilir
+
+# Teslimat bilgileri alanında yeni adres bilgileri girilir
+* Teslimat bilgileri Yeni Adres icin Ad, Soyad, Telefon ve Adres Ismi bilgileri girilir
+* Elementin yüklenmesini bekle "NewShippingAddressCustomerAddressTitle"
+* "NewShippingAddressCustomerAddressTitle" li elementi bul ve değerini "AdresIsmi" olarak sakla
+* "1" kere aşağıya kaydır
+* Adres Ekle Sehir ismi secilir
+* Adres Ekle Ilce ismi secilir
+* Adres Ekle Mahalle ismi secilir
+* Teslimat bilgileri Yeni Adres Ekleme icin Adres Detay ve Posta Kodu bilgileri girilir
+
+# Teslimat bilgileri Yeni Adres icin Ad, Soyad, Telefon ve Adres Ismi bilgileri girilir
+* Element var mı kontrol et "NewShippingCustomerName"
+* "NewShippingCustomerName" li elementi bul, temizle ve "Fernando" değerini yaz
+* Element var mı kontrol et "NewShippingCustomerSurname"
+* "NewShippingCustomerSurname" li elementi bul, temizle ve "Muslera" değerini yaz
+* Element var mı kontrol et "NewShippingCustomerPhone"
+* "NewShippingCustomerPhone" li elementi bul, temizle ve "390637275" değerini yaz
+* Element var mı kontrol et "NewShippingCustomerAddressTitle"
+* "NewShippingCustomerAddressTitle" li elementi bul, temizle ve "ŞampiyonGalatasaray" değerini yaz
+* Klavye kapatilir
+
+# Teslimat bilgileri Yeni Adres Ekleme icin Adres Detay ve Posta Kodu bilgileri girilir
+* "1" kere aşağıya kaydır
+* Element var mı kontrol et "NewShippingCustomerAddressDetail"
+* "NewShippingCustomerAddressDetail" li elementi bul, temizle ve "Test ortamı icin teslimat adres detay bilgisi No:109" değerini yaz
+* Klavye kapatilir
+* Element var mı kontrol et "NewShippingCustomerPostcode"
+* "NewShippingCustomerPostcode" li elementi bul, temizle ve "35999" değerini yaz
+* Klavye kapatilir
+
+# Teslimat Adresi devam et ikonuna tıklanır ve seçildiği kontrol edilir
+* Satın alma alanında devam et butonuna tıklanır
+//* Elementin yüklenmesini bekle "AddressTypeTxt"
+//* "AddressTypeTxt" li elementin text degeri hafizada "AdresIsmi" olarak saklanan text ile esit mi kontrol et
+
+# Adrese Teslim Fatura Adresi kaydet ikonuna tıklanır ve seçildiği kontrol edilir
+* Elementin yüklenmesini bekle "NewAddressSavedBtn"
+* Elementine tıkla "NewAddressSavedBtn"
+* "BillingHeaderTxt"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* "BillingHeaderTxt" li elementin text degeri hafizada "FaturaAdres" olarak saklanan text ile esit mi kontrol et
+
+# Fatura bilgileri alanında yeni adres eklenir
+* Fatura bilgileri için Ad, Soyad, Telefon ve Adres Ismi bilgileri girilir
+* Fatura bilgileri şehir ismi secilir
+* Fatura bilgileri ilce ismi secilir
+* Fatura bilgileri mahalle ismi secilir
+* Fatura bilgileri icin Adres Detay ve Posta Kodu bilgileri girilir
+
+# Fatura bilgileri alanında guncel adres bilgileri girilir
+* Fatura bilgileri Adresi icin Ad, Soyad, Telefon ve Adres Ismi bilgilerinin guncelleri girilir
+* Elementin yüklenmesini bekle "ShippingNewAddressCustomerAddressTitle"
+* "ShippingNewAddressCustomerAddressTitle" li elementi bul ve değerini "FaturaAdres" olarak sakla
+* Adres Ekle Sehir ismi guncelleme icin "2" swipe ile secilir
+* Adres Ekle Ilce ismi guncelleme icin "1" swipe ile secilir
+* Adres Ekle Mahalle ismi guncelleme icin "1" swipe ile secilir
+* Fatura bilgileri Adresi icin Adres Detay ve Posta Kodu bilgilerinin guncelleri girilir
+
+# Fatura bilgileri şehir ismi secilir
+* "1" saniye bekle
+* "StoreBilCitySpinner"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Element var mı kontrol et "StoreBilCitySpinner"
+* "StoreBilCitySpinner" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "1" saniye bekle
+* "50","90" oranlarından "50","70" oranlarına "1" kere swipe et
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* "1" saniye bekle
+
+# Fatura bilgileri ilce ismi secilir
+* "1" saniye bekle
+* "StoreBilTownSpinner"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Element var mı kontrol et "StoreBilTownSpinner"
+* "StoreBilTownSpinner" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "1" saniye bekle
+* "50","90" oranlarından "50","70" oranlarına "2" kere swipe et
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* "1" saniye bekle
+
+# Fatura bilgileri mahalle ismi secilir
+* "1" saniye bekle
+* "StoreBilDistrictSpinner"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Element var mı kontrol et "StoreBilDistrictSpinner"
+* "StoreBilDistrictSpinner" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "1" saniye bekle
+* "50","90" oranlarından "50","70" oranlarına "1" kere swipe et
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+
+# Fatura bilgileri için Ad, Soyad, Telefon ve Adres Ismi bilgileri girilir
+//* "storeFirstName"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+//* Adres Ismi "storeAddressName", Adres icin Ad "storeFirstName" elementine elementine yazilir
+//* "storePhoneNumber"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+//* Soyad "storeSurName" elementine, Telefon "storePhoneNumber" elementine yazilir
+* "IOS" csv dosyasindan rastgele adres bilgileri sec
+* "StoreFirstName"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* Adres icin Ad "StoreFirstName" elementine, Soyad "StoreSurName" elementine, Telefon "StorePhoneNumber" elementine, Adres Ismi "StoreAddressName" elementine yazilir
+* Klavye kapatilir
+
+# Fatura bilgileri icin Adres Detay ve Posta Kodu bilgileri girilir
+* "StoreAddressPostCode"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "StoreAddressPostCode"
+//* "IOS" csv dosyasindan rastgele adres bilgileri sec
+//* Yeni Adres Ekleme icin Adres Detay "storeAddressDetail" elementine, Posta Kodu "storeAddressPostCode" elementine yazilir
+* Elementin yüklenmesini bekle "StoreAddressDetail"
+* "StoreAddressDetail" li elementi bul, temizle ve "Test ortamı icin adres detay bilgisi No:1000000000" değerini yaz
+* "KeyboardDismisserIcon" li element varsa tıkla yoksa devam et
+* Element var mı kontrol et "StoreAddressPostCode"
+* "StoreAddressPostCode" li elementi bul, temizle ve "33123" değerini yaz
+* "KeyboardDismisserIcon" li element varsa tıkla yoksa devam et
+
+# Fatura bilgileri Adresi icin Ad, Soyad, Telefon ve Adres Ismi bilgilerinin guncelleri girilir
+* Element var mı kontrol et "ShippingCustomerName"
+* "ShippingCustomerName" li elementi bul, temizle ve "Fernando" değerini yaz
+* Element var mı kontrol et "ShippingCustomerSurname"
+* "ShippingCustomerSurname" li elementi bul, temizle ve "Muslera" değerini yaz
+* Element var mı kontrol et "ShippingCustomerPhone"
+* "ShippingCustomerPhone" li elementi bul, temizle ve "390637275" değerini yaz
+* Element var mı kontrol et "ShippingCustomerAddressTitle"
+* "ShippingCustomerAddressTitle" li elementi bul, temizle ve "ŞampiyonGalatasaray" değerini yaz
+* Klavye kapatilir
+
+# Fatura bilgileri Adresi icin Adres Detay ve Posta Kodu bilgilerinin guncelleri girilir
+* "ShippingCustomerAddressDetail"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Element var mı kontrol et "ShippingCustomerAddressDetail"
+* "ShippingCustomerAddressDetail" li elementi bul, temizle ve "Test ortamı icin teslimat adressss detay bilgisi No:109" değerini yaz
+* Klavye kapatilir
+* Element var mı kontrol et "ShippingCustomerPostcode"
+* "ShippingCustomerPostcode" li elementi bul, temizle ve "35999" değerini yaz
+* Klavye kapatilir
+
+# Teslimat alanı kontrol edilir
+* Mağazadan seç popup'ı varsa kapatilir
+//* "HeaderTxt" elementinin "Teslimat ve Ödeme" textini içerdiği kontrol edilir
+* "ShippingPriceOne" li elementi bul ve değerini "fiyat2" olarak sakla
+* "ShippingPriceTwo" li elementli küsüratı bul ve değerini "ikinciKüsür" olarak sakla
+* Elementin yüklenmesini bekle "ShippingCheckBox"
+* "ShippingCheckBox" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "1" saniye bekle
+* "SalePriceOnee" li elementi bul ve değerini "fiyat1" olarak sakla
+* "SalePriceTwoo" li elementli küsüratı bul ve değerini "ilkKüsür" olarak sakla
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "ContinueBtn"
+* Elementine tıkla "ContinueBtn"
+
+# Teslimat alanı ve kargo secimi kontrol edilir
+* Mağazadan seç popup'ı varsa kapatilir
+* Elementin yüklenmesini bekle "ContinueBtn"
+* Elementine tıkla "ContinueBtn"
+//* Elementin yüklenmesini bekle "AlertShippingCheckbox"
+//* "AlertShippingCheckbox" elementinin "Lütfen teslimat yöntemi seçiniz." textini içerdiği kontrol edilir
+* "1" saniye bekle
+* "Lütfen teslimat yöntemi seçiniz." text degerine sahip elementin goruntulendigi kontrol edilir
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* "1" saniye bekle
+* "ShippingPriceOne" li elementi bul ve değerini "fiyat2" olarak sakla
+* "ShippingPriceTwo" li elementli küsüratı bul ve değerini "ikinciKüsür" olarak sakla
+* Elementin yüklenmesini bekle "ShippingCheckBox"
+* "ShippingCheckBox" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "1" saniye bekle
+* "SalePriceOnee" li elementi bul ve değerini "fiyat1" olarak sakla
+* "SalePriceTwoo" li elementli küsüratı bul ve değerini "ilkKüsür" olarak sakla
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "ContinueBtn"
+* Elementine tıkla "ContinueBtn"
+
+# Teslimat Bilgileri değiştirme butonuna tıklanır
+* Elementin yüklenmesini bekle "ChangeAddressBtn"
+* Elementine tıkla "ChangeAddressBtn"
+* "2" saniye bekle
+* Elementin yüklenmesini bekle "ContinueBtn"
+* "1" saniye bekle
+
+# Sipariş Özeti alanı kontrol edilir
+//* "ProductCartName" li elementin text degerini hafizada "urun2" olarak saklanan text ile karsilastir
+//* "ProductSecondCartName" li elementin text degerini hafizada "urun1" olarak saklanan text ile karsilastir
+* "ContinueBtn"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "PreInfo"
+* Elementin yüklenmesini bekle "SalesContact"
+* Elementin yüklenmesini bekle "InfoCheckbox"
+* Elementine tıkla "InfoCheckbox"
+* Elementin yüklenmesini bekle "SalesContractCheckbox"
+* Elementine tıkla "SalesContractCheckbox"
+* "ContinueBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "ContinueBtn"
+* Elementine tıkla "ContinueBtn"
+
+# Sipariş Özeti ve sözleşmeler alanı kontrol edilir
+* "ContinueBtn"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "1" saniye bekle
+* "PreInfo"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "PreInfo"
+* "PreInfo" li  elementin x ekseninde yukaridan %"10" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* Elementin yüklenmesini bekle "PurchaseAgreementToolbarTitle"
+* "PurchaseAgreementToolbarTitle" elementinin "Ön Bilgilendirme Formu" textini içerdiği kontrol edilir
+* Elementin yüklenmesini bekle "PreInfoText"
+* Elementin yüklenmesini bekle "PopupOkayBTNIos"
+* Elementine tıkla "PopupOkayBTNIos"
+* "1" saniye bekle
+* "SalesContact"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "SalesContact"
+* "SalesContact" li  elementin x ekseninde yukaridan %"10" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* Elementin yüklenmesini bekle "PurchaseAgreementToolbarTitle"
+* "PurchaseAgreementToolbarTitle" elementinin "Mesafeli Satış Sözleşmesi" textini içerdiği kontrol edilir
+* Elementin yüklenmesini bekle "SalesContactText"
+* Elementin yüklenmesini bekle "PopupOkayBTNIos"
+* Elementine tıkla "PopupOkayBTNIos"
+* Elementin yüklenmesini bekle "InfoCheckbox"
+* Elementine tıkla "InfoCheckbox"
+* Elementin yüklenmesini bekle "SalesContractCheckbox"
+* Elementine tıkla "SalesContractCheckbox"
+* "ContinueBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "ContinueBtn"
+* Elementine tıkla "ContinueBtn"
+
+# Iyzico alanı fiyat kontrol edilir
+* Elementin yüklenmesini bekle "IyzPaymentBtn"
+* "IyzPaymentBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Saklanan fiyat değerlerini kargo indirimine bağlı "ilkKüsür", "ikinciKüsür", "fiyat1", "fiyat2" toplam fiyat "IyzPaymentBtn" ile eşit mi kontrol et
+
+# Iyzico alanı mağazadan teslimat için fiyat kontrol edilir
+* Elementin yüklenmesini bekle "IyzPaymentBtn"
+* "IyzPaymentBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Saklanan tek ürün fiyat değerlerini "ilkKüsür", "fiyat1" toplam fiyat "IyzPaymentBtn" ile eşit mi kontrol et
+
+# Mağazadan Teslimat Fatura adresi değiştirilir
+* "StoreBillingAddressBook"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "StoreBillingAddressBook"
+* "StoreBillingAddressName" li elementi bul ve değerini "ilkFaturaAdresi" olarak sakla
+* Elementine tıkla "StoreBillingAddressBook"
+* "1" saniye bekle
+* "Fatura Adresi Olarak Seç" text degerine sahip elemente tikla
+//* "Teslimat Adresi Olarak Seç" text degerine sahip elemente tikla
+* Elementin yüklenmesini bekle "PageCloseIcon"
+* Elementine tıkla "PageCloseIcon"
+* "StoreBillingAddressName" li elementin text degerini hafizada "ilkFaturaAdresi" olarak saklanan text ayni olmadigini kontrol et
+
+# Adres düzenleme alanına gidilir
+* "EditAddressBtn"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "EditAddressBtn"
+* Elementine tıkla "EditAddressBtn"
+* "1" saniye bekle
+
+# Fatura adresi alanında yeni adres eklenir
+* Adres icin Ad, Soyad, Telefon ve Adres Ismi bilgileri girilir
+* Elementin yüklenmesini bekle "ShippingNewAddressCustomerAddressTitle"
+* "ShippingNewAddressCustomerAddressTitle" li elementi bul ve değerini "FaturaAdres" olarak sakla
+* Adres Ekle Sehir ismi secilir
+* Adres Ekle Ilce ismi secilir
+* Adres Ekle Mahalle ismi secilir
+* Adres Ekleme icin Adres Detay ve Posta Kodu bilgileri girilir
+
+# Teslimat bilgileri Adresi icin Ad, Soyad, Telefon ve Adres Ismi bilgilerinin guncelleri girilir
+* Element var mı kontrol et "ShippingCustomerName"
+* "ShippingCustomerName" li elementi bul, temizle ve "Mauro" değerini yaz
+* Element var mı kontrol et "ShippingCustomerSurname"
+* "ShippingCustomerSurname" li elementi bul, temizle ve "Icardi" değerini yaz
+* Element var mı kontrol et "ShippingCustomerPhone"
+* "ShippingCustomerPhone" li elementi bul, temizle ve "326637275" değerini yaz
+* Element var mı kontrol et "ShippingCustomerAddressTitle"
+* "ShippingCustomerAddressTitle" li elementi bul, temizle ve "Galatasaray" değerini yaz
+* Klavye kapatilir
+
+# Teslimat bilgileri Adresi icin Adres Detay ve Posta Kodu bilgilerinin guncelleri girilir
+* "1" kere aşağıya kaydır
+* Element var mı kontrol et "ShippingCustomerAddressDetail"
+* "ShippingCustomerAddressDetail" li elementi bul, temizle ve "Test ortamı icin adres detay bilgisi No:109" değerini yaz
+* Klavye kapatilir
+* Element var mı kontrol et "ShippingCustomerPostcode"
+* "ShippingCustomerPostcode" li elementi bul, temizle ve "35917" değerini yaz
+
+# Teslimat bilgileri alanında guncel adres bilgileri girilir
+* Teslimat bilgileri Adresi icin Ad, Soyad, Telefon ve Adres Ismi bilgilerinin guncelleri girilir
+* Elementin yüklenmesini bekle "ShippingNewAddressCustomerAddressTitle"
+* "ShippingNewAddressCustomerAddressTitle" li elementi bul ve değerini "AdresIsmi" olarak sakla
+* Adres Ekle Sehir ismi guncelleme icin "2" swipe ile secilir
+* Adres Ekle Ilce ismi guncelleme icin "2" swipe ile secilir
+* Adres Ekle Mahalle ismi guncelleme icin "1" swipe ile secilir
+* Teslimat bilgileri Adresi icin Adres Detay ve Posta Kodu bilgilerinin guncelleri girilir
+
+# Teslimat Adresi kaydet ikonuna tıklanır ve seçildiği kontrol edilir
+* "NewAddressSavedBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "NewAddressSavedBtn"
+* Elementine tıkla "NewAddressSavedBtn"
+* Elementin yüklenmesini bekle "AddressTypeTxt"
+* "AddressTypeTxt" li elementin text degeri hafizada "AdresIsmi" olarak saklanan text ile esit mi kontrol et
+
+# Mağazadan Teslimat Fatura Adresi kaydet ikonuna tıklanır ve seçildiği kontrol edilir
+* "NewAddressSavedBtn"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementine tıkla "NewAddressSavedBtn"
+* "AddBillingAddressBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "AddBillingAddressBtn"
+* Elementin yüklenmesini bekle "StoreBillingAddressName"
+//* "StoreBillingAddressName" li elementin text degeri hafizada "FaturaAdres" olarak saklanan text ile esit mi kontrol et
+* "StoreBillingAddressName" li elementin text degerini hafizada "FaturaAdres" olarak saklanan text ile karsilastir
+
+# Satın alma alanında devam et butonuna tıklanır
+* "ContinueBtn"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementine tıkla "ContinueBtn"
+
+# Yeni fatura adresi alanına gidilir
+* "SelectAddressCheckbox"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "SelectAddressCheckbox"
+* Elementine tıkla "SelectAddressCheckbox"
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "NewBillingAddressBtn"
+* Elementine tıkla "NewBillingAddressBtn"
+
+# Adrese Teslim Fatura adresi değiştirilir
+* "SelectAddressCheckbox"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "SelectAddressCheckbox"
+* Elementine tıkla "SelectAddressCheckbox"
+* "BillingHeaderTxt" li elementi bul ve değerini "ilkFaturaAdresi" olarak sakla
+* Elementin yüklenmesini bekle "OtherBillingAddressBtn"
+* Elementine tıkla "OtherBillingAddressBtn"
+* "Fatura Adresi Olarak Seç" text degerine sahip elemente tikla
+//* "Teslimat Adresi Olarak Seç" text degerine sahip elemente tikla
+* Elementin yüklenmesini bekle "PageCloseIcon"
+* Elementine tıkla "PageCloseIcon"
+* "BillingHeaderTxt" li elementin text degerini hafizada "ilkFaturaAdresi" olarak saklanan text ayni olmadigini kontrol et
+
+# Adres silme butonuna tıklanır ve adres silinir
+* Elementin yüklenmesini bekle "DeleteAddressBtn"
+* Elementin yüklenmesini bekle "AddressTypeTxt"
+* "AddressTypeTxt" li elementi bul ve değerini "silinecekAdres" olarak sakla
+* Elementin yüklenmesini bekle "AddressTypeTxt"
+* Elementine tıkla "DeleteAddressBtn"
+* Elementin yüklenmesini bekle "AlertTitleText"
+* "AlertTitleText" li elementin text degerini hafizada "silinecekAdres" olarak saklanan text ile karsilastir
+* Elementin yüklenmesini bekle "PopupDeleteBtnIos"
+* "PopupDeleteBtnIos" li elementin değeri "Sil" e içerdiğini kontrol et
+* Elementine tıkla "PopupDeleteBtnIos"
+* Elementin yüklenmesini bekle "AddressBtn"
+* Elementine tıkla "AddressBtn"
+
+# Mağazadan Teslim Sehir ismi secilir
+* "1" saniye bekle
+* "StoreCitySpinner"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Element var mı kontrol et "StoreCitySpinner"
+* "StoreCitySpinner" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "1" saniye bekle
+* "50","90" oranlarından "50","70" oranlarına "1" kere swipe et
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* "1" saniye bekle
+
+# Mağazadan Teslim Sehir guncel ismi secilir
+* "1" saniye bekle
+* "StoreCitySpinner"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Element var mı kontrol et "StoreCitySpinner"
+* "StoreCitySpinner" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "1" saniye bekle
+* "50","90" oranlarından "50","70" oranlarına "2" kere swipe et
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* "1" saniye bekle
+
+# Mağazadan Teslim Ilce ismi secilir
+* "1" saniye bekle
+* "StoreTownSpinner"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Element var mı kontrol et "StoreTownSpinner"
+* "StoreTownSpinner" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "1" saniye bekle
+* "50","90" oranlarından "50","70" oranlarına "1" kere swipe et
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* "1" saniye bekle
+
+# Mağazadan Teslim Ilce ismi swipe yapmadan secilir
+* "1" saniye bekle
+* "StoreTownSpinner"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Element var mı kontrol et "StoreTownSpinner"
+* "StoreTownSpinner" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* "1" saniye bekle
+
+# Mağazadan Teslim mağazası seçilir
+* "SelectStoreRoot"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "SelectStoreRoot"
+* Elementine tıkla "SelectStoreRoot"
+* "Mağaza seçildi" text degerine sahip elementin goruntulendigi kontrol edilir
+
+# Mağazadan Teslim ikinci mağazası seçilir
+* Elementin yüklenmesini bekle "SelectStoreRoot"
+* Elementine tıkla "SelectStoreRoot"
+* "Mağaza seçildi" text degerine sahip elementin goruntulendigi kontrol edilir
+
+# Kendim Teslim alacağım seçeneği seçilir
+* "MeRadioBtn"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "MeRadioBtn"
+* "MeRadioBtn" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+
+# Başkası teslim alacak seçeneği seçilir
+* "OtherRadioBtn"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "OtherRadioBtn"
+* "OtherRadioBtn" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "ReceiverSurNameEt"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "ReceiverNameEt"
+* "Başkasına" textini "ReceiverNameEt" elemente yaz
+* Elementin yüklenmesini bekle "ReceiverSurNameEt"
+* "Teslim" textini "ReceiverSurNameEt" elemente yaz
+* "ReceiverPhoneNumber"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "ReceiverPhoneNumber"
+* "556568989" textini "ReceiverPhoneNumber" elemente yaz
+* "KeyboardDismisserIcon" li element varsa tıkla yoksa devam et
+
+# Başka Adres Seç seçeneğine tıklanır
+* "AddressTypeTxt" li elementi bul ve değerini "ilkAdres" olarak sakla
+* Elementin yüklenmesini bekle "OtherShippingAddressBtn"
+* Elementine tıkla "OtherShippingAddressBtn"
+* "Teslimat Adresi Olarak Seç" text degerine sahip elemente tikla
+* "AddressTypeTxt" li elementin text degerini hafizada "ilkAdres" olarak saklanan text ayni olmadigini kontrol et
+* Elementin yüklenmesini bekle "PageCloseIcon"
+* Elementine tıkla "PageCloseIcon"
+
+# Mağaza saatleri kontrol edilir
+* "StoreHours"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "StoreHours"
+* Elementine tıkla "StoreHours"
+* Elementin yüklenmesini bekle "StoreHoursPopupIos"
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+
+# Fatura bilgileri adresi düzenle butonuna tıklanır
+* "BilAddressEditBtn"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "BilAddressRemoveBtn"
+* Elementin yüklenmesini bekle "AddBillingAddressBtn"
+* Elementin yüklenmesini bekle "StoreBillingAddressHeaderTxt"
+* "StoreBillingAddressHeaderTxt" li elementin değeri "Fatura Bilgileri" e içerdiğini kontrol et
+* "StoreBillingAddressHeaderTxt" elementinin "Fatura Bilgileri" textini içerdiği kontrol edilir
+* Elementin yüklenmesini bekle "BilAddressEditBtn"
+* Elementine tıkla "BilAddressEditBtn"
+
+# Fatura bilgileri adresi sil butonuna tıklanır
+* "BilAddressEditBtn"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Element var mı kontrol et "BilAddressEditBtn"
+* Element var mı kontrol et "AddBillingAddressBtn"
+* Elementin yüklenmesini bekle "StoreBillingAddressHeaderTxt"
+* "StoreBillingAddressHeaderTxt" li elementin değeri "Fatura Bilgileri" e içerdiğini kontrol et
+* "StoreBillingAddressHeaderTxt" elementinin "Fatura Bilgileri" textini içerdiği kontrol edilir
+* Elementin yüklenmesini bekle "BilAddressRemoveBtn"
+* Elementine tıkla "BilAddressRemoveBtn"
+* Elementin yüklenmesini bekle "DeleteAddressButton"
+* Elementine tıkla "DeleteAddressButton"
+
+# Fatura Bilgileri alanında yeni adres ekle butonuna tıklanır
+* "AddBillingAddressBtn"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* Element var mı kontrol et "BilAddressEditBtn"
+* Element var mı kontrol et "BilAddressRemoveBtn"
+* Elementin yüklenmesini bekle "StoreBillingAddressHeaderTxt"
+* "StoreBillingAddressHeaderTxt" li elementin değeri "Fatura Bilgileri" e içerdiğini kontrol et
+* "StoreBillingAddressHeaderTxt" elementinin "Fatura Bilgileri" textini içerdiği kontrol edilir
+* Elementin yüklenmesini bekle "AddBillingAddressBtn"
+* Elementine tıkla "AddBillingAddressBtn"
+* Elementin yüklenmesini bekle "PageToolbarTitleThree"
+* "PageToolbarTitleThree" elementinin "ADRES EKLE" textini içerdiği kontrol edilir
+
+# Mağaza Seç popup'ına tıklanır
+* Elementin yüklenmesini bekle "SelectStoreBtn"
+* Element var mı kontrol et "Cargo_info_txt"
+* Elementine tıkla "SelectStoreBtn"
+
+# Iyzico alanı express ödeme yapılır
+* Elementin yüklenmesini bekle "IyzOthersTab"
+* "IyzOthersTab" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "Iyz-BkmExpress"
+* Elementine tıkla "Iyz-BkmExpress"
+* Elementin yüklenmesini bekle "NewIyzPaymentBtn"
+* Elementine tıkla "NewIyzPaymentBtn"
+* Elementin yüklenmesini bekle "Iyz-submitBtn"
+* Elementine tıkla "Iyz-submitBtn"
+* "OrderPopupClose" li element varsa tıkla yoksa devam et
+
+# Siparişin tamamlandığı kontrol edilir
+* Elementin yüklenmesini bekle "OrderOkBtn"
+* "Siparişiniz Onaylandı" text degerine sahip elementin goruntulendigi kontrol edilir
+* "Sipariş Numarası" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "OrderNo"
+* "OrderNo" li elementi bul ve değerini "Sipariş Numarası" olarak sakla
+* "Siparişiniz onaylanmıştır. Siparişiniz hazır olduğunda e-posta/SMS yoluyla bilgilendirileceksiniz." text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "OrderOkBtn"
+* Elementine tıkla "OrderOkBtn"
+
+# Adres alanında yeni adres eklenir
+* Yeni Adres Ekle'ye tiklanir adres ekleme sayfasinin acildigi gorulur
+* Adres icin Ad, Soyad, Telefon ve Adres Ismi bilgileri girilir
+* Adres Ekle Sehir ismi secilir
+* Adres Ekle Ilce ismi secilir
+* Adres Ekle Mahalle ismi secilir
+* Adres Ekleme icin Adres Detay ve Posta Kodu bilgileri girilir
+* Kaydet ikonuna tiklanir eklenen adresin adreslerim alanina geldigi gorulur
+
+# Sepet temizlenir, adres silinir ve yeni adres eklenir
+* Sepet kontrol edilerek temizlenir
+* Diger'e tiklanir diger sayfasinin acildigi gorulur
+* Profil'e tiklanir profilim sayfasinin acildigi gorulur
+* Adreslerim'e tiklanir adreslerim sayfasinin acildigi gorulur
+* Adres varsa Silme'ye tıklanır, adres silme pop-up'ın açıldığı görülür ve adres silinir
+* Adres alanında yeni adres eklenir
+
+# Sepet temizlenir, adresler silinir ve yeni adres eklenir
+* Sepet kontrol edilerek temizlenir
+* Diger'e tiklanir diger sayfasinin acildigi gorulur
+* Profil'e tiklanir profilim sayfasinin acildigi gorulur
+* Adreslerim'e tiklanir adreslerim sayfasinin acildigi gorulur
+* Adres varsa Silme'ye tıklanır, adres silme pop-up'ın açıldığı görülür ve adres silinir
+* Adres varsa Silme'ye tıklanır, adres silme pop-up'ın açıldığı görülür ve adres silinir
+* Adres alanında yeni adres eklenir
+
+# Sepet temizlenir, adresler silinir
+* Sepet kontrol edilerek temizlenir
+* Diger'e tiklanir diger sayfasinin acildigi gorulur
+* Profil'e tiklanir profilim sayfasinin acildigi gorulur
+* Adreslerim'e tiklanir adreslerim sayfasinin acildigi gorulur
+* Adres varsa Silme'ye tıklanır, adres silme pop-up'ın açıldığı görülür ve adres silinir
+* Adres varsa Silme'ye tıklanır, adres silme pop-up'ın açıldığı görülür ve adres silinir
+
+# Teslimat bilgileri adres duzenleme alani adres uyari kontrolleri yapilir
+* "ShippingCustomerName" li elementi bul ve temizle
+* "ShippingCustomerSurname" li elementi bul ve temizle
+* "ShippingCustomerPhone" li elementi bul ve temizle
+* Klavye kapatilir
+* "ShippingNewAddressCustomerAddressTitle" li elementi bul ve temizle
+* Klavye kapatilir
+* Kaydet ikonuna tiklanir "Ad zorunludur." uyarı mesajı görülür
+* Yukarı scroll et ve "F" textini "ShippingCustomerName" elementine yaz
+* Kaydet ikonuna tiklanir "Türkçe isimler 2 karakterden az olamaz. İsminizi kontrol ediniz." uyarı mesajı görülür
+* Yukarı scroll et ve "Fatih" textini "ShippingCustomerName" elementine yaz
+* Kaydet ikonuna tiklanir "Soyad alanı boş bırakılamaz." uyarı mesajı görülür
+* Yukarı scroll et ve "T" textini "ShippingCustomerSurname" elementine yaz
+* Kaydet ikonuna tiklanir "Türkçe isimler 2 karakterden az olamaz. Soyadınızı kontrol ediniz." uyarı mesajı görülür
+* Yukarı scroll et ve "Terim" textini "ShippingCustomerSurname" elementine yaz
+* Kaydet ikonuna tiklanir "Lütfen telefon numarasını eksiksiz giriniz" uyarı mesajı görülür
+* Yukarı scroll et ve "5" textini "ShippingCustomerPhone" elementine yaz
+* Kaydet ikonuna tiklanir "Telefon Numarası Geçersiz. Lütfen 10 hane olacak şekilde giriniz." uyarı mesajı görülür
+* Yukarı scroll et ve "326637275" textini "ShippingCustomerPhone" elementine yaz
+* Kaydet ikonuna tiklanir "Lütfen adres ismi giriniz." uyarı mesajı görülür
+* Yukarı scroll et ve "Şampiyon" textini "ShippingCustomerAddressTitle" elementine yaz
+* Elementin yüklenmesini bekle "ShippingNewAddressCustomerAddressTitle"
+* "ShippingNewAddressCustomerAddressTitle" li elementi bul ve değerini "AdresIsmi" olarak sakla
+* Adres Ekle Sehir ismi guncelleme icin "2" swipe ile secilir
+* Adres Ekle Ilce ismi guncelleme icin "1" swipe ile secilir
+* Adres Ekle Mahalle ismi guncelleme icin "1" swipe ile secilir
+* "ShippingCustomerAddressDetail" li elementi bul ve temizle
+* Kaydet ikonuna tiklanir "Lütfen adres bilgilerinizi giriniz." uyarı mesajı görülür
+* "ShippingCustomerAddressDetail" li elementi bul, temizle ve "Test ortamı icin adres detay bilgisi No:109 Şampiyon" değerini yaz
+//* "NewAddressSavedBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+//* Elementine tıkla "NewAddressSavedBtn"
+
+# Teslimat bilgileri adres ekleme alani uyari kontrolleri yapilir
+* Devam Et ikonuna tiklanir "Lütfen adres ismi giriniz." uyarı mesajı görülür
+* Yukarı scroll et ve "EvYeniAdres" textini "NewShippingCustomerAddressTitle" elementine yaz
+* Elementin yüklenmesini bekle "NewShippingAddressCustomerAddressTitle"
+* "NewShippingAddressCustomerAddressTitle" li elementi bul ve değerini "AdresIsmi" olarak sakla
+* Devam Et ikonuna tiklanir "Ad zorunludur." uyarı mesajı görülür
+* Yukarı scroll et ve "a" textini "NewShippingCustomerName" elementine yaz
+* Devam Et ikonuna tiklanir "Türkçe isimler 2 karakterden az olamaz. İsminizi kontrol ediniz." uyarı mesajı görülür
+* Yukarı scroll et ve "YeniAd" textini "NewShippingCustomerName" elementine yaz
+* Devam Et ikonuna tiklanir "Soyad alanı boş bırakılamaz." uyarı mesajı görülür
+* Yukarı scroll et ve "b" textini "NewShippingCustomerSurname" elementine yaz.
+* Devam Et ikonuna tiklanir "Türkçe isimler 2 karakterden az olamaz. Soyadınızı kontrol ediniz." uyarı mesajı görülür
+* Yukarı scroll et ve "YeniSoyad" textini "NewShippingCustomerSurname" elementine yaz
+* Devam Et ikonuna tiklanir "Lütfen telefon numarasını eksiksiz giriniz" uyarı mesajı görülür
+* Yukarı scroll et ve "5" textini "NewShippingCustomerPhone" elementine yaz
+* Devam Et ikonuna tiklanir "Telefon Numarası Geçersiz. Lütfen 10 hane olacak şekilde giriniz." uyarı mesajı görülür
+* Klavye kapatilir
+* Yukarı scroll et ve "326637275" textini "NewShippingCustomerPhoneTwo" elementine yaz
+* Adres Ekle Sehir ismi secilir
+* Adres Ekle Ilce ismi secilir
+* Adres Ekle Mahalle ismi secilir
+* "1" saniye bekle
+* Devam Et ikonuna tiklanir "Lütfen adres bilgilerinizi giriniz." uyarı mesajı görülür
+* Klavye kapatilir
+* Elementin yüklenmesini bekle "NewShippingCustomerAddressDetail"
+* "Test ortamı icin adres detay bilgisi No:109 Şampiyon" textini "NewShippingCustomerAddressDetail" elemente yaz
+* Klavye kapatilir
+
+# Fatura bilgileri adres duzenleme alani adres uyari kontrolleri yapilir
+* "ShippingCustomerName" li elementi bul ve temizle
+* "ShippingCustomerSurname" li elementi bul ve temizle
+* "ShippingCustomerPhone" li elementi bul ve temizle
+* Klavye kapatilir
+* "ShippingCustomerAddressTitle" li elementi bul ve temizle
+* Klavye kapatilir
+* Kaydet ikonuna tiklanir "Ad zorunludur." uyarı mesajı görülür
+* Yukarı scroll et ve "F" textini "ShippingCustomerName" elementine yaz
+* Kaydet ikonuna tiklanir "Türkçe isimler 2 karakterden az olamaz. İsminizi kontrol ediniz." uyarı mesajı görülür
+* Yukarı scroll et ve "Fatih" textini "ShippingCustomerName" elementine yaz
+* Kaydet ikonuna tiklanir "Soyad alanı boş bırakılamaz." uyarı mesajı görülür
+* Yukarı scroll et ve "T" textini "ShippingCustomerSurname" elementine yaz
+* Kaydet ikonuna tiklanir "Türkçe isimler 2 karakterden az olamaz. Soyadınızı kontrol ediniz." uyarı mesajı görülür
+* Yukarı scroll et ve "Terim" textini "ShippingCustomerSurname" elementine yaz
+* Kaydet ikonuna tiklanir "Lütfen telefon numarasını eksiksiz giriniz" uyarı mesajı görülür
+* Yukarı scroll et ve "5" textini "ShippingCustomerPhone" elementine yaz
+* Kaydet ikonuna tiklanir "Telefon Numarası Geçersiz. Lütfen 10 hane olacak şekilde giriniz." uyarı mesajı görülür
+* Klavye kapatilir
+* Yukarı scroll et ve "326637275" textini "ShippingCustomerPhone" elementine yaz
+* Kaydet ikonuna tiklanir "Lütfen adres ismi giriniz." uyarı mesajı görülür
+* Yukarı scroll et ve "Şampiyon" textini "ShippingCustomerAddressTitle" elementine yaz
+* Elementin yüklenmesini bekle "ShippingNewAddressCustomerAddressTitle"
+* "ShippingNewAddressCustomerAddressTitle" li elementi bul ve değerini "FaturaAdres" olarak sakla
+* Adres Ekle Sehir ismi guncelleme icin "2" swipe ile secilir
+* Adres Ekle Ilce ismi guncelleme icin "1" swipe ile secilir
+* Adres Ekle Mahalle ismi guncelleme icin "1" swipe ile secilir
+* "ShippingCustomerAddressDetail" li elementi bul ve temizle
+* Kaydet ikonuna tiklanir "Lütfen adres bilgilerinizi giriniz." uyarı mesajı görülür
+* Klavye kapatilir
+* "ShippingCustomerAddressDetail" li elementi bul, temizle ve "Test ortamı icin adres detay bilgisi No:109 Şampiyon" değerini yaz
+* Klavye kapatilir
+
+# Fatura bilgileri adres ekleme alani uyari kontrolleri yapilir
+* "StoreFirstName"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* Devam Et ikonuna tiklanir "Lütfen adres ismi giriniz." uyarı mesajı görülür
+* Yukarı scroll et ve "EvYeniAdres" textini "StoreAddressName" elementine yaz
+* Devam Et ikonuna tiklanir "Ad zorunludur." uyarı mesajı görülür
+* Yukarı scroll et ve "a" textini "StoreFirstName" elementine yaz
+* Devam Et ikonuna tiklanir "Türkçe isimler 2 karakterden az olamaz. İsminizi kontrol ediniz." uyarı mesajı görülür
+* Yukarı scroll et ve "YeniAd" textini "StoreFirstName" elementine yaz
+* Devam Et ikonuna tiklanir "Soyad alanı boş bırakılamaz." uyarı mesajı görülür
+* Yukarı scroll et ve "b" textini "StoreSurName" elementine yaz.
+* Devam Et ikonuna tiklanir "Türkçe isimler 2 karakterden az olamaz. Soyadınızı kontrol ediniz." uyarı mesajı görülür
+* Yukarı scroll et ve "YeniSoyad" textini "StoreSurName" elementine yaz
+* Devam Et ikonuna tiklanir "Lütfen telefon numarasını eksiksiz giriniz" uyarı mesajı görülür
+* Yukarı scroll et ve "5" textini "StorePhoneNumber" elementine yaz
+* Devam Et ikonuna tiklanir "Telefon Numarası Geçersiz. Lütfen 10 hane olacak şekilde giriniz." uyarı mesajı görülür
+* Klavye kapatilir
+* Yukarı scroll et ve "326637275" textini "StorePhoneNumber" elementine yaz
+* Fatura bilgileri şehir ismi secilir
+* Fatura bilgileri ilce ismi secilir
+* Fatura bilgileri mahalle ismi secilir
+* "1" saniye bekle
+* Devam Et ikonuna tiklanir "Lütfen adres bilgilerinizi giriniz." uyarı mesajı görülür
+* Klavye kapatilir
+* "1" kere yukarı doğru kaydır
+* Elementin yüklenmesini bekle "StoreAddressDetail"
+* "StoreAddressDetail" li elementi bul, temizle ve "Test ortamı icin adres detay bilgisi No:1000000000" değerini yaz
+* Klavye kapatilir

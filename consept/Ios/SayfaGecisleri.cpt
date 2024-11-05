@@ -1,0 +1,147 @@
+Created by n100442 on 27.02.2024
+
+This is a concept file with following syntax for each concept.
+
+# Anasayfa yüklendiği kontrol edilir
+* "En Çok Satanlar" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "anasayfa"
+* Elementin yüklenmesini bekle "Kategoriler"
+* Elementin yüklenmesini bekle "Kampanyalar"
+* Elementin yüklenmesini bekle "Markalar"
+* Elementin yüklenmesini bekle "Diger"
+
+
+# Anasayfadan Kategoriler sayfasına geçiş
+* "Kategoriler" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "Kategoriler"
+* "Kategoriler" li element varsa tıkla
+
+# Anasayfadan Kampanyalar sayfasına geçiş
+* "Kampanyalar" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "Kampanyalar"
+* "Kampanyalar" li element varsa tıkla
+
+# Anasayfadan Markalar sayfasına geçiş
+* "Markalar" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "Markalar"
+* "Markalar" li element varsa tıkla
+
+# Anasayfadan Diger sayfasına geçiş
+* "Diger" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "Diger"
+* "Diger" li element varsa tıkla
+
+# Kategoriler sayfasından Anasayfa'ya geçiş
+* "Anasayfa" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "anasayfa"
+* "Anasayfa" li element varsa tıkla
+
+#Kategoriler sayfasından Kampanyalar sayfasına geçiş
+* "Kampanyalar" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "Kampanyalar"
+* "Kampanyalar" li element varsa tıkla
+
+
+#Kategoriler sayfasından Markalar sayfasına geçiş
+* "Markalar" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "Markalar"
+* "Markalar" li element varsa tıkla
+
+
+#Kategoriler sayfasından Diger sayfasına geçiş
+* "Diger" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "Diger"
+* "Diger" li element varsa tıkla
+
+
+#Kampanyalar sayfasından Anasayfa'ya geçiş
+* "Anasayfa" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "anasayfa"
+* "Anasayfa" li element varsa tıkla
+
+#Kampanyalar sayfasından Kategoriler sayfasına geçiş
+* "Kategoriler" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "Kategoriler"
+* "Kategoriler" li element varsa tıkla
+
+
+#Kampanyalar sayfasından Markalar sayfasına geçiş
+* "Markalar" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "Markalar"
+* "Markalar" li element varsa tıkla
+
+
+#Kampanyalar sayfasından Diger sayfasına geçiş
+* "Diger" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "Diger"
+* "Diger" li element varsa tıkla
+
+
+#Markalar sayfasından Anasayfa'ya geçiş
+* "Anasayfa" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "anasayfa"
+* "Anasayfa" li element varsa tıkla
+
+
+#Markalar sayfasından Kategoriler sayfasına geçiş
+* "Kategoriler" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "Kategoriler"
+* "Kategoriler" li element varsa tıkla
+
+
+#Markalar sayfasından Kampanyalar sayfasına geçiş
+* "Kampanyalar" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "Kampanyalar"
+* "Kampanyalar" li element varsa tıkla
+
+
+#Markalar sayfasından Diger sayfasına geçiş
+* "Diger" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "Diger"
+* "Diger" li element varsa tıkla
+
+
+#Diger sayfasından Anasayfa'ya geçiş
+* "Anasayfa" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "anasayfa"
+* "Anasayfa" li element varsa tıkla
+
+
+#Diger sayfasından Kategoriler sayfasına geçiş
+* "Kategoriler" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "Kategoriler"
+* "Kategoriler" li element varsa tıkla
+
+
+#Diger sayfasından Kampanyalar sayfasına geçiş
+* "Kampanyalar" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "Kampanyalar"
+* "Kampanyalar" li element varsa tıkla
+
+
+#Diger sayfasından Markalar sayfasına geçiş
+* "Markalar" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementin yüklenmesini bekle "Markalar"
+* "Markalar" li element varsa tıkla
+
+
+# Anasayfa Kategoriler sayfasından Kategoriler sayfasına geçiş ve Sayfa Kontrolu
+* Click element by "Kategoriler" if exist
+* Wait for element to load with key "KategorilerTabiKatagorilerText"
+* Wait for element to load with key "KategorilerTabMakyaj"
+* Wait for element to load with key "KategorilerTabCiltBakim"
+* Wait for element to load with key "KategorilerTabSacBakim"
+* Wait for element to load with key "KategorilerTabParfumDeodorant"
+* Wait for element to load with key "KategorilerTabErkekBakim"
+* Wait for element to load with key "KategorilerTabKisiselBakim"
+* Wait for element to load with key "KategorilerTabAnneBebek"
+* Wait for element to load with key "KategorilerTabEvYasam"
+* Wait for element to load with key "KategorilerTabModaAksesuar"
+* Wait for element to load with key "KategorilerTabSupermarket"
+* Wait for element to load with key "KategorilerTabElektrikliUrunler"
+
+
+
+
+
+

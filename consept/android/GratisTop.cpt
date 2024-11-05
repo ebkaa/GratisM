@@ -1,0 +1,118 @@
+Created by testinium on 4.07.2023
+
+This is a concept file with following syntax for each concept.
+# Gratis Beauty sayfasina gecilir.
+* Elementin yüklenmesini bekle "uygulamaAnasayfa"
+* Elementine tıkla "uygulamaAnasayfa"
+* "5" saniye bekle
+* Elementin yüklenmesini bekle "gratisBeautyPage"
+* "1" saniye bekle
+
+# Geri butonu ile ana sayfaya donulur.
+* Geri butonuna bas
+* Elementin yüklenmesini bekle "uygulamaAnasayfa"
+
+# Magazalar alanina gidilir.
+* Elementin yüklenmesini bekle "storeBtn"
+* Elementine tıkla "storeBtn"
+* "locationPermissionBtn" li element varsa tıkla
+* Elementin yüklenmesini bekle "storeList"
+
+# Magazalarda rastgele bir il aratilir.
+* "Cities" csv dosyasindan rastgele il ve ilce sec
+* Rastgele secilen il adi "urunSearchTxt" elementine yazilir
+* "1" saniye bekle
+* Elementine tıkla "urunSearchTxt"
+* Klavyeyi kapat
+* Android Enter tıkla
+* "3" saniye bekle
+* Element var mı kontrol et "storeChosenList"
+
+# Magazalarda rastgele bir ilce aratilir.
+* "Cities" csv dosyasindan rastgele il ve ilce sec
+* Rastgele secilen ilce adi "urunSearchTxt" elementine yazilir
+* "1" saniye bekle
+* "urunSearchTxt" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* Klavyeyi kapat
+* Android Enter tıkla
+* "1" saniye bekle
+* Element var mı kontrol et "storeChosenList"
+
+# Magazalarda magaza ismi aratilir.
+* "İZM HİLLTOWN AVM" textini "urunSearchTxt" elemente yaz
+* "1" saniye bekle
+//* Android Enter tıkla
+* "1" saniye bekle
+* "storeName" elementinin "İZM HİLLTOWN AVM" textini içerdiği kontrol edilir
+
+# Listeden bir magaza secilir.
+* "4" kere aşağıya kaydır
+* "1" kere yukarı doğru kaydır
+* Elementin yüklenmesini bekle "elementList"
+* Elementine tıkla "elementList"
+* Elementin yüklenmesini bekle "elementList"
+* Elementine tıkla "elementList"
+* Element var mı kontrol et "storeChosenList"
+* "1" saniye bekle
+
+# Calisma saatleri kontrol edilir.
+* Element var mı kontrol et "storeHours"
+* Elementine tıkla "storeHours"
+* "alertSuccessfulPopup" elementinin "" textini içerdiği kontrol edilir
+* Elementine tıkla "popupOkayButton"
+* "1" saniye bekle
+
+# Magazanin konumu gorulur.
+* Element var mı kontrol et "storeLocationBtn"
+* Elementine tıkla "storeLocationBtn"
+* "3" saniye bekle
+* Elementine tıkla "getDirectionsBtn"
+* "1" saniye bekle
+* "getDirectionsBtn" değerini sayfa üzerinde olmadıgını kontrol et
+
+# Harita tabina basilir.
+* Elementin yüklenmesini bekle "mapBtn"
+* Elementine tıkla "mapBtn"
+* "3" saniye bekle
+* Element var mı kontrol et "mapTabCtrl"
+* Element var mı kontrol et "getDirectionsBtn"
+
+# Ana sayfa sepet ikonuna tiklanir.
+//* Elementin yüklenmesini bekle "kampanyaSec"
+* Elementine tıkla "sepetBtn"
+
+# Sepet ikonu ile rastgele login olunur.
+* "AndroidMail" csv dosyasindan rastgele kullanici sec
+* Rastgele secilen kullanici adi "emailInput" elementine, sifre "passwordInput" elementine yazilir
+* Elementine tıkla "loginBtn"
+* "sepetReklamKapat" li element varsa tıkla
+
+# Sepet ikonu ile Gratis1 login olunur.
+* "AndroidMail" csv dosyasindan "1" numaralı kullaniciyi sec
+* Rastgele secilen kullanici adi "emailInput" elementine, sifre "passwordInput" elementine yazilir
+* Elementine tıkla "loginBtn"
+* "sepetReklamKapat" li element varsa tıkla
+
+# Sepet ikonu ile Gratis2 login olunur.
+* "AndroidMail" csv dosyasindan "2" numaralı kullaniciyi sec
+* Rastgele secilen kullanici adi "emailInput" elementine, sifre "passwordInput" elementine yazilir
+* Elementine tıkla "loginBtn"
+* "sepetReklamKapat" li element varsa tıkla
+
+# Sepet ikonu ile Gratis3 login olunur.
+* "AndroidMail" csv dosyasindan "3" numaralı kullaniciyi sec
+* Rastgele secilen kullanici adi "emailInput" elementine, sifre "passwordInput" elementine yazilir
+* Elementine tıkla "loginBtn"
+* "sepetReklamKapat" li element varsa tıkla
+
+# Sepet ikonu ile Gratis4 login olunur.
+* "AndroidMail" csv dosyasindan "4" numaralı kullaniciyi sec
+* Rastgele secilen kullanici adi "emailInput" elementine, sifre "passwordInput" elementine yazilir
+* Elementine tıkla "loginBtn"
+* "sepetReklamKapat" li element varsa tıkla
+
+# Sepet ikonu ile Gratis0 login olunur.
+* "AndroidMail" csv dosyasindan "0" numaralı kullaniciyi sec
+* Rastgele secilen kullanici adi "emailInput" elementine, sifre "passwordInput" elementine yazilir
+* Elementine tıkla "loginBtn"
+* "sepetReklamKapat" li element varsa tıkla

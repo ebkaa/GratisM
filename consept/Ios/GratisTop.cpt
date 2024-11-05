@@ -1,0 +1,146 @@
+# Gratis Beauty sayfasina gecilir
+* "KampanyaSec" elementi bulunana kadar en fazla "20" saniye kadar bekle
+//* Element var mı kontrol et "SepetBtn"
+* "GratisBeautyAnasayfaIcon" elementi bulunana kadar en fazla "150" saniye kadar bekle
+* Elementine tıkla "GratisBeautyAnasayfaIcon"
+* "GratisBeautyPage" elementi bulunana kadar en fazla "50" saniye kadar bekle
+
+# Geri butonu ile ana sayfaya donulur
+* Element var mı kontrol et "geriBtn"
+* Elementine tıkla "geriBtn"
+* "3" saniye bekle
+* Elementin yüklenmesini bekle "anasayfa"
+
+# Magazalar alanina gidilir
+* Elementin yüklenmesini bekle "StoreBtn"
+* Elementine tıkla "StoreBtn"
+//* "LocationPermissionBtn" li element varsa tıkla yoksa devam et
+* "LocationPermissionBtn2" li element varsa tıkla
+* "LocationPermissionBtn" li element varsa tıkla
+* Elementin yüklenmesini bekle "StoreList"
+
+# Magazalarda rastgele bir il aratilir
+* "Cities" csv dosyasindan rastgele il ve ilce sec
+* Rastgele secilen il adi "UrunSearchTxt" elementine yazilir
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "UrunSearchTxt"
+* Elementine tıkla "UrunSearchTxt"
+* Elementin yüklenmesini bekle "KeyboardDismisserIcon"
+* "KeyboardSearchButtonNew" elementi bulunana kadar en fazla "10" saniye kadar bekle
+* Elementine tıkla "KeyboardSearchButtonNew"
+* "2" saniye bekle
+* Elementin yüklenmesini bekle "StoreChosenList"
+
+# Magazalarda rastgele bir ilce aratilir
+* "Cities" csv dosyasindan rastgele il ve ilce sec
+* "UrunSearchTxt" li elementi bul ve temizle
+* "1" saniye bekle
+* Rastgele secilen ilce adi "UrunSearchTxt" elementine yazilir
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "UrunSearchTxt"
+* Elementine tıkla "UrunSearchTxt"
+* Elementin yüklenmesini bekle "KeyboardDismisserIcon"
+* "KeyboardSearchButtonNew" elementi bulunana kadar en fazla "10" saniye kadar bekle
+* Elementine tıkla "KeyboardSearchButtonNew"
+* "2" saniye bekle
+* Element var mı kontrol et "UrunSearchTxt"
+
+# Magazalarda magaza ismi aratilir
+* "UrunSearchTxt" li elementi bul ve temizle
+* "1" saniye bekle
+* "İZM HİLLTOWN AVM" textini "UrunSearchTxt" elemente yaz
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "UrunSearchTxt"
+* Elementine tıkla "UrunSearchTxt"
+* Elementin yüklenmesini bekle "KeyboardDismisserIcon"
+* "KeyboardSearchButtonNew" elementi bulunana kadar en fazla "10" saniye kadar bekle
+* Elementine tıkla "KeyboardSearchButtonNew"
+* "2" saniye bekle
+* Element var mı kontrol et "StoreName"
+
+# Listeden bir magaza secilir
+* "1" saniye bekle
+* "2" kere aşağıya kaydır
+//* "1" kere yukarı doğru kaydır
+* "ElementListOne"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "ElementListOne"
+* Elementine tıkla "ElementListOne"
+* Elementin yüklenmesini bekle "ElementListTwo"
+* Elementine tıkla "ElementListTwo"
+* Elementin yüklenmesini bekle "StoreChosenList"
+
+# Calisma saatleri kontrol edilir
+* Element var mı kontrol et "StoreHours"
+* Elementine tıkla "StoreHours"
+* Elementin yüklenmesini bekle "StoreHoursPopupIos"
+* Elementine tıkla "PopupOkayBtnIos"
+
+# Magazanin konumu gorulur
+* Element var mı kontrol et "StoreLocationBtn"
+* Elementine tıkla "StoreLocationBtn"
+* Elementin yüklenmesini bekle "GetDirectionsBtn"
+* Elementine tıkla "GetDirectionsBtn"
+* Elementin yüklenmesini bekle "SelectAppMapsPopup"
+* Elementine tıkla "SelectAppMapsPopup"
+//* "GetDirectionsBtn" değerini sayfa üzerinde olmadıgını kontrol et
+
+# Harita tabina basilir
+* Elementin yüklenmesini bekle "MapBtn"
+* Elementine tıkla "MapBtn"
+* Elementin yüklenmesini bekle "MapTabCtrl"
+//* "GetDirectionsBtn" değerini sayfa üzerinde olmadıgını kontrol et
+
+# Ana sayfa sepet ikonuna tiklanir
+//* Elementin yüklenmesini bekle "KampanyaSec"
+* Elementin yüklenmesini bekle "SepetBtn"
+* Elementine tıkla "SepetBtn"
+
+# Sepet ikonu ile rastgele login olunur
+* "IOSmail" csv dosyasindan rastgele kullanici sec
+* Rastgele secilen kullanici adi "EpostaInputAlani" elementine, sifre "sifreInputAlani" elementine yazilir
+//* "girisYapBtn" elementine sayacli tikla "sepetPopUpKapatBtn" value degerini bekle
+* Elementin yüklenmesini bekle "girisYapBtn"
+* Elementine tıkla "girisYapBtn"
+//* "sepetPopUpKapatBtn" li element varsa tıkla
+* Elementin yüklenmesini bekle "CartToolbar"
+
+# Sepet ikonu ile Gratis0 login olunur
+* "IOSmail" csv dosyasindan "0" numaralı kullaniciyi sec
+* Rastgele secilen kullanici adi "EpostaInputAlani" elementine, sifre "sifreInputAlani" elementine yazilir
+* Elementin yüklenmesini bekle "girisYapBtn"
+* Elementine tıkla "girisYapBtn"
+* "2" saniye bekle
+* "sepetPopUpKapatBtn" li element varsa tıkla "sepetiKapatmaBtn" tıkla
+* Elementin yüklenmesini bekle "CartToolbar"
+
+# Sepet ikonu ile Gratis1 login olunur
+* "IOSmail" csv dosyasindan "1" numaralı kullaniciyi sec
+* Rastgele secilen kullanici adi "EpostaInputAlani" elementine, sifre "sifreInputAlani" elementine yazilir
+* Elementin yüklenmesini bekle "girisYapBtn"
+* Elementine tıkla "girisYapBtn"
+//* "sepetPopUpKapatBtn" li element varsa tıkla
+* Elementin yüklenmesini bekle "CartToolbar"
+
+# Sepet ikonu ile Gratis2 login olunur
+* "IOSmail" csv dosyasindan "2" numaralı kullaniciyi sec
+* Rastgele secilen kullanici adi "EpostaInputAlani" elementine, sifre "sifreInputAlani" elementine yazilir
+* Elementin yüklenmesini bekle "girisYapBtn"
+* Elementine tıkla "girisYapBtn"
+//* "sepetPopUpKapatBtn" li element varsa tıkla
+* Elementin yüklenmesini bekle "CartToolbar"
+
+# Sepet ikonu ile Gratis3 login olunur
+* "IOSmail" csv dosyasindan "3" numaralı kullaniciyi sec
+* Rastgele secilen kullanici adi "EpostaInputAlani" elementine, sifre "sifreInputAlani" elementine yazilir
+* Elementin yüklenmesini bekle "girisYapBtn"
+* Elementine tıkla "girisYapBtn"
+//* "sepetPopUpKapatBtn" li element varsa tıkla
+* Elementin yüklenmesini bekle "CartToolbar"
+
+# Sepet ikonu ile Gratis4 login olunur
+* "IOSmail" csv dosyasindan "4" numaralı kullaniciyi sec
+* Rastgele secilen kullanici adi "EpostaInputAlani" elementine, sifre "sifreInputAlani" elementine yazilir
+* Elementin yüklenmesini bekle "girisYapBtn"
+* Elementine tıkla "girisYapBtn"
+//* "sepetPopUpKapatBtn" li element varsa tıkla
+* Elementin yüklenmesini bekle "CartToolbar"

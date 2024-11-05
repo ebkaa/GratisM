@@ -1,0 +1,180 @@
+Created by testinium on 1.08.2023
+
+This is a concept file with following syntax for each concept.
+# En Çok Satanlar alanında bir ürünün ürün detay sayfasına geçilir.
+* "listSalePriceOne"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "productName"
+* Elementine tıkla "listSalePriceOne2"
+* "2" saniye bekle
+* Element var mı kontrol et "productDetailTitle"
+* Element var mı kontrol et "kampanyaSec"
+* "1" saniye bekle
+
+# Ürün detayda ürün fotosu swipe yapılır.
+* Elementin yüklenmesini bekle "kampanyaSec"
+* "kampanyaSec" elementinin hizasından sağdan sola "1" kere kaydır
+* "1" saniye bekle
+* "kampanyaSec" elementinin hizasından soldan sağa "1" kere kaydır
+* "1" saniye bekle
+
+# Ürünün paylaş ikonuna tıklanır.
+* "detailShareBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementine tıkla "detailShareBtn"
+* "1" saniye bekle
+* Geri butonuna bas
+* "1" saniye bekle
+
+# Ürünün zoom ikonuna tıklanır.
+* "detailZoomBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementine tıkla "detailZoomBtn"
+* Element var mı kontrol et "zoomPhoto"
+* Element var mı kontrol et "closeImg"
+* "1" saniye bekle
+* "1" kere sağa kaydirilir
+* "1" saniye bekle
+* "1" kere sola kaydirilir
+* "1" saniye bekle
+* Elementine tıkla "closeImg"
+
+# Gratis Card ile ürün detayda rastgele login olunur.
+* "detailGratisCardBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementine tıkla "detailGratisCardBtn"
+* "AndroidMail" csv dosyasindan rastgele kullanici sec
+* Rastgele secilen kullanici adi "emailInput" elementine, sifre "passwordInput" elementine yazilir
+* Elementine tıkla "loginBtn"
+* "2" saniye bekle
+* Elementin yüklenmesini bekle "detailShareBtn"
+* Element var mı kontrol et "detailZoomBtn"
+* Element var mı kontrol et "kampanyaSec"
+* Elementine tıkla "detailGratisCardBtn"
+* "emailInput" değerini sayfa üzerinde olmadıgını kontrol et
+
+# Gratis Card ile ürün detayda Gratis1 login olunur.
+* "detailGratisCardBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementine tıkla "detailGratisCardBtn"
+* "AndroidMail" csv dosyasindan "1" numaralı kullaniciyi sec
+* Rastgele secilen kullanici adi "emailInput" elementine, sifre "passwordInput" elementine yazilir
+* Elementine tıkla "loginBtn"
+* "2" saniye bekle
+* Elementin yüklenmesini bekle "detailShareBtn"
+* Element var mı kontrol et "detailZoomBtn"
+* Element var mı kontrol et "kampanyaSec"
+* Elementine tıkla "detailGratisCardBtn"
+* "emailInput" değerini sayfa üzerinde olmadıgını kontrol et
+
+# Gratis Card ile ürün detayda Gratis2 login olunur.
+* "detailGratisCardBtn"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementine tıkla "detailGratisCardBtn"
+* "AndroidMail" csv dosyasindan "1" numaralı kullaniciyi sec
+* Rastgele secilen kullanici adi "emailInput" elementine, sifre "passwordInput" elementine yazilir
+* Elementine tıkla "loginBtn"
+* "2" saniye bekle
+* Elementin yüklenmesini bekle "detailShareBtn"
+* Element var mı kontrol et "detailZoomBtn"
+* Element var mı kontrol et "kampanyaSec"
+* Elementine tıkla "detailGratisCardBtn"
+* "emailInput" değerini sayfa üzerinde olmadıgını kontrol et
+
+# Gratis Card ile ürün detayda Gratis3 login olunur.
+* "detailGratisCardBtn"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* Elementine tıkla "detailGratisCardBtn"
+* "AndroidMail" csv dosyasindan "1" numaralı kullaniciyi sec
+* Rastgele secilen kullanici adi "emailInput" elementine, sifre "passwordInput" elementine yazilir
+* Elementine tıkla "loginBtn"
+* "2" saniye bekle
+* Elementin yüklenmesini bekle "detailShareBtn"
+* Element var mı kontrol et "detailZoomBtn"
+* Element var mı kontrol et "kampanyaSec"
+* Elementine tıkla "detailGratisCardBtn"
+* "emailInput" değerini sayfa üzerinde olmadıgını kontrol et
+
+# Gratis Card ile ürün detayda Gratis4 login olunur.
+* "detailGratisCardBtn"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* Elementine tıkla "detailGratisCardBtn"
+* "AndroidMail" csv dosyasindan "1" numaralı kullaniciyi sec
+* Rastgele secilen kullanici adi "emailInput" elementine, sifre "passwordInput" elementine yazilir
+* Elementine tıkla "loginBtn"
+* "2" saniye bekle
+* Elementin yüklenmesini bekle "detailShareBtn"
+* Element var mı kontrol et "detailZoomBtn"
+* Element var mı kontrol et "kampanyaSec"
+* Elementine tıkla "detailGratisCardBtn"
+* "emailInput" değerini sayfa üzerinde olmadıgını kontrol et
+
+# Gratis Card ile ürün detayda Gratis5 login olunur.
+* "detailGratisCardBtn"li elementi bulana kadar "5" kere swipe yap ve elementi bul
+* Elementine tıkla "detailGratisCardBtn"
+* "AndroidMail" csv dosyasindan "1" numaralı kullaniciyi sec
+* Rastgele secilen kullanici adi "emailInput" elementine, sifre "passwordInput" elementine yazilir
+* Elementine tıkla "loginBtn"
+* "2" saniye bekle
+* Elementin yüklenmesini bekle "detailShareBtn"
+* Element var mı kontrol et "detailZoomBtn"
+* Element var mı kontrol et "kampanyaSec"
+* Elementine tıkla "detailGratisCardBtn"
+* "emailInput" değerini sayfa üzerinde olmadıgını kontrol et
+
+# <text> isimli kategori seçilir.
+* "categoryName" li ve değeri <text> e eşit olan elementli bulana kadar swipe et ve tıkla
+
+# Ürünün renk tonu değiştirilir.
+* "firstColor"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "firstColor"
+* Elementine tıkla "firstColor"
+* "1" saniye bekle
+* "productDetailTitle" li elementi bul ve değerini "varsayılanRenkAd" olarak sakla
+* "colorList"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Element var mı kontrol et "secondColor"
+* "1" saniye bekle
+* Elementine tıkla "secondColor"
+* "productDetailTitle"li elementi bulana kadar "2" kere yukarı swipe yap ve elementi bul
+* "productDetailTitle" li elementin text degerini hafizada "varsayılanRenkAd" olarak saklanan text ayni olmadigini kontrol et
+
+# Ürün detayda <adetSayi> kadar ürün adedi seçilir.
+* "addBasketBtn"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* Elementine tıkla "pieceSpinner"
+* <adetSayi> text degerine sahip elemente tikla.
+* "pieceSpinner" elementinin <adetSayi> textini içerdiği kontrol edilir
+
+# Non-Login ürün detay sayfasinda urun sepete eklenir.
+* "addBasketBtn"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "addBasketBtn"
+* Elementine tıkla "addBasketBtn"
+* Element var mı kontrol et "emailInput"
+
+# Ürün detay sayfasinda urun sepete eklenir.
+* "addBasketBtn"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "addBasketBtn"
+* Elementine tıkla "addBasketBtn"
+
+# Ürün detay sayfasında ürün favori butonuna tıklanır.
+* "detailFavBtn"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "detailFavBtn"
+* Elementine tıkla "detailFavBtn"
+
+# Ürün detay sayfasında ürün favorilerden çıkarılır.
+* "1" saniye bekle
+* Elementine tıkla "detailFavBtn"
+* toast message "Ürün favori listesinden çıkartıldı" değerine eşit mi
+* "1" saniye bekle
+
+# Alt bar alanları kontrol edilir.
+* "1" kere aşağıya kaydır
+* Element var mı kontrol et "productReturn"
+* Elementine tıkla "productReturn"
+* "returnTxt" li elementin değeri "Gratis Kolay ve Koşulsuz İade Sistemi" e içerdiğini kontrol et
+* Element var mı kontrol et "productPayment"
+* Elementine tıkla "productPayment"
+* "Kredi Kartı ya da Banka Kartı ile yapılan alışverişler" değerini sayfa üzerinde olup olmadığını kontrol et.
+
+# Ürün bilgileri kontrol edilir.
+* Elementine tıkla "productFeatures"
+* "productInfoTable"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+
+# Anahtar kelimelerden birine tıklanır.
+* "keyword"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* "keyword" li elementi bul ve değerini "anahtarKelime" olarak sakla
+* Elementine tıkla "keyword"
+* "pageToolbarTitle" li elementin text degeri hafizada "anahtarKelime" olarak saklanan text ile esit mi kontrol et
+* Element var mı kontrol et "urunDetay"
+* Element var mı kontrol et "urunDetayy"

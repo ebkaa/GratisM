@@ -1,0 +1,2035 @@
+[
+  {
+    "key": "uygulamaAnasayfa",
+    "androidValue": "com.gratis.android:id/btnBeauty",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+  "key": "digerTab",
+  "androidValue": "com.gratis.android:id/nav_graph_other",
+  "androidType": "id",
+  "iosValue": "",
+  "iosType": ""
+},
+  {
+    "key": "loginTab",
+    "androidValue": "com.gratis.android:id/profile_txt",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "emailInput",
+    "androidValue": "com.gratis.android:id/email_et",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "passwordInput",
+    "androidValue": "com.gratis.android:id/password_et",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "loginBtn",
+    "androidValue": "//android.widget.Button",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "kategorilerTab",
+    "androidValue": "com.gratis.android:id/nav_graph_categories",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "makyajTab",
+    "androidValue": "//android.widget.TextView[@text='Makyaj']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "tumMakyajUrunleriTab",
+    "androidValue": "//android.widget.TextView[@text='Tüm Makyaj Ürünleri']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "favBtn",
+    "androidValue": "fav_btn",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "favBtn2",
+    "androidValue": "(//*[@resource-id='com.gratis.android:id/fav_btn'])[2]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "favKaydetBtn",
+    "androidValue": "//android.widget.Button[@text='KAYDET']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "urunDetay",
+    "androidValue": "(//android.widget.RelativeLayout[@resource-id='com.gratis.android:id/itemProductRoot'])[1]",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "urunDetayy",
+    "androidValue": "(//android.widget.RelativeLayout[@resource-id='com.gratis.android:id/itemProductRoot'])[2]",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "sıralaBtn",
+    "androidValue": "com.gratis.android:id/desc_btn",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "cokSatanlar",
+    "androidValue": "//android.widget.TextView[@text='Çok Satanlar']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "sepeteEkle",
+    "androidValue": "(//android.widget.Button[@text='SEPETE EKLE'])[1]",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+
+  {
+    "key": "alisveriseDevamEt",
+    "androidValue": "(//android.widget.Button[@text='Alışverişe Devam Et'])[1]",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "anasayfaTab",
+    "androidValue": "com.gratis.android:id/nav_graph_home",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "urunSearchBox",
+    "androidValue": "com.gratis.android:id/main_page_search_text",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "urunSearchTxt",
+    "androidValue": "com.gratis.android:id/search_src_text",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "urunSearchEnter",
+    "androidValue": "(//android.widget.FrameLayout[@resource-id='com.gratis.android:id/search_trademark_root'])[1]",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "kampanyalarTab",
+    "androidValue": "com.gratis.android:id/nav_graph_campaign",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "kampanyaSec",
+    "androidValue": "com.gratis.android:id/ripple",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "markalarTab",
+    "androidValue": "com.gratis.android:id/nav_graph_trademarks",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "markaSec",
+    "androidValue": "(//android.widget.TextView[@resource-id='com.gratis.android:id/trademark_name'])[3]",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "profilTab",
+    "androidValue": "com.gratis.android:id/profile_txt",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "favoriListesi",
+    "androidValue": "com.gratis.android:id/favorite_txt",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "favCikar",
+    "androidValue": "com.gratis.android:id/favorite_checkbox",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "bosFavoriListesi",
+    "androidValue": "com.gratis.android:id/fav_empty_view",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "favoriListesiTitle",
+    "androidValue": "com.gratis.android:id/toolbar_title",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "sepetBtn",
+    "androidValue": "com.gratis.android:id/btnBasket",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "sepetReklamKapat",
+    "androidValue": "com.gratis.android:id/close_btn",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "sepetTemizleBtn",
+    "androidValue": "com.gratis.android:id/shopping_item_delete_btn",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "sepetTemizleOnay",
+    "androidValue": "//android.widget.Button[@text='SİL']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "bosSepetListesi",
+    "androidValue": "com.gratis.android:id/empty_view_btn",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "cikisYapButon",
+    "androidValue": "com.gratis.android:id/sign_out_btn",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "cikisYapOnay",
+    "androidValue": "//android.widget.Button[@text='EVET']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "registerBtn",
+    "androidValue": "//android.widget.Button[@text='ÜYE OL']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+
+  {
+    "key": "registerName",
+    "androidValue": "com.gratis.android:id/et_firstName",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+
+  {
+    "key": "registerSurname",
+    "androidValue": "com.gratis.android:id/et_surName",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+
+  {
+    "key": "registerMail",
+    "androidValue": "com.gratis.android:id/et_email",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+
+  {
+    "key": "registerPhone",
+    "androidValue": "com.gratis.android:id/et_phoneNumber",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+
+  {
+    "key": "registerBirth",
+    "androidValue": "com.gratis.android:id/et_date_of_birth",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+
+  {
+    "key": "registerManGender",
+    "androidValue": "com.gratis.android:id/man",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+
+  {
+    "key": "registerPassword",
+    "androidValue": "com.gratis.android:id/et_password",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+
+  {
+    "key": "registerPasswordAgain",
+    "androidValue": "com.gratis.android:id/et_password_again",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+
+  {
+    "key": "registerMembershipAgreement",
+    "androidValue": "com.gratis.android:id/membership_agreement_checkbox",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+
+  {
+    "key": "registerOtherAgreement",
+    "androidValue": "com.gratis.android:id/other_agreement_checkbox",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "registerPersonalInfo",
+    "androidValue": "//*[@text='Kişisel verilerimin hizmetin verilebilmesi için site altyapısını sağlayan Oracle firmasının yurtdışında(Almanya) bulunan bulut hizmeti sunucularına aktarılmasına açık rızamla onay veriyorum.']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+
+  {
+    "key": "registerButton",
+    "androidValue": "com.gratis.android:id/register_button",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "failurePassword",
+    "androidValue": "com.gratis.android:id/textinput_error",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "forgotPassword",
+    "androidValue": "com.gratis.android:id/forgot_password_txt",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "passwordResetPage",
+    "androidValue": "toolbar_title",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "forgotPasswordSendButton",
+    "androidValue": "send_btn",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "alertSuccessfulPopup",
+    "androidValue": "android:id/message",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "popupOkayButton",
+    "androidValue": "android:id/button1",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "pageToolbarTitle",
+    "androidValue": "toolbar_title",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "profilePageMyPassword",
+    "androidValue": "item_password_root",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "myPasswordOldPassword",
+    "androidValue": "old_password_et",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "myPasswordNewPassword",
+    "androidValue": "new_password_et",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "myPasswordAgainNewPassword",
+    "androidValue": "new_password_again_et",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "myPasswordSavedIcon",
+    "androidValue": "register_button",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "myPasswordChangesEditDone",
+    "androidValue": "//*[@text='Düzenlemeleriniz başarıyla kaydedilmiştir.']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "profileRoot",
+    "androidValue": "item_profile_root",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "profilePageMyAddress",
+    "androidValue": "item_adress_root",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "myAddressNewAddAddress",
+    "androidValue": "com.gratis.android:id/add_address_empty_button",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "newAddressAddCityDropdown",
+    "androidValue": "city_spinner",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "profilePageMyPasswordSaved",
+    "androidValue": "com.gratis.android:id/save_button",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "newAddressAddDistrictDropdown",
+    "androidValue": "town_spinner",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "newAddressAddNeighbourhoodDropdown",
+    "androidValue": "district_spinner",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "newAddressCustomerName",
+    "androidValue": "et_firstName",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "newAddressCustomerSurname",
+    "androidValue": "et_surName",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "newAddressCustomerPhone",
+    "androidValue": "et_phoneNumber",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "newAddressCustomerAddressTitle",
+    "androidValue": "et_address_name",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "newAddressCustomerAddressDetail",
+    "androidValue": "et_address",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "newAddressCustomerPostcode",
+    "androidValue": "et_post_code",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "newAddressSavedBtn",
+    "androidValue": "save_button",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "newAddressCard",
+    "androidValue": "com.gratis.android:id/adress_card",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "gratisCardWindowCloseBtn",
+    "androidValue": "close_btn",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "updateAddressButton",
+    "androidValue": "com.gratis.android:id/address_update_btn",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "deleteAddressButton",
+    "androidValue": "com.gratis.android:id/address_delete_btn",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "deleteAddressButton",
+    "androidValue": "com.gratis.android:id/address_delete_btn",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "deleteAddressPopupButton",
+    "androidValue": "android:id/button1",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "forgetPasswordFailPopup",
+    "androidValue": "//*[@text='Lütfen e-posta adresi giriniz.']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "emptyMailFailure",
+    "androidValue": "//*[@text='Lütfen geçerli bir e-posta adresi giriniz.']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "wrongMailFailure",
+    "androidValue": "//*[@text='Lütfen geçerli bir e-posta adresi giriniz.']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "shortPasswordFailure",
+    "androidValue": "//*[@text='Girilen şifre en az 8 haneli olmalıdır.']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "passwordFailure",
+    "androidValue": "//*[@text='E-posta adresiniz ve/veya şifreniz hatalı.']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "emptyPasswordFailure",
+    "androidValue": "//*[@text='Şifre alanı boş bırakılamaz.']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "NotMemberFailure",
+    "androidValue": "//*[@text='Böyle bir üye kaydı bulunmamaktadır. Lütfen üye kaydı yapınız.']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "wrongPasswordFailure",
+    "androidValue": "//*[@text='Yanlış şifre veya email/cep telefonu.']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "SmsCheckbox",
+    "androidValue": "(//android.widget.CheckBox)[2]",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "SmsCheckboxChecked",
+    "androidValue": "(//android.widget.CheckBox[@checked='true'])[2]",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "EmailCheckbox",
+    "androidValue": "(//android.widget.CheckBox)[3]",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "EmailCheckboxChecked",
+    "androidValue": "(//android.widget.CheckBox[@checked='true'])[3]",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "callCheckbox",
+    "androidValue": "(//android.widget.CheckBox)[4]",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "callCheckboxChecked",
+    "androidValue": "(//android.widget.CheckBox[@checked='true'])[4]",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "registerSmsAcceptButton",
+    "androidValue": "//android.widget.TextView[@text='SMS ONAYI']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "registerEmailErrorPopup",
+    "androidValue": "//android.widget.TextView[@text='Email adresi zaten var.']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "registerPhoneErrorPopup",
+    "androidValue": "//android.widget.TextView[@text='Telefon numarası zaten var.']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "registerPasswordErrorPopup",
+    "androidValue": "//*[@text='Şifreniz en az 8 karakter olmalı, büyük ve küçük harf, en az bir sayı ve özel karakter içermelidir.']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "registerAgeErrorPopup",
+    "androidValue": "//android.widget.TextView[@text='17 yaşından büyük olmalısınız.']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "registerMembershipText",
+    "androidValue": "com.gratis.android:id/membership_txt",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "registerAgreementText",
+    "androidValue": "com.gratis.android:id/agreement_text",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "register2AgreementText",
+    "androidValue": "com.gratis.android:id/agreement_text",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "registerOtherAgreementText",
+    "androidValue": "other_agreement_txt",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "profilepageFavoriteButton",
+    "androidValue": "com.gratis.android:id/favorite_txt",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "editListNameButton",
+    "androidValue": "com.gratis.android:id/edit_list_name_btn",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "editListPopupTitle",
+    "androidValue": "//android.widget.TextView[@text='Liste Adını Düzenle']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "editListTextbox",
+    "androidValue": "//android.widget.EditText",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "addFavoritePopup",
+    "androidValue": "//*[@text='Listeye Ekle']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "addListButton",
+    "androidValue": "(//*[@class='android.widget.Button'])[1]",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "addListPopupTitle",
+    "androidValue": "//*[@text='Yeni Liste Oluştur']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "addListTextbox",
+    "androidValue": "//*[@text='Liste Adı']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "favListSpinner",
+    "androidValue": "com.gratis.android:id/fav_list_spinner",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "newFavListElement",
+    "androidValue": "com.gratis.android:id/tv_tinted_spinner",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "favListDeleteButton",
+    "androidValue": "com.gratis.android:id/delete_list_btn",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "favListDeletePopupButton",
+    "androidValue": "//*[@text='SİL']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "favAddCartButton",
+    "androidValue": "com.gratis.android:id/favorite_add_cart_button",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "AddedToCartText",
+    "androidValue": "//*[@text='Ürün sepetinize eklendi.']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "continueShoppingButton",
+    "androidValue": "//*[@text='Alışverişe Devam Et']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "goToCartButton",
+    "androidValue": "//*[@text='Sepete Git']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "favoriteAddToCartControl",
+    "androidValue": "//android.widget.TextView[@text='2']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "productDetailFromFavoriteList",
+    "androidValue": "com.gratis.android:id/favorite_desc_txt",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "emptyFavButton",
+    "androidValue": "com.gratis.android:id/empty_fav_button",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "gratisCardPrice",
+    "androidValue": "com.gratis.android:id/gratis_price_one",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "productAddButton",
+    "androidValue": "(//*[@resource-id='com.gratis.android:id/product_add_button'])[2]",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "cartAddButton",
+    "androidValue": "com.gratis.android:id/cart_add_button",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "productItemTitle",
+    "androidValue": "com.gratis.android:id/product_item_title",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "cartHeaderText",
+    "androidValue": "com.gratis.android:id/cart_header_txt",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "numberPlusBtn",
+    "androidValue": "com.gratis.android:id/number_plus_img",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "numberMinusBtn",
+    "androidValue": "com.gratis.android:id/number_minus_img",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "shoppingItemFavBtn",
+    "androidValue": "shopping_item_fav_btn",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "cartPopupProduct",
+    "androidValue": "com.gratis.android:id/item_cart_back_root",
+    "androidType": "id"
+  },
+  {
+    "key": "productDetailTitle",
+    "androidValue": "com.gratis.android:id/product_title",
+    "androidType": "id"
+  },
+  {
+    "key": "addBasketBtn",
+    "androidValue": "com.gratis.android:id/add_basket_btn",
+    "androidType": "id"
+  },
+  {
+    "key": "gratisBeautyPage",
+    "androidValue": "//*[@resource-id='next_button']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "locationPermissionBtn",
+    "androidValue": "com.android.permissioncontroller:id/permission_allow_foreground_only_button",
+    "androidType": "id"
+  },
+  {
+    "key": "storeBtn",
+    "androidValue": "com.gratis.android:id/btnStore",
+    "androidType": "id"
+  },
+  {
+    "key": "storeList",
+    "androidValue": "com.gratis.android:id/storelist_recycler",
+    "androidType": "id"
+  },
+  {
+    "key": "storeChosenList",
+    "androidValue": "com.gratis.android:id/item_storelist_root",
+    "androidType": "id"
+  },
+  {
+    "key": "storeName",
+    "androidValue": "com.gratis.android:id/store_name_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "elementList",
+    "androidValue": "com.gratis.android:id/trademark_name",
+    "androidType": "id"
+  },
+  {
+    "key": "storeHours",
+    "androidValue": "com.gratis.android:id/store_hours_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "storeLocationBtn",
+    "androidValue": "com.gratis.android:id/location_img",
+    "androidType": "id"
+  },
+  {
+    "key": "getDirectionsBtn",
+    "androidValue": "com.gratis.android:id/get_directions_btn",
+    "androidType": "id"
+  },
+  {
+    "key": "mapTabCtrl",
+    "androidValue": "//android.widget.LinearLayout[2][@clickable='false']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "mapBtn",
+    "androidValue": "//android.widget.TextView[@text='Harita']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "toolbarUrunler",
+    "androidValue": "//android.widget.TextView[@text='Ürünler']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "%50indirim",
+    "androidValue": "//android.widget.TextView[@text='%50 ve Üzeri İndirimler']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "%60indirim",
+    "androidValue": "//android.widget.TextView[@text='%60 ve Üzeri İndirimler']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "trademark",
+    "androidValue": "com.gratis.android:id/root_view",
+    "androidType": "id"
+  },
+  {
+    "key": "fastScroller",
+    "androidValue": "com.gratis.android:id/fastscroller",
+    "androidType": "id"
+  },
+  {
+    "key": "gratisCardBtn",
+    "androidValue": "com.gratis.android:id/gratiscard_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "gratisCardView",
+    "androidValue": "com.gratis.android:id/gratis_card_view",
+    "androidType": "id"
+  },
+  {
+    "key": "nearbyStore",
+    "androidValue": "nearby_store_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "beautyDigerBtn",
+    "androidValue": "com.gratis.android:id/beauty_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "careerBtn",
+    "androidValue": "com.gratis.android:id/career_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "careerPage",
+    "androidValue": "//android.widget.Image[@text='Gratis_logo']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "agreementTxtBtn",
+    "androidValue": "com.gratis.android:id/agreement_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "agreementPageToolbar",
+    "androidValue": "//android.widget.TextView[@text='Üyelik Sözleşmesi']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "policyBtn",
+    "androidValue": "com.gratis.android:id/policy_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "policyPageToolbar",
+    "androidValue": "//android.widget.TextView[@text='Gizlilik ve Güvenlik']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "termOfUseBtn",
+    "androidValue": "com.gratis.android:id/term_of_use_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "termOfUsePageToolbar",
+    "androidValue": "//android.widget.TextView[@text='Kullanım Koşulları']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "ssiBtn",
+    "androidValue": "com.gratis.android:id/society_services_info_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "ssiPageElement",
+    "androidValue": "//android.widget.Image",
+    "androidType": "xpath"
+  },
+  {
+    "key": "kvkkBtn",
+    "androidValue": "com.gratis.android:id/kvkk_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "kvkkPageToolbar",
+    "androidValue": "//android.widget.TextView[@text='Yasal Uyarı KVKK Aydınlatma Metni']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "aboutBtn",
+    "androidValue": "com.gratis.android:id/about_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "aboutPageToolbar",
+    "androidValue": "//android.widget.TextView[@text='Hakkımızda']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "facebookBtn",
+    "androidValue": "com.gratis.android:id/facebook_btn",
+    "androidType": "id"
+  },
+  {
+    "key": "facebookPage",
+    "androidValue": "//android.widget.Button",
+    "androidType": "xpath"
+  },
+  {
+    "key": "instagramBtn",
+    "androidValue": "com.gratis.android:id/instagram_btn",
+    "androidType": "id"
+  },
+  {
+    "key": "instagramPage",
+    "androidValue": "//android.view.View[@text='Gratis']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "twitterBtn",
+    "androidValue": "com.gratis.android:id/twitter_btn",
+    "androidType": "id"
+  },
+  {
+    "key": "twitterPage",
+    "androidValue": "//android.widget.Image[@text='Twitter']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "contact",
+    "androidValue": "com.gratis.android:id/contact_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "contactFirstName",
+    "androidValue": "//*[@resource-id='firstname']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "contactLastName",
+    "androidValue": "//*[@resource-id='lastname']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "contactEmail",
+    "androidValue": "//*[@resource-id='email']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "contactPhone",
+    "androidValue": "//*[@resource-id='phoneNumber']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "contactMessageType",
+    "androidValue": "//*[@resource-id='message-type']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "contactMessageType2",
+    "androidValue": "//*[@text='Bilgi Alma']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "contactMessage",
+    "androidValue": "//*[@resource-id='message']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "contactKvkkCheck",
+    "androidValue": "//*[@resource-id='kvkk']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "contactSendBtn",
+    "androidValue": "//*[@resource-id='send-btn']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "contactOkayBtn",
+    "androidValue": "//*[@resource-id='approveVerification']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "contactCallNumber",
+    "androidValue": "//android.widget.TextView[@text='0 850 210 69 00']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "cartToolbar",
+    "androidValue": "//android.widget.TextView[@text='Sepet']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hsMembership",
+    "androidValue": "//android.widget.TextView[@text='Üyelik']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hsPay",
+    "androidValue": "//android.widget.TextView[@text='Ödeme']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hsOrder",
+    "androidValue": "//android.widget.TextView[@text='Sipariş ve Teslimat Süreci']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hsProduct",
+    "androidValue": "//android.widget.TextView[@text='İade, Ürün ve Şikayet']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hsSolution",
+    "androidValue": "//android.widget.LinearLayout[2]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hsSolutionText",
+    "androidValue": "//android.widget.TextView[2]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "supportBtn",
+    "androidValue": "com.gratis.android:id/support_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "catalogBtn",
+    "androidValue": "com.gratis.android:id/journal_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "catalogOptions",
+    "androidValue": "//android.widget.Button[@text='Ana menü']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "catalogFavClose",
+    "androidValue": "//android.widget.Button[@text='Kapat']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "catalogPagesBtn",
+    "androidValue": "//*[@text='Sayfa genel bakış']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "catalogPages",
+    "androidValue": "//android.view.MenuItem",
+    "androidType": "xpath"
+  },
+  {
+    "key": "catalogPdf",
+    "androidValue": "//*[@text='PDF Indir']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "catalogPdfOkayBtn",
+    "androidValue": "com.android.permissioncontroller:id/permission_allow_button",
+    "androidType": "id"
+  },
+  {
+    "key": "chromeTerms",
+    "androidValue": "com.android.chrome:id/terms_accept",
+    "androidType": "id"
+  },
+  {
+    "key": "chromeTerms2",
+    "androidValue": "com.android.chrome:id/negative_button",
+    "androidType": "id"
+  },
+  {
+    "key": "chromeTerms3",
+    "androidValue": "com.android.chrome:id/positive_button",
+    "androidType": "id"
+  },
+  {
+    "key": "catalogFav",
+    "androidValue": "//*[@text='Favorilerim']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "catalogPage",
+    "androidValue": "//android.view.View",
+    "androidType": "xpath"
+  },
+  {
+    "key": "productName",
+    "androidValue": "com.gratis.android:id/product_desc_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "productName2",
+    "androidValue": "(//*[@resource-id='com.gratis.android:id/product_desc_txt'])[2]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "tabHeader",
+    "androidValue": "com.gratis.android:id/tab_header_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "tabHeaderSlct",
+    "androidValue": "//android.widget.LinearLayout[@selected='true']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "productDetailToolbarTitle",
+    "androidValue": "//android.widget.TextView[@text='Ürün Detay']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "mainPageCampaign",
+    "androidValue": "com.gratis.android:id/banner_root",
+    "androidType": "id"
+  },
+  {
+    "key": "visitedAddBtn",
+    "androidValue": "com.gratis.android:id/visited_add_button",
+    "androidType": "id"
+  },
+  {
+    "key": "visitedTitle",
+    "androidValue": "//android.widget.TextView[@text='En Son Gezdiklerim']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "visitedText",
+    "androidValue": "com.gratis.android:id/visited_desc_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "beautyPopup",
+    "androidValue": "//android.view.View[@text='X']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "sortByMost",
+    "androidValue": "//android.widget.TextView[@text='Çok Satanlar']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "sortBySmart",
+    "androidValue": "//android.widget.TextView[@text='Akıllı Sıralama']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "sortByNew",
+    "androidValue": "//android.widget.TextView[@text='En Yeniler']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "sortByLowPrice",
+    "androidValue": "//android.widget.TextView[@text='En Düşük Fiyat']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "sortByHighPrice",
+    "androidValue": "//android.widget.TextView[@text='En Yüksek Fiyat']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "scrollToTop",
+    "androidValue": "com.gratis.android:id/scroll_to_top_btn",
+    "androidType": "id"
+  },
+  {
+    "key": "productCartName",
+    "androidValue": "com.gratis.android:id/shopping_item_title",
+    "androidType": "id"
+  },
+  {
+    "key": "productSecondCartName",
+    "androidValue": "(//*[@resource-id='com.gratis.android:id/shopping_item_title'])[2]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "filterBtn",
+    "androidValue": "com.gratis.android:id/filter_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "filterName",
+    "androidValue": "com.gratis.android:id/filter_name",
+    "androidType": "id"
+  },
+  {
+    "key": "subFilterName",
+    "androidValue": "com.gratis.android:id/filter_inner_name",
+    "androidType": "id"
+  },
+  {
+    "key": "subFilterCheck",
+    "androidValue": "(//android.widget.ImageView)[2]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "filterOkayBtn",
+    "androidValue": "com.gratis.android:id/filter_inner_button",
+    "androidType": "id"
+  },
+  {
+    "key": "priceFilter",
+    "androidValue": "com.gratis.android:id/range_seekbar",
+    "androidType": "id"
+  },
+  {
+    "key": "filterResetBtn",
+    "androidValue": "com.gratis.android:id/reset_button",
+    "androidType": "id"
+  },
+  {
+    "key": "detailShareBtn",
+    "androidValue": "com.gratis.android:id/detail_share_btn",
+    "androidType": "id"
+  },
+  {
+    "key": "shareDrag",
+    "androidValue": "android:id/chooser_header",
+    "androidType": "id"
+  },
+  {
+    "key": "detailZoomBtn",
+    "androidValue": "com.gratis.android:id/detail_zoom_btn",
+    "androidType": "id"
+  },
+  {
+    "key": "zoomPhoto",
+    "androidValue": "com.gratis.android:id/photo",
+    "androidType": "id"
+  },
+  {
+    "key": "closeImg",
+    "androidValue": "com.gratis.android:id/closeImg",
+    "androidType": "id"
+  },
+  {
+    "key": "detailGratisCardBtn",
+    "androidValue": "com.gratis.android:id/card_price_root",
+    "androidType": "id"
+  },
+  {
+    "key": "categoryName",
+    "androidValue": "com.gratis.android:id/category_name",
+    "androidType": "id"
+  },
+  {
+    "key": "colorList",
+    "androidValue": "com.gratis.android:id/color_list_view",
+    "androidType": "id"
+  },
+  {
+    "key": "secondColor",
+    "androidValue": "(//*[@resource-id='com.gratis.android:id/item_color_root'])[2]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "firstColor",
+    "androidValue": "(//*[@resource-id='com.gratis.android:id/item_color_root'])",
+    "androidType": "xpath"
+  },
+  {
+    "key": "pieceSpinner",
+    "androidValue": "com.gratis.android:id/piece_spinner",
+    "androidType": "id"
+  },
+  {
+    "key": "alertTitle",
+    "androidValue": "//*[@resource-id='android:id/alertTitle']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "alertTitle2",
+    "androidValue": "//*[@resource-id='com.gratis.android:id/alertTitle']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "detailFavBtn",
+    "androidValue": "com.gratis.android:id/product_detail_fav_btn",
+    "androidType": "id"
+  },
+  {
+    "key": "gratisCardConnectBtn",
+    "androidValue": "com.gratis.android:id/connect_card_btn",
+    "androidType": "id"
+  },
+  {
+    "key": "favListItem",
+    "androidValue": "com.gratis.android:id/itemFavoriteRoot",
+    "androidType": "id"
+  },
+  {
+    "key": "popupText",
+    "androidValue": "(//android.widget.TextView)[3]",
+    "androidType": "id"
+  },
+  {
+    "key": "productInfoTable",
+    "androidValue": "//*[@resource-id='com.gratis.android:id/product_info_table']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "productReturn",
+    "androidValue": "//android.widget.TextView[@text='İade Koşulları']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "returnTxt",
+    "androidValue": "com.gratis.android:id/conditions_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "productPayment",
+    "androidValue": "//android.widget.TextView[@text='Ödeme Seçenekleri']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "productFeatures",
+    "androidValue": "//android.widget.TextView[@text='Ürün Özellikleri']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "keyword",
+    "androidValue": "//*[@resource-id='com.gratis.android:id/item_keyword_root']/android.widget.TextView",
+    "androidType": "xpath"
+  },
+  {
+    "key": "priceTwo",
+    "androidValue": "com.gratis.android:id/shopping_item_price_two",
+    "androidType": "id"
+  },
+  {
+    "key": "secondPriceTwo",
+    "androidValue": "(//*[@resource-id='com.gratis.android:id/shopping_item_price_two'])[2]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "priceOne",
+    "androidValue": "com.gratis.android:id/shopping_item_price_one",
+    "androidType": "id"
+  },
+  {
+    "key": "secondPriceOne",
+    "androidValue": "(//*[@resource-id='com.gratis.android:id/shopping_item_price_one'])[2]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "continueBtn",
+    "androidValue": "com.gratis.android:id/continueBtn",
+    "androidType": "id"
+  },
+  {
+    "key": "salePriceOne",
+    "androidValue": "com.gratis.android:id/detail_sale_price_one_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "listSalePriceOne",
+    "androidValue": "com.gratis.android:id/sale_price_one_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "listSalePriceOne2",
+    "androidValue": "(//*[@resource-id='com.gratis.android:id/sale_price_one_txt'])[2]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "salePriceTwo",
+    "androidValue": "com.gratis.android:id/detail_sale_price_two_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "storeCloseImg",
+    "androidValue": "com.gratis.android:id/close_img",
+    "androidType": "id"
+  },
+  {
+    "key": "headerTxt",
+    "androidValue": "ocm.gratis.android:id/headerTxt",
+    "androidType": "id"
+  },
+  {
+    "key": "infoTxt",
+    "androidValue": "com.gratis.android:id/infoTxt",
+    "androidType": "id"
+  },
+  {
+    "key": "shippingPriceOne",
+    "androidValue": "com.gratis.android:id/shipping_price_one_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "shippingPriceOneCheck",
+    "androidValue": "(//*[@resource-id='com.gratis.android:id/shipping_price_one_txt'])[2]",
+    "androidType": "id"
+  },
+  {
+    "key": "shippingPriceTwoCheck",
+    "androidValue": "(//*[@resource-id='com.gratis.android:id/shipping_price_two_txt'])[2]",
+    "androidType": "id"
+  },
+  {
+    "key": "shippingPriceTwo",
+    "androidValue": "com.gratis.android:id/shipping_price_two_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "totalPriceOne",
+    "androidValue": "//android.widget.LinearLayout[@resource-id='com.gratis.android:id/totalPriceTxt']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "totalPriceTwo",
+    "androidValue": "(//*[@resource-id='com.gratis.android:id/totalPriceTxt']//android.widget.TextView)[2]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "shippingCheckBox",
+    "androidValue": "com.gratis.android:id/shippingCheckBox",
+    "androidType": "id"
+  },
+  {
+    "key": "preInfo",
+    "androidValue": "com.gratis.android:id/info_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "salesContact",
+    "androidValue": "com.gratis.android:id/sales_contract_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "infoCheckbox",
+    "androidValue": "com.gratis.android:id/info_checkbox",
+    "androidType": "id"
+  },
+  {
+    "key": "salesContractCheckbox",
+    "androidValue": "com.gratis.android:id/sales_contract_checkbox",
+    "androidType": "id"
+  },
+  {
+    "key": "iyzPaymentBtn",
+    "androidValue": "//*[@resource-id='iyz-payment-button']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "addressTypeTxt",
+    "androidValue": "com.gratis.android:id/addressTypeTxt",
+    "androidType": "id"
+  },
+  {
+    "key": "addressBtn",
+    "androidValue": "com.gratis.android:id/addressBtn",
+    "androidType": "id"
+  },
+  {
+    "key": "shippingAddressBtn",
+    "androidValue": "com.gratis.android:id/newShippingAddressBtn",
+    "androidType": "id"
+  },
+  {
+    "key": "selectAddressCheckbox",
+    "androidValue": "com.gratis.android:id/selectAddressCheckbox",
+    "androidType": "id"
+  },
+  {
+    "key": "newBillingAddressBtn",
+    "androidValue": "com.gratis.android:id/newBillingAddressBtn",
+    "androidType": "id"
+  },
+  {
+    "key": "billingHeaderTxt",
+    "androidValue": "com.gratis.android:id/billingHeaderTxt",
+    "androidType": "id"
+  },
+  {
+    "key": "billingAddressTitle",
+    "androidValue": "(//android.widget.LinearLayout[@resource-id='com.gratis.android:id/selectBillingAddressRoot']/android.widget.TextView)[2]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "editAddressBtn",
+    "androidValue": "com.gratis.android:id/editAddressBtn",
+    "androidType": "id"
+  },
+  {
+    "key": "deleteAddressBtn",
+    "androidValue": "com.gratis.android:id/deleteBtn",
+    "androidType": "id"
+  },
+  {
+    "key": "storeCitySpinner",
+    "androidValue": "com.gratis.android:id/storeCitySpinner",
+    "androidType": "id"
+  },
+  {
+    "key": "storeTownSpinner",
+    "androidValue": "com.gratis.android:id/storeTownSpinner",
+    "androidType": "id"
+  },
+  {
+    "key": "selectStoreRoot",
+    "androidValue": "com.gratis.android:id/selectStoreRoot",
+    "androidType": "id"
+  },
+  {
+    "key": "meRadioBtn",
+    "androidValue": "com.gratis.android:id/meRadioBtn",
+    "androidType": "id"
+  },
+  {
+    "key": "meRadioCheckedBtn",
+    "androidValue": "//*[@resource-id='com.gratis.android:id/meRadioBtn'][@checked='true']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "storeAddressName",
+    "androidValue": "com.gratis.android:id/et_store_address_name",
+    "androidType": "id"
+  },
+  {
+    "key": "storeFirstName",
+    "androidValue": "com.gratis.android:id/store_et_bil_firstName",
+    "androidType": "id"
+  },
+  {
+    "key": "storeSurName",
+    "androidValue": "com.gratis.android:id/store_et_bil_surName",
+    "androidType": "id"
+  },
+  {
+    "key": "storePhoneNumber",
+    "androidValue": "com.gratis.android:id/store_et_phoneNumber",
+    "androidType": "id"
+  },
+  {
+    "key": "storeAddressDetail",
+    "androidValue": "com.gratis.android:id/store_bil_et_address",
+    "androidType": "id"
+  },
+  {
+    "key": "storeAddressPostCode",
+    "androidValue": "com.gratis.android:id/store_et_bil_post_code",
+    "androidType": "id"
+  },
+  {
+    "key": "storeBilCitySpinner",
+    "androidValue": "com.gratis.android:id/store_bil_city_spinner",
+    "androidType": "id"
+  },
+  {
+    "key": "storeBilTownSpinner",
+    "androidValue": "com.gratis.android:id/store_bil_town_spinner",
+    "androidType": "id"
+  },
+  {
+    "key": "storeBilDistrictSpinner",
+    "androidValue": "com.gratis.android:id/store_bil_district_spinner",
+    "androidType": "id"
+  },
+  {
+    "key": "otherRadioBtn",
+    "androidValue": "com.gratis.android:id/otherRadioBtn",
+    "androidType": "id"
+  },
+  {
+    "key": "otherRadioCheckedBtn",
+    "androidValue": "//*[@resource-id='com.gratis.android:id/otherRadioBtn'][@checked='true']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "receiverNameEt",
+    "androidValue": "com.gratis.android:id/receiverNameEt",
+    "androidType": "id"
+  },
+  {
+    "key": "receiverSurNameEt",
+    "androidValue": "com.gratis.android:id/receiverSurNameEt",
+    "androidType": "id"
+  },
+  {
+    "key": "receiverPhoneNumber",
+    "androidValue": "com.gratis.android:id/receiverPhoneNumber",
+    "androidType": "id"
+  },
+  {
+    "key": "otherShippingAddressBtn",
+    "androidValue": "com.gratis.android:id/otherShippingAddressBtn",
+    "androidType": "id"
+  },
+  {
+    "key": "selectAddressBtn",
+    "androidValue": "com.gratis.android:id/selectAddressBtn",
+    "androidType": "id"
+  },
+  {
+    "key": "otherBillingAddressBtn",
+    "androidValue": "com.gratis.android:id/otherBillingAddressBtn",
+    "androidType": "id"
+  },
+  {
+    "key": "filterCtrl",
+    "androidValue": "(//android.widget.TableLayout/android.widget.TableRow)[4]/android.widget.TextView[2]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "bilAddressEditBtn",
+    "androidValue": "com.gratis.android:id/addressEditBtn",
+    "androidType": "id"
+  },
+  {
+    "key": "bilAddressRemoveBtn",
+    "androidValue": "com.gratis.android:id/addressRemoveBtn",
+    "androidType": "id"
+  },
+  {
+    "key": "addBillingAddressBtn",
+    "androidValue": "com.gratis.android:id/addBillingAddressBtn",
+    "androidType": "id"
+  },
+  {
+    "key": "storeBillingAddressHeaderTxt",
+    "androidValue": "com.gratis.android:id/storeBillingAddressHeaderTxt",
+    "androidType": "id"
+  },
+  {
+    "key": "storeBillingAddressName",
+    "androidValue": "com.gratis.android:id/storeBillingAddressName",
+    "androidType": "id"
+  },
+  {
+    "key": "storeBillingAddressBook",
+    "androidValue": "com.gratis.android:id/otherAddressBtn",
+    "androidType": "id"
+  },
+  {
+    "key": "changeAddressBtn",
+    "androidValue": "com.gratis.android:id/changeAddressBtn",
+    "androidType": "id"
+  },
+  {
+    "key": "selectStoreBtn",
+    "androidValue": "com.gratis.android:id/selectStoreBtn",
+    "androidType": "id"
+  },
+  {
+    "key": "info_img",
+    "androidValue": "com.gratis.android:id/info_img",
+    "androidType": "id"
+  },
+  {
+    "key": "cargo_info_txt",
+    "androidValue": "com.gratis.android:id/cargo_info_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "topBtnSearch",
+    "androidValue": "com.gratis.android:id/btnSearch",
+    "androidType": "id"
+  },
+  {
+    "key": "barcode_img",
+    "androidValue": "com.gratis.android:id/barcode_img",
+    "androidType": "id"
+  },
+  {
+    "key": "searchResultTxt",
+    "androidValue": "com.gratis.android:id/search_result_txt",
+    "androidType": "id"
+  },
+  {
+    "key": "accountDelete",
+    "androidValue": "com.gratis.android:id/removeUserTxt",
+    "androidType": "id"
+  },
+  {
+    "key": "popupBtn2",
+    "androidValue": "android:id/button2",
+    "androidType": "id"
+  },
+  {
+    "key": "popularCategorySearchTitle",
+    "androidValue": "//*[@resource-id='com.gratis.android:id/popular_categories_recycler']/android.widget.FrameLayout",
+    "androidType": "xpath"
+  },
+  {
+    "key": "popularTrademarkSearchTitle",
+    "androidValue": "//*[@resource-id='com.gratis.android:id/popular_brands_recycler']/android.widget.FrameLayout",
+    "androidType": "xpath"
+  },
+  {
+    "key": "iyzOthersTab",
+    "androidValue": "//*[@resource-id='iyz-tab-others']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "iyz-BkmExpress",
+    "androidValue": "//*[@resource-id='iyz-checkbox-bkmExpress']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "iyz-submitBtn",
+    "androidValue": "//*[@resource-id='submitBtn']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "orderOkBtn",
+    "androidValue": "//*[@resource-id='com.gratis.android:id/ok_button']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "orderNo",
+    "androidValue": "//*[@resource-id='com.gratis.android:id/order_no']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "permissionDenyBtn",
+    "androidValue": "//*[@resource-id='com.android.permissioncontroller:id/permission_deny_button']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "textInputEndIcon",
+    "androidValue": "//*[@resource-id='com.gratis.android:id/text_input_end_icon']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "stockCheckbox",
+    "androidValue": "//*[@resource-id='com.gratis.android:id/stockCheckbox']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "stockCheckedBox",
+    "androidValue": "//*[@resource-id='com.gratis.android:id/stockCheckbox'][@checked='true']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "filterButton",
+    "androidValue": "//*[@resource-id='com.gratis.android:id/filter_button']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "customerInformation",
+    "androidValue": "//*[@resource-id='com.gratis.android:id/member_txt']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "customerInformation1",
+    "androidValue": "(//android.widget.CheckBox[@checked='false'])[1]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "customerInformationCheck1",
+    "androidValue": "//android.widget.CheckBox[@checked='true']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "customerInformation2",
+    "androidValue": "(//android.widget.CheckBox[@checked='false'])[2]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "customerInformationCheck2",
+    "androidValue": "(//android.widget.CheckBox[@checked='true'])[2]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "customerInformation3",
+    "androidValue": "(//android.widget.CheckBox[@checked='false'])[3]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "customerInformationCheck3",
+    "androidValue": "(//android.widget.CheckBox[@checked='true'])[3]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "iycCard",
+    "androidValue": "//*[@resource-id='iyz-tab-credit-card']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "CargoText",
+    "androidValue": "//*[@text='81 ilde mağazadan ÜCRETSİZ TESLİMAT fırsatları']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "newAddressAddCityDropdownName",
+    "androidValue": "//*[@text='Seçiniz']",
+    "androidType": "xpath"
+  }
+]

@@ -1,0 +1,585 @@
+# Kampanyalar sayfasi acilir
+* "KampanyaSec" elementi bulunana kadar en fazla "25" saniye kadar bekle
+* Elementin yüklenmesini bekle "PageToolbarTitle"
+* "kampanyalarSekmesi" elementi bulunana kadar en fazla "25" saniye kadar bekle
+* Elementine tıkla "kampanyalarSekmesi"
+* Elementin yüklenmesini bekle "KampanyaSec"
+//* "kampanyalarSekmesi" elementine sayacli tikla "KampanyaSec" value degerini bekle
+
+# Kampanyalar swipe edilir
+* Elementin yüklenmesini bekle "KampanyaSec"
+//* "KampanyaSec" elementinin hizasından sağdan sola "1" kere kaydır
+//* "KampanyaSec" elementinin hizasından soldan sağa "2" kere kaydır
+
+# Kampanyaya tiklanir
+* Elementin yüklenmesini bekle "KampanyaSec"
+* "KampanyaSec" li  elementin x ekseninde yukaridan %"20" deger, y ekseninde yukaridan %"20" deger kadar asagisina tikla
+* "2" saniye bekle
+* Elementin yüklenmesini bekle "PageToolbarTitleText"
+* "2" saniye bekle
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+* "3" saniye bekle
+
+# Birinci indirim kampanyasına tiklanir
+* "3" saniye bekle
+* "PageToolbarTitle" elementi bulunana kadar en fazla "25" saniye kadar bekle
+* "1" kere aşağıya kaydır
+* "%50indirimIos" elementi bulunana kadar en fazla "25" saniye kadar bekle
+* "%50indirimIos" li  elementin x ekseninde yukaridan %"50" deger, y ekseninde yukaridan %"50" deger kadar asagisina tikla
+* Elementin yüklenmesini bekle "ToolbarUrunler"
+* "2" saniye bekle
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+* "2" saniye bekle
+
+# İkinci indirim kampanyasına tiklanir
+* "3" saniye bekle
+* "PageToolbarTitle" elementi bulunana kadar en fazla "25" saniye kadar bekle
+* "2" kere aşağıya kaydır
+* "%60indirimIos" elementi bulunana kadar en fazla "25" saniye kadar bekle
+* "%60indirimIos" li  elementin x ekseninde yukaridan %"20" deger, y ekseninde yukaridan %"20" deger kadar asagisina tikla
+* Elementin yüklenmesini bekle "ToolbarUrunler"
+* "2" saniye bekle
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+* "2" saniye bekle
+
+# Markalar sayfasi acilir
+* Elementin yüklenmesini bekle "KampanyaSec"
+* Elementine tıkla "markalarSekmesi"
+* Elementin yüklenmesini bekle "Trademark"
+
+# Sadece Gratis'te markaları swipe edilir ve tiklanir
+* "Trademark" elementinin hizasından sağdan sola "1" kere kaydır
+* "Trademark" elementinin hizasından soldan sağa "1" kere kaydır
+* Elementin yüklenmesini bekle "Trademark"
+* Elementine tıkla "Trademark"
+* Elementin yüklenmesini bekle "PageToolbarTitle"
+* "2" saniye bekle
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+* "2" saniye bekle
+* Elementin yüklenmesini bekle "Trademark"
+
+# Markalar swipe edilir ve tiklanir
+* "2" saniye bekle
+* "ElementListThree" elementi bulunana kadar en fazla "15" saniye kadar bekle
+* Elementine tıkla "ElementListThree"
+* Elementin yüklenmesini bekle "PageToolbarTitle"
+* "2" saniye bekle
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+* "2" saniye bekle
+* Elementin yüklenmesini bekle "Trademark"
+
+# Hizli scroll harflerine basılır ve listeden bir marka secilir
+* Elementin yüklenmesini bekle "FastScroller"
+* "2" saniye bekle
+* Elementin yüklenmesini bekle "FastScroller"
+* "FastScroller" li  elementin x ekseninde yukaridan %"10" deger, y ekseninde yukaridan %"60" deger kadar asagisina tikla
+* "2" saniye bekle
+* "ElementListFour" elementi bulunana kadar en fazla "25" saniye kadar bekle
+* Elementine tıkla "ElementListFour"
+* Elementin yüklenmesini bekle "PageToolbarTitle"
+* "2" saniye bekle
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+* "2" saniye bekle
+* Elementin yüklenmesini bekle "Trademark"
+
+# Non login Gratis Kartim sayfasina gecilir
+* Elementin yüklenmesini bekle "GratisCardBtn"
+* Elementine tıkla "GratisCardBtn"
+
+# Non login durumda Gratis Kart sayfasi kontrol edilir
+* Elementin yüklenmesini bekle "PageToolbarTitle"
+* Elementin yüklenmesini bekle "EpostaInputAlani"
+* Elementin yüklenmesini bekle "sifreInputAlani"
+
+# Login olup Gratis Kartim sayfasina gecilir
+* "IOSmail" csv dosyasindan rastgele kullanici sec
+* Elementin yüklenmesini bekle "EpostaInputAlani"
+* Elementin yüklenmesini bekle "sifreInputAlani"
+*  Rastgele secilen kullanici adi "EpostaInputAlani" elementine, sifre "sifreInputAlani" elementine yazilir
+* Elementin yüklenmesini bekle "girisYapBtn"
+* Elementine tıkla "girisYapBtn"
+* "2" saniye bekle
+
+# Login durumda Gratis Kart sayfasi kontrol edilir
+//* Elementin yüklenmesini bekle "GratisCardBackGround"
+* "GratisCardBackGround" elementi bulunana kadar en fazla "10" saniye kadar bekle
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "profilim"
+
+# Yakinlardaki magazalar'a tiklanir
+* Elementin yüklenmesini bekle "NearbyStore"
+* Elementine tıkla "NearbyStore"
+* "LocationPermissionBtn2" li element varsa tıkla
+* "LocationPermissionBtn" li element varsa tıkla yoksa devam et
+* Elementin yüklenmesini bekle "UrunSearchTxt"
+* Elementin yüklenmesini bekle "PageToolbarTitle"
+* Elementin yüklenmesini bekle "StoreList"
+* "3" saniye bekle
+* "geriBtn" elementi bulunana kadar en fazla "10" saniye kadar bekle
+* Elementine tıkla "geriBtn"
+* "3" saniye bekle
+* "digerSekmesi" elementi bulunana kadar en fazla "10" saniye kadar bekle
+
+# Diğer alaninda Gratis Beauty sayfasina gecilir
+* Elementin yüklenmesini bekle "BeautyDigerBtn"
+* Elementine tıkla "BeautyDigerBtn"
+* Elementin yüklenmesini bekle "GratisBeautyPage"
+* "3" saniye bekle
+* "geriBtn" elementi bulunana kadar en fazla "10" saniye kadar bekle
+* Elementine tıkla "geriBtn"
+* "3" saniye bekle
+* "digerSekmesi" elementi bulunana kadar en fazla "10" saniye kadar bekle
+
+# Kariyer sayfasina gecilir
+* Elementin yüklenmesini bekle "CareerBtn"
+* Elementine tıkla "CareerBtn"
+* "CareerPage" elementi bulunana kadar en fazla "25" saniye kadar bekle
+* "3" saniye bekle
+* "geriBtn" elementi bulunana kadar en fazla "10" saniye kadar bekle
+* Elementine tıkla "geriBtn"
+* "3" saniye bekle
+* "digerSekmesi" elementi bulunana kadar en fazla "10" saniye kadar bekle
+
+# Uyelik Sozlesmesi sayfasina gecilir
+* Elementin yüklenmesini bekle "AgreementTxtBtn"
+* Elementine tıkla "AgreementTxtBtn"
+* Elementin yüklenmesini bekle "AgreementPageToolbar"
+* "RegisterAgreementTextOne" elementi bulunana kadar en fazla "15" saniye kadar bekle
+* "3" saniye bekle
+
+# Gizlilik ve Guvenlik sayfasina gecilir
+* Elementin yüklenmesini bekle "PolicyBtn"
+* Elementine tıkla "PolicyBtn"
+* Elementin yüklenmesini bekle "PolicyPageToolbar"
+* "PolicyPageText" elementi bulunana kadar en fazla "15" saniye kadar bekle
+* "3" saniye bekle
+
+# Kullanim kosullari sayfasina gecilir
+* "TermOfUseBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "TermOfUseBtn"
+* Elementine tıkla "TermOfUseBtn"
+* Elementin yüklenmesini bekle "TermOfUsePageToolbar"
+* "TermOfUsePageText" elementi bulunana kadar en fazla "15" saniye kadar bekle
+* "3" saniye bekle
+
+# Bilgi Toplumu Hizmetleri sayfasina gecilir
+* "SsiBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "SsiBtn"
+* Elementine tıkla "SsiBtn"
+* "SsiPageElement" elementi bulunana kadar en fazla "15" saniye kadar bekle
+* "3" saniye bekle
+
+# KVKK sayfasina gecilir
+* "KvkkBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "KvkkBtn"
+* Elementine tıkla "KvkkBtn"
+* Elementin yüklenmesini bekle "KvkkPageToolbar"
+* "RegisterAgreementTextTwo" elementi bulunana kadar en fazla "15" saniye kadar bekle
+* "3" saniye bekle
+
+# Hakkimizda sayfasina gecilir
+* "AboutBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "AboutBtn"
+* Elementine tıkla "AboutBtn"
+* Elementin yüklenmesini bekle "AboutPageToolbar"
+* "PageToolbarTitle" elementi bulunana kadar en fazla "15" saniye kadar bekle
+* "3" saniye bekle
+
+# Iletisim sayfasina gecilir
+* Elementin yüklenmesini bekle "Contact"
+* Elementine tıkla "Contact"
+* "10" saniye bekle
+//* "PageToolbarTitle" elementi bulunana kadar en fazla "50" saniye kadar bekle
+//* Elementin yüklenmesini bekle "ContactFirstName"
+
+# Iletisim numarasına tiklanir
+* "1" kere aşağıya kaydır
+* Elementin yüklenmesini bekle "ContactCallNumber"
+* Elementine tıkla "ContactCallNumber"
+* Elementin yüklenmesini bekle "ContactCallNumber"
+* Elementine tıkla "geriBtn"
+* "2" saniye bekle
+* Element var mı kontrol et "ContactCallNumber"
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+* "1" saniye bekle
+* "digerSekmesi" elementi bulunana kadar en fazla "10" saniye kadar bekle
+
+# Iletisim sayfasi bilgileri girilir
+* "AndroidInfo" csv dosyasindan rastgele register kullanicisi sec
+* Rastgele secilen kullanici adi "contactFirstName" elementine, soyadi "contactLastName" elementine, mail "contactEmail" elementine yazilir
+* Rastgele secilen telefon "contactPhone" elementine yazilir
+* "1" kere aşağıya kaydır
+* Elementin yüklenmesini bekle "contactMessageType"
+* Elementine tıkla "contactMessageType"
+* Elementin yüklenmesini bekle "contactMessageType2"
+* Elementine tıkla "contactMessageType2"
+* "Örnek mesaj" textini "contactMessage" elemente yaz
+* "1" kere aşağıya kaydır
+* Elementin yüklenmesini bekle "contactKvkkCheck"
+* Elementine tıkla "contactKvkkCheck"
+* "contactSendBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "contactSendBtn"
+* Elementine tıkla "contactSendBtn"
+* Element var mı kontrol et "contactOkayBtn"
+
+# Facebook sayfasina gecilir
+* Elementin yüklenmesini bekle "PageToolbarTitle"
+* "1" kere aşağıya kaydır
+* Elementin yüklenmesini bekle "FacebookBtn"
+* Elementine tıkla "FacebookBtn"
+* "2" saniye bekle
+//* Safari'de "FacebookPage" kontrolu yapilir ve uygulamaya geri donulur
+* Safari'de element kontrolu yapilir ve uygulamaya geri donulur
+* Elementin yüklenmesini bekle "FacebookBtn"
+* "digerSekmesi" elementi bulunana kadar en fazla "10" saniye kadar bekle
+
+# Instagram sayfasina gecilir
+* Elementin yüklenmesini bekle "PageToolbarTitle"
+* Elementin yüklenmesini bekle "InstagramBtn"
+* Elementine tıkla "InstagramBtn"
+* "2" saniye bekle
+//* Safari'de "InstagramPage" kontrolu yapilir ve uygulamaya geri donulur
+* Safari'de element kontrolu yapilir ve uygulamaya geri donulur
+* Elementin yüklenmesini bekle "InstagramBtn"
+* "digerSekmesi" elementi bulunana kadar en fazla "10" saniye kadar bekle
+
+# Twitter sayfasina gecilir
+* Elementin yüklenmesini bekle "PageToolbarTitle"
+* Elementin yüklenmesini bekle "TwitterBtn"
+* Elementine tıkla "TwitterBtn"
+* "2" saniye bekle
+//* Safari'de "TwitterPage" kontrolu yapilir ve uygulamaya geri donulur
+* Safari'de element kontrolu yapilir ve uygulamaya geri donulur
+* Elementin yüklenmesini bekle "TwitterBtn"
+* "digerSekmesi" elementi bulunana kadar en fazla "10" saniye kadar bekle
+
+# Yardım ve Destek sayfasına geçilir
+* Elementin yüklenmesini bekle "PageToolbarTitle"
+* Elementin yüklenmesini bekle "SupportBtn"
+* Elementine tıkla "SupportBtn"
+* Elementin yüklenmesini bekle "HsMembership"
+* Elementin yüklenmesini bekle "HsPay"
+* Elementin yüklenmesini bekle "HsOrder"
+* Elementin yüklenmesini bekle "HsProduct"
+
+# Uyelik alanına tıklanır
+* Elementin yüklenmesini bekle "HsMembership"
+* Elementine tıkla "HsMembership"
+* Elementin yüklenmesini bekle "HsMembershipSolution"
+* Elementine tıkla "HsMembershipSolution"
+* Elementin yüklenmesini bekle "HsMembershipSolutionText"
+* "HsMembershipSolutionText" elementinin "Gratis.com'a üye olmak ücretsizdir." textini içerdiği kontrol edilir
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+* Elementin yüklenmesini bekle "HsMembership"
+* Elementine tıkla "HsMembership"
+
+# Odeme alanına tıklanır
+* Elementin yüklenmesini bekle "HsPay"
+* Elementine tıkla "HsPay"
+* Elementin yüklenmesini bekle "HsPaySolution"
+* Elementine tıkla "HsPaySolution"
+* Elementin yüklenmesini bekle "HsPaySolutionText"
+* "HsPaySolutionText" elementinin "Gratis.com'da havale ile alışveriş geçerli değildir." textini içerdiği kontrol edilir
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+* Elementin yüklenmesini bekle "HsPay"
+* Elementine tıkla "HsPay"
+
+# Siparis ve Teslimat Sureci alanına tıklanır
+* "HsOrder"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "HsOrder"
+* Elementine tıkla "HsOrder"
+* "HsOrderSolution"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "HsOrderSolution"
+* Elementine tıkla "HsOrderSolution"
+* Elementin yüklenmesini bekle "HsOrderSolutionText"
+* "HsOrderSolutionText" elementinin "İstediğiniz ürünü sepetinize ekleyebilirsiniz." textini içerdiği kontrol edilir
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+* "HsOrder"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "HsOrder"
+* Elementine tıkla "HsOrder"
+
+# Iade, Urun ve Sikayet alanına tıklanır
+* "HsProduct"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "HsProduct"
+* Elementine tıkla "HsProduct"
+* "HsProductSolution"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "HsProductSolution"
+* Elementine tıkla "HsProductSolution"
+* Elementin yüklenmesini bekle "HsProductSolutionText"
+* "HsProductSolutionText" elementinin "Siparişinizi verdiğiniz andan itibaren ilk 30 dakika içinde hesabınız üzerinden iptal edebilirsiniz. Bu süreden sonra iade yapabilmek için siparişinizin uygunluğunu öğrenmek için müşteri deneyimlerimiz ile iletişime geçmeniz gerekmektedir." textini içerdiği kontrol edilir
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+* Elementin yüklenmesini bekle "HsProduct"
+* Elementine tıkla "HsProduct"
+* "1" saniye bekle
+
+# Katalog sayfasina gecilir
+* Elementin yüklenmesini bekle "PageToolbarTitle"
+* Elementin yüklenmesini bekle "CatalogBtn"
+* Elementine tıkla "CatalogBtn"
+* "5" saniye bekle
+* "BeautyPopup" li element varsa tıkla
+* "BeautyPopupTwo" li element varsa tıkla
+* Elementin yüklenmesini bekle "CatalogOptions"
+* "1" saniye bekle
+
+# Katalog sayfaları swipe edilir
+* "3" kere sağa kaydirilir
+* Element var mı kontrol et "PageToolbarTitle"
+* "3" saniye bekle
+* "2" kere sola kaydirilir
+* "1" saniye bekle
+
+# Katalog seceneklerine tiklanir
+* Elementin yüklenmesini bekle "CatalogOptions"
+* "2" saniye bekle
+* Elementine tıkla "CatalogOptions"
+
+# Sayfaya Genel Bakis alanina gecilir
+* Elementin yüklenmesini bekle "CatalogPagesBtn"
+* Elementine tıkla "CatalogPagesBtn"
+* Elementin yüklenmesini bekle "CatalogPages"
+* "2" kere aşağıya kaydır
+* "1" saniye bekle
+* "2" kere yukarı doğru kaydır
+* Elementin yüklenmesini bekle "CatalogPages"
+* Elementine tıkla "CatalogPages"
+
+# Favorilerim sayfasina gecilir
+* Elementin yüklenmesini bekle "CatalogFav"
+* Elementine tıkla "CatalogFav"
+* Elementin yüklenmesini bekle "PageToolbarTitleText"
+* Elementin yüklenmesini bekle "CatalogCloseIcon"
+* Elementine tıkla "CatalogCloseIcon"
+* Elementin yüklenmesini bekle "CatalogOptions"
+
+# Katalog pdf indirmeye tiklanir
+* Elementin yüklenmesini bekle "CatalogPdf"
+* Elementine tıkla "CatalogPdf"
+* "2" saniye bekle
+//* Safari'de "CatalogDownloadPage" kontrolu yapilir ve uygulamaya geri donulur
+* Safari'de element kontrolu yapilir ve uygulamaya geri donulur
+* Elementin yüklenmesini bekle "CatalogPdf"
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+* "1" saniye bekle
+
+# Sırala butonuna tıklanır
+* Elementin yüklenmesini bekle "SıralaBtn"
+* Elementine tıkla "SıralaBtn"
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+
+# Akıllı Sıralama butonuna tıklanır
+* Element var mı kontrol et "SortBySmart"
+* Elementine tıkla "SortBySmart"
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* Element var mı kontrol et "ProductsName"
+
+# Çok Satanlar butonuna tıklanır
+* Element var mı kontrol et "SortBySmart"
+* "SortBySmart" li  elementin x ekseninde yukaridan %"25" deger, y ekseninde yukaridan %"60" deger kadar asagisina tikla
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementin yüklenmesini bekle "SortByMost"
+* Elementine tıkla "SortByMost"
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* Element var mı kontrol et "ProductsName"
+
+# En Yeniler butonuna tıklanır
+//* Elementin yüklenmesini bekle "SortByMost"
+* "70","80" oranlarından "70","75" oranlarına "2" kere yukarı swipe et
+* "SortBySmart" li  elementin x ekseninde yukaridan %"25" deger, y ekseninde yukaridan %"60" deger kadar asagisina tikla
+* "SortByMost" li  elementin x ekseninde yukaridan %"25" deger, y ekseninde yukaridan %"60" deger kadar asagisina tikla
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementin yüklenmesini bekle "SortByNew"
+* Elementine tıkla "SortByNew"
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* Element var mı kontrol et "ProductsName"
+
+# En Düşük Fiyat butonuna tıklanır
+//* Elementin yüklenmesini bekle "SortByNew"
+* "70","80" oranlarından "70","75" oranlarına "3" kere yukarı swipe et
+* "SortBySmart" li  elementin x ekseninde yukaridan %"25" deger, y ekseninde yukaridan %"60" deger kadar asagisina tikla
+* "SortByMost" li  elementin x ekseninde yukaridan %"25" deger, y ekseninde yukaridan %"60" deger kadar asagisina tikla
+* "SortByNew" li  elementin x ekseninde yukaridan %"25" deger, y ekseninde yukaridan %"60" deger kadar asagisina tikla
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementin yüklenmesini bekle "SortByLowPrice"
+* Elementine tıkla "SortByLowPrice"
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* Element var mı kontrol et "ProductsName"
+* Fiyatların yazdığı "GratisProductPrice" li elementin degerinin fiyata gore artan oldugu kontrol edilir
+
+# En Yüksek Fiyat butonuna tıklanır
+//* Elementin yüklenmesini bekle "SortByLowPrice"
+* "70","80" oranlarından "70","75" oranlarına "5" kere yukarı swipe et
+* "SortBySmart" li  elementin x ekseninde yukaridan %"25" deger, y ekseninde yukaridan %"60" deger kadar asagisina tikla
+* "SortByMost" li  elementin x ekseninde yukaridan %"25" deger, y ekseninde yukaridan %"60" deger kadar asagisina tikla
+* "SortByNew" li  elementin x ekseninde yukaridan %"25" deger, y ekseninde yukaridan %"60" deger kadar asagisina tikla
+* "SortByLowPrice" li  elementin x ekseninde yukaridan %"25" deger, y ekseninde yukaridan %"60" deger kadar asagisina tikla
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementin yüklenmesini bekle "SortByHighPrice"
+* Elementine tıkla "SortByHighPrice"
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* Element var mı kontrol et "ProductsName"
+* Fiyatların yazdığı "GratisProductPrice" li elementin degerinin fiyata gore azalan oldugu kontrol edilir
+
+# En Yüksek Puan butonuna tıklanır
+//* Elementin yüklenmesini bekle "SortByHighPrice"
+* "70","80" oranlarından "70","75" oranlarına "5" kere yukarı swipe et
+* "SortBySmart" li  elementin x ekseninde yukaridan %"25" deger, y ekseninde yukaridan %"60" deger kadar asagisina tikla
+* "SortByMost" li  elementin x ekseninde yukaridan %"25" deger, y ekseninde yukaridan %"60" deger kadar asagisina tikla
+* "SortByNew" li  elementin x ekseninde yukaridan %"25" deger, y ekseninde yukaridan %"60" deger kadar asagisina tikla
+* "SortByLowPrice" li  elementin x ekseninde yukaridan %"25" deger, y ekseninde yukaridan %"60" deger kadar asagisina tikla
+* "SortByHighPrice" li  elementin x ekseninde yukaridan %"25" deger, y ekseninde yukaridan %"60" deger kadar asagisina tikla
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementin yüklenmesini bekle "SortByHighPoint"
+* Elementine tıkla "SortByHighPoint"
+* Elementin yüklenmesini bekle "PopupOkayBtnIos"
+* Elementine tıkla "PopupOkayBtnIos"
+* Element var mı kontrol et "ProductsName"
+
+# Başa Dön butonuna bas
+* "ProductsName" li elementi bul ve değerini "ilk ürün" olarak sakla
+//* "2" kere aşağıya kaydır
+* "1" kere teması devam ettirmeden aşağıya kaydır
+* "5" saniye bekle
+* Elementin yüklenmesini bekle "ScrollToTop"
+* Elementine tıkla "ScrollToTop"
+* "ProductsName" li elementin text degeri hafizada "ilk ürün" olarak saklanan text ile esit mi kontrol et
+
+# Kategorilerden biri secilerek urun listeleme sayfasina gecilir
+* Elementin yüklenmesini bekle "PageToolbarTitleText"
+* Elementin yüklenmesini bekle "MakyajTab"
+* "MakyajTab" elementine sayacli tikla "TumMakyajUrunleriTab" value degerini bekle
+* Elementin yüklenmesini bekle "PageToolbarTitleText"
+* "TumMakyajUrunleriTab" elementine sayacli tikla "ProductsName" value degerini bekle
+
+# Uygulama geri butonuna bas
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+* "1" saniye bekle
+
+# Alt kategorilerden biri <alt1>, <alt2> seçilir
+* <alt1> text degerine sahip elemente tikla
+* <alt2> text degerine sahip elemente tikla
+* "PageToolbarTitleText" elementinin <alt2> textini içerdiği kontrol edilir
+* Element var mı kontrol et "ProductsName"
+* Element var mı kontrol et "UrunDetay"
+
+# Urun detay sayfasına geçilir
+* Elementin yüklenmesini bekle "PageToolbarTitleText"
+* Elementin yüklenmesini bekle "ProductsName"
+* Elementine tıkla "ProductsName"
+* "PageToolbarTitleText" elementinin "Ürün Detay" textini içerdiği kontrol edilir
+* "ProductSubDetailTitle" li elementi bul ve değerini "ürün adı" olarak sakla
+
+# Sepete Ekle butonuna tıklanır
+* Elementin yüklenmesini bekle "ProductAddButton"
+* Elementine tıkla "ProductAddButton"
+
+# Listeleme alanından bir ürünün favori butonuna tıklanır
+* "ProductsName" li elementi bul ve değerini "ürün adı" olarak sakla
+* Element var mı kontrol et "PageToolbarTitleText"
+* Elementin yüklenmesini bekle "UrunDetay"
+* Elementin yüklenmesini bekle "FavBtn"
+* Elementine tıkla "FavBtn"
+* "2" saniye bekle
+
+# Filtreleme butonuna tıklanır
+* Elementin yüklenmesini bekle "FilterBtn"
+* Element var mı kontrol et "UrunDetay"
+* Elementine tıkla "FilterBtn"
+* Elementin yüklenmesini bekle "FilterName"
+* "PageToolbarTitleTextTwo" elementinin "Filtrele" textini içerdiği kontrol edilir
+
+# Marka filtresine tıklanır
+* Elementin yüklenmesini bekle "FilterName"
+* "FilterName" li ve değeri "Marka" e eşit olan elementli bulana kadar swipe et ve tıkla
+* "SubFilterName" li elementli markayı bul ve değerini "marka adı" olarak sakla
+* Elementine tıkla "SubFilterName"
+* "2" saniye bekle
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+* "3" saniye bekle
+* "Pastel" text degerine sahip elementin goruntulendigi kontrol edilir
+* "2" saniye bekle
+* "FilterName" li ve değeri "Marka" e eşit olan elementli bulana kadar swipe et ve tıkla
+* Elementin yüklenmesini bekle "FilterOkayBtn"
+* Elementine tıkla "FilterOkayBtn"
+* "ProductsName" li elementin text degerini hafizada "marka adı" olarak saklanan text ile karsilastir
+
+# Form filtresine tıklanır
+* Elementin yüklenmesini bekle "FilterName"
+* "FilterName" li ve değeri "Form" e eşit olan elementli bulana kadar swipe et ve tıkla
+* "SubFilterName" li elementli markayı bul ve değerini "marka adı" olarak sakla
+* Elementine tıkla "SubFilterName"
+* "2" saniye bekle
+* Elementin yüklenmesini bekle "geriBtn"
+* Elementine tıkla "geriBtn"
+* "3" saniye bekle
+* "Likit" text degerine sahip elementin goruntulendigi kontrol edilir
+* "2" saniye bekle
+* "FilterName" li ve değeri "Form" e eşit olan elementli bulana kadar swipe et ve tıkla
+* Elementin yüklenmesini bekle "FilterOkayBtn"
+* Elementine tıkla "FilterOkayBtn"
+* "1" saniye bekle
+* Urun detay sayfasına geçilir
+* "ProductInfoTable"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "ProductInfoTable"
+* "1" saniye bekle
+* "ProductInfoInTableTextForm"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+//* "marka adı" olarak saklanan değerin sayfa üzerinde olup olmadığını kontrol et
+//* "ProductInfoInTableText" li elementin text degerini hafizada "marka adı" olarak saklanan text ile karsilastir
+//* Elementin yüklenmesini bekle "ProductInfoInTableText"
+
+# Stok filtresine tıklanır
+* Elementin yüklenmesini bekle "StockCheckBox"
+* Elementine tıkla "StockCheckBox"
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "FilterOkayTwoBtn"
+* Elementine tıkla "FilterOkayTwoBtn"
+* "1" saniye bekle
+
+# Stok filtresi kaldırılır
+* Elementin yüklenmesini bekle "StockCheckBox"
+* Elementine tıkla "StockCheckBox"
+* "1" saniye bekle
+* Elementin yüklenmesini bekle "FilterOkayTwoBtn"
+* Elementine tıkla "FilterOkayTwoBtn"
+* "1" saniye bekle
+
+# Filtre sıfırla butonuna tıklanır
+* Element var mı kontrol et "FilterResetBtn"
+* Elementine tıkla "FilterResetBtn"
+* "1" saniye bekle
+
+# Seçilmiş filtre seçeneği kaldırılır
+* Elementin yüklenmesini bekle "FilterName"
+* "FilterName" li ve değeri "Marka" e eşit olan elementli bulana kadar swipe et ve tıkla
+* "SubFilterName" li elementli markayı bul ve değerini "marka adı" olarak sakla
+* Elementin yüklenmesini bekle "TickIconIos"
+* "TickIconIos" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
+* "1" saniye bekle
+* "TickIconIos" değerini sayfa üzerinde olmadıgını kontrol et
+* Elementin yüklenmesini bekle "FilterOkayBtn"
+* Elementine tıkla "FilterOkayBtn"
+* "1" saniye bekle
+* "ProductsName" li elementin text degerini hafizada "marka adı" olarak saklanan text ayni olmadigini kontrol et

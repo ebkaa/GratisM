@@ -1,0 +1,469 @@
+Created by testinium on 5.07.2023
+
+This is a concept file with following syntax for each concept.
+# Kampanyalar sayfasi acilir.
+* Elementin yüklenmesini bekle "kampanyaSec"
+* Elementine tıkla "kampanyalarTab"
+* Elementin yüklenmesini bekle "kampanyaSec"
+
+# Kampanyalar swipe edilir.
+* "kampanyaSec" elementinin hizasından sağdan sola "3" kere kaydır
+* "kampanyaSec" elementinin hizasından soldan sağa "2" kere kaydır
+* "1" saniye bekle
+
+# Kampanyaya tiklanir.
+* Elementin yüklenmesini bekle "kampanyaSec"
+* Elementine tıkla "kampanyaSec"
+* "1" saniye bekle
+* Element var mı kontrol et "toolbarUrunler"
+* Element var mı kontrol et "productName"
+* "bosSepetListesi" değerini sayfa olmadığını kontrol et
+* "2" saniye bekle
+* Elementine tıkla "geriBtn"
+* "1" saniye bekle
+
+# Birinci indirim kampanyasına tiklanir.
+* "%50indirim"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* "%50indirim" elementinin koordinatlarına x="0" y="200" degerlerini ekleyerek tıkla
+* Elementin yüklenmesini bekle "toolbarUrunler"
+* "2" saniye bekle
+* Elementine tıkla "geriBtn"
+
+# İkinci indirim kampanyasına tiklanir.
+* Elementin yüklenmesini bekle "kampanyaSec"
+* "3" kere aşağıya kaydır
+* Elementin yüklenmesini bekle "%60indirim"
+* "%60indirim" elementinin koordinatlarına x="0" y="200" degerlerini ekleyerek tıkla
+* Elementin yüklenmesini bekle "toolbarUrunler"
+* "2" saniye bekle
+* Elementine tıkla "geriBtn"
+
+# Markalar sayfasi acilir.
+* Elementin yüklenmesini bekle "kampanyaSec"
+* Elementine tıkla "markalarTab"
+* Elementin yüklenmesini bekle "trademark"
+
+# Sadece Gratis'te markaları swipe edilir ve tiklanir.
+* "trademark" elementinin hizasından sağdan sola "3" kere kaydır
+* "trademark" elementinin hizasından soldan sağa "2" kere kaydır
+* Elementin yüklenmesini bekle "trademark"
+* Elementine tıkla "trademark"
+* Elementin yüklenmesini bekle "pageToolbarTitle"
+* Elementine tıkla "geriBtn"
+* Elementin yüklenmesini bekle "trademark"
+
+# Markalar swipe edilir ve tiklanir.
+* "4" kere aşağıya kaydır
+* "2" kere yukarı doğru kaydır
+* Elementin yüklenmesini bekle "elementList"
+* Elementine tıkla "elementList"
+* Element var mı kontrol et "pageToolbarTitle"
+* "1" saniye bekle
+* Elementine tıkla "geriBtn"
+* Elementin yüklenmesini bekle "elementList"
+
+# Hizli scroll harflerine basılır ve listeden bir marka secilir.
+* Elementine tıkla "fastScroller"
+* Elementin yüklenmesini bekle "elementList"
+* Elementine tıkla "elementList"
+* Elementin yüklenmesini bekle "pageToolbarTitle"
+* "1" saniye bekle
+* Elementine tıkla "geriBtn"
+* Elementin yüklenmesini bekle "elementList"
+
+# Diger tabina tiklanir.
+* Elementin yüklenmesini bekle "digerTab"
+* Elementine tıkla "digerTab"
+
+# Gratis Kartim sayfasina gecilir.
+* Elementin yüklenmesini bekle "gratisCardBtn"
+* Elementine tıkla "gratisCardBtn"
+
+# Login durumda Gratis Kart sayfasi kontrol edilir.
+* "pageToolbarTitle" elementinin "Gratis Kart" textini içerdiği kontrol edilir
+* Elementine tıkla "geriBtn"
+* "1" saniye bekle
+
+# Non login durumda Gratis Kart sayfasi kontrol edilir.
+* Elementin yüklenmesini bekle "pageToolbarTitle"
+* "pageToolbarTitle" elementinin "Giriş Yap" textini içerdiği kontrol edilir
+* "AndroidMail" csv dosyasindan rastgele kullanici sec
+* Rastgele secilen kullanici adi "emailInput" elementine, sifre "passwordInput" elementine yazilir
+* "loginBtn" elementine sayacli tikla "digerTab" value degerini bekle
+* "pageToolbarTitle" elementinin "Diğer" textini içerdiği kontrol edilir
+
+# Yakinlardaki magazalar'a tiklanir.
+* Elementin yüklenmesini bekle "nearbyStore"
+* Elementine tıkla "nearbyStore"
+* "locationPermissionBtn" li element varsa tıkla
+* Elementin yüklenmesini bekle "urunSearchTxt"
+* "pageToolbarTitle" elementinin "Mağazalar" textini içerdiği kontrol edilir
+* Element var mı kontrol et "digerTab"
+
+# Diğer alaninda Gratis Beauty sayfasina gecilir.
+* Elementin yüklenmesini bekle "beautyDigerBtn"
+* Elementine tıkla "beautyDigerBtn"
+* "7" saniye bekle
+* Elementin yüklenmesini bekle "gratisBeautyPage"
+* "2" saniye bekle
+* Geri butonuna bas
+* Elementin yüklenmesini bekle "digerTab"
+
+# Kariyer sayfasina gecilir.
+* "careerBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "careerBtn"
+* Elementine tıkla "careerBtn"
+* "5" saniye bekle
+* Elementin yüklenmesini bekle "careerPage"
+* "1" saniye bekle
+* Geri butonuna bas
+* Elementin yüklenmesini bekle "digerTab"
+
+# Uyelik Sozlesmesi sayfasina gecilir.
+* "agreementTxtBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "agreementTxtBtn"
+* Elementine tıkla "agreementTxtBtn"
+* Elementin yüklenmesini bekle "agreementPageToolbar"
+* "1" saniye bekle
+* "2" kere aşağıya kaydır
+* "1" saniye bekle
+* Geri butonuna bas
+* Elementin yüklenmesini bekle "digerTab"
+
+# Gizlilik ve Guvenlik sayfasina gecilir.
+* "policyBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "policyBtn"
+* Elementine tıkla "policyBtn"
+* Elementin yüklenmesini bekle "policyPageToolbar"
+* "1" saniye bekle
+* "2" kere aşağıya kaydır
+* "1" saniye bekle
+* Geri butonuna bas
+* Elementin yüklenmesini bekle "digerTab"
+
+# Kullanim kosullari sayfasina gecilir.
+* "termOfUseBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "termOfUseBtn"
+* Elementine tıkla "termOfUseBtn"
+* Elementin yüklenmesini bekle "termOfUsePageToolbar"
+* "1" saniye bekle
+* "2" kere aşağıya kaydır
+* "1" saniye bekle
+* Geri butonuna bas
+* Elementin yüklenmesini bekle "digerTab"
+
+# Bilgi Toplumu Hizmetleri sayfasina gecilir.
+* "ssiBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "ssiBtn"
+* Elementine tıkla "ssiBtn"
+* Elementin yüklenmesini bekle "ssiPageElement"
+* "1" saniye bekle
+* "2" kere aşağıya kaydır
+* "1" saniye bekle
+* Geri butonuna bas
+* Elementin yüklenmesini bekle "digerTab"
+
+# KVKK sayfasina gecilir.
+* "kvkkBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "kvkkBtn"
+* Elementine tıkla "kvkkBtn"
+* Elementin yüklenmesini bekle "kvkkPageToolbar"
+* "1" saniye bekle
+* "2" kere aşağıya kaydır
+* "1" saniye bekle
+* Geri butonuna bas
+* Elementin yüklenmesini bekle "digerTab"
+
+# Hakkimizda sayfasina gecilir.
+* "aboutBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "aboutBtn"
+* Elementine tıkla "aboutBtn"
+* Elementin yüklenmesini bekle "aboutPageToolbar"
+* "1" saniye bekle
+* "1" kere aşağıya kaydır
+* "1" saniye bekle
+* Geri butonuna bas
+* Elementin yüklenmesini bekle "digerTab"
+
+# Facebook sayfasina gecilir.
+* "facebookBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "facebookBtn"
+* Elementine tıkla "facebookBtn"
+* Elementin yüklenmesini bekle "facebookPage"
+* "1" saniye bekle
+* Geri butonuna bas
+* Elementin yüklenmesini bekle "digerTab"
+
+# Instagram sayfasina gecilir.
+* "instagramBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "instagramBtn"
+* Elementine tıkla "instagramBtn"
+* "3" saniye bekle
+* "Gratis" değerini sayfa üzerinde olup olmadığını kontrol et.
+//* Elementin yüklenmesini bekle "instagramPage"
+* "1" saniye bekle
+* Geri butonuna bas
+* Elementin yüklenmesini bekle "digerTab"
+
+# Twitter sayfasina gecilir.
+* "twitterBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "twitterBtn"
+* Elementine tıkla "twitterBtn"
+//* Elementin yüklenmesini bekle "twitterPage"
+* "gratis" değerini sayfa üzerinde olup olmadığını kontrol et.
+* "1" saniye bekle
+* Geri butonuna bas
+* Elementin yüklenmesini bekle "digerTab"
+
+# Iletisim sayfasina gecilir.
+* "contact"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "contact"
+* Elementine tıkla "contact"
+* Elementin yüklenmesini bekle "contactFirstName"
+* "1" kere aşağıya kaydır
+
+# Iletisim numarasına tiklanir.
+* "contactCallNumber"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "contactCallNumber"
+* Elementine tıkla "contactCallNumber"
+* Geri butonuna bas
+* Geri butonuna bas
+* Geri butonuna bas
+* Element var mı kontrol et "digerTab"
+* Elementine tıkla "digerTab"
+
+# Iletisim sayfasi bilgileri girilir.
+* "AndroidInfo" csv dosyasindan rastgele register kullanicisi sec
+* Rastgele secilen kullanici adi "contactFirstName" elementine, soyadi "contactLastName" elementine, mail "contactEmail" elementine yazilir
+* Rastgele secilen telefon "contactPhone" elementine yazilir
+* "1" kere aşağıya kaydır
+* Elementin yüklenmesini bekle "contactMessageType"
+* Elementine tıkla "contactMessageType"
+* Element var mı kontrol et "contactMessageType2"
+* Elementine tıkla "contactMessageType2"
+* "Örnek mesaj" textini "contactMessage" elemente yaz
+* "1" kere aşağıya kaydır
+* Elementine tıkla "contactKvkkCheck"
+* "contactSendBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "contactSendBtn"
+* Elementine tıkla "contactSendBtn"
+* Element var mı kontrol et "contactOkayBtn"
+
+# Yardım ve Destek sayfasına geçilir.
+* "supportBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "supportBtn"
+* Elementine tıkla "supportBtn"
+* Element var mı kontrol et "hsMembership"
+* Element var mı kontrol et "hsPay"
+* Element var mı kontrol et "hsOrder"
+* Element var mı kontrol et "hsProduct"
+
+# Uyelik alanına tıklanır.
+* Elementine tıkla "hsMembership"
+* Elementine tıkla "hsSolution"
+* "hsSolutionText" elementinin "Gratis.com'a üye olmak ücretsizdir" textini içerdiği kontrol edilir
+* Elementine tıkla "geriBtn"
+* Elementine tıkla "hsMembership"
+
+# Odeme alanına tıklanır.
+* Elementine tıkla "hsPay"
+* Elementine tıkla "hsSolution"
+* "hsSolutionText" elementinin "Gratis.com'da havale ile alışveriş geçerli değildir" textini içerdiği kontrol edilir
+* Elementine tıkla "geriBtn"
+* Elementine tıkla "hsPay"
+
+# Siparis ve Teslimat Sureci alanına tıklanır.
+* Elementine tıkla "hsOrder"
+* Elementine tıkla "hsSolution"
+* "hsSolutionText" elementinin "İstediğiniz ürünü sepetinize ekleyebilirsiniz" textini içerdiği kontrol edilir
+* Elementine tıkla "geriBtn"
+* Elementine tıkla "hsOrder"
+
+# Iade, Urun ve Sikayet alanına tıklanır.
+* Elementine tıkla "hsProduct"
+* Elementine tıkla "hsSolution"
+* "hsSolutionText" elementinin "Siparişinizi verdiğiniz andan itibaren ilk 30 dakika içinde hesabınız üzerinden iptal edebilirsiniz. Bu süreden sonra iade yapabilmek için siparişinizin uygunluğunu öğrenmek için müşteri deneyimlerimiz ile iletişime geçmeniz gerekmektedir" textini içerdiği kontrol edilir
+* Elementine tıkla "geriBtn"
+* Elementine tıkla "hsProduct"
+* "1" saniye bekle
+
+# Ana sayfa tab'ına tıklanır.
+* Elementin yüklenmesini bekle "anasayfaTab"
+* Elementine tıkla "anasayfaTab"
+* "2" saniye bekle
+
+# Katalog sayfasina gecilir.
+* "catalogBtn"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* Elementin yüklenmesini bekle "catalogBtn"
+* Elementine tıkla "catalogBtn"
+* "4" saniye bekle
+* "beautyPopup" li element varsa tıkla
+* Elementin yüklenmesini bekle "catalogOptions"
+* "1" saniye bekle
+
+# Katalog sayfaları swipe edilir.
+* "3" kere sağa kaydirilir
+* "1" saniye bekle
+* "500","1000" koordinatlarına tıkla
+* "500","1000" koordinatlarına tıkla
+* "1" saniye bekle
+* "500","1000" koordinatlarına tıkla
+* "500","1000" koordinatlarına tıkla
+* "1" saniye bekle
+* "2" kere sola kaydirilir
+
+# Katalog seceneklerine tiklanir.
+* Elementin yüklenmesini bekle "catalogOptions"
+* "2" saniye bekle
+* Elementine tıkla "catalogOptions"
+
+# Sayfaya Genel Bakis alanina gecilir.
+* "3" saniye bekle
+* Elementin yüklenmesini bekle "catalogPagesBtn"
+* Elementine tıkla "catalogPagesBtn"
+* Element var mı kontrol et "catalogPages"
+* "4" kere aşağıya kaydır
+* Elementin yüklenmesini bekle "catalogPages"
+* Elementine tıkla "catalogPages"
+
+# Katalog pdf indirmeye tiklanir.
+* Elementin yüklenmesini bekle "catalogPdf"
+* Elementine tıkla "catalogPdf"
+* Geri butonuna bas
+
+# Favorilerim sayfasina gecilir.
+* Elementine tıkla "catalogOptions"
+* Element var mı kontrol et "catalogFav"
+* Elementine tıkla "catalogFav"
+* Element var mı kontrol et "catalogFav"
+* Elementine tıkla "catalogFavClose"
+
+# Sırala butonuna tıklanır.
+* Elementin yüklenmesini bekle "sıralaBtn"
+* Elementine tıkla "sıralaBtn"
+* Elementin yüklenmesini bekle "sortByMost"
+
+# Çok Satanlar butonuna tıklanır.
+* Element var mı kontrol et "sortByMost"
+* Elementine tıkla "sortByMost"
+* Element var mı kontrol et "productName"
+
+# Akıllı Sıralama butonuna tıklanır.
+* Element var mı kontrol et "sortBySmart"
+* Elementine tıkla "sortBySmart"
+* Element var mı kontrol et "productName"
+
+# En Yeniler butonuna tıklanır.
+* Element var mı kontrol et "sortByNew"
+* Elementine tıkla "sortByNew"
+* Element var mı kontrol et "productName"
+
+# En Düşük Fiyat butonuna tıklanır.
+* Element var mı kontrol et "sortByLowPrice"
+* Elementine tıkla "sortByLowPrice"
+* "1" saniye bekle
+//* Fiyatların yazdığı "gratisCardPrice" li elementin degerinin fiyata gore artan oldugu kontrol edilir
+* Fiyatların yazdığı "listSalePriceOne" li elementin degerinin fiyata gore artan oldugu kontrol edilir
+
+# En Yüksek Fiyat butonuna tıklanır.
+* Element var mı kontrol et "sortByHighPrice"
+* Elementine tıkla "sortByHighPrice"
+* "1" saniye bekle
+* "listSalePriceOne"li elementi bulana kadar "5" kere swipe yap ve elementi bul
+//* Fiyatların yazdığı "gratisCardPrice" li elementin degerinin fiyata gore azalan oldugu kontrol edilir
+* Fiyatların yazdığı "listSalePriceOne" li elementin degerinin fiyata gore azalan oldugu kontrol edilir
+
+# Uygulama geri butonuna bas.
+* Element var mı kontrol et "geriBtn"
+* Elementine tıkla "geriBtn"
+
+# Alt kategorilerden biri <alt1>, <alt2> seçilir.
+* <alt1> text degerine sahip elemente tikla.
+* <alt2> text degerine sahip elemente tikla.
+* "pageToolbarTitle" elementinin <alt2> textini içerdiği kontrol edilir
+* Element var mı kontrol et "urunDetay"
+* Element var mı kontrol et "urunDetayy"
+
+# Başa Dön butonuna bas.
+* "productName" li elementi bul ve değerini "ilk ürün" olarak sakla
+* "3" kere aşağıya kaydır
+* Element var mı kontrol et "scrollToTop"
+* Elementine tıkla "scrollToTop"
+* "productName" li elementin text degeri hafizada "ilk ürün" olarak saklanan text ile esit mi kontrol et
+
+# Urun detay sayfasına geçilir.
+* Element var mı kontrol et "productName"
+* Elementine tıkla "productName"
+* "pageToolbarTitle" elementinin "Ürün Detay" textini içerdiği kontrol edilir
+* "productDetailTitle" li elementi bul ve değerini "ürün adı" olarak sakla
+
+# Gratis kart indirimli ürün detay sayfasına geçilir.
+* "gratisCardPrice"li elementi bulana kadar "7" kere swipe yap ve elementi bul
+* Elementine tıkla "gratisCardPrice"
+* "pageToolbarTitle" elementinin "Ürün Detay" textini içerdiği kontrol edilir
+* "productDetailTitle" li elementi bul ve değerini "ürün adı" olarak sakla
+
+# Non-Login ürün detayda urun sepete eklenir.
+* "pageToolbarTitle" elementinin "Ürün Detay" textini içerdiği kontrol edilir
+* "productAddButton"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementine tıkla "productAddButton"
+
+# Sepete Ekle butonuna tıklanır.
+* "productAddButton"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* Elementine tıkla "productAddButton"
+
+# Listeleme alanından bir ürünün favori butonuna tıklanır.
+* "productName" li elementi bul ve değerini "ürün adı" olarak sakla
+* Element var mı kontrol et "urunDetay"
+* "1" saniye bekle
+* Elementine tıkla "favBtn"
+* "1" saniye bekle
+
+# Filtreleme butonuna tıklanır.
+* Elementin yüklenmesini bekle "filterBtn"
+* Element var mı kontrol et "urunDetay"
+* Element var mı kontrol et "urunDetayy"
+* Elementine tıkla "filterBtn"
+* Elementin yüklenmesini bekle "filterName"
+* "pageToolbarTitle" li elementin değeri "Filtrele" e eşitliğini kontrol et
+
+# Marka filtresine tıklanır.
+* "filterName" li ve değeri "Marka" e eşit olan elementli bulana kadar swipe et ve tıkla
+* "subFilterName" li elementli markayı bul ve değerini "marka adı" olarak sakla
+* Elementine tıkla "subFilterName"
+* "1" saniye bekle
+* Elementine tıkla "filterOkayBtn"
+
+# Ürünlerin filtrelendiği ismi ile kontrol edilir.
+* "productName" li elementin text degerini hafizada "marka adı" olarak saklanan text ile karsilastir
+
+# Form filtresine tıklanır.
+* "filterName" li ve değeri "Form" e eşit olan elementli bulana kadar swipe et ve tıkla
+* "subFilterName" li elementli markayı bul ve değerini "marka adı" olarak sakla
+* Elementine tıkla "subFilterName"
+* "1" saniye bekle
+* Elementine tıkla "filterOkayBtn"
+
+# Stok filtresine tıklanır.
+* Element var mı kontrol et "stockCheckbox"
+* Elementine tıkla "stockCheckbox"
+* Element var mı kontrol et "stockCheckedBox"
+* Elementine tıkla "filterButton"
+
+# Stok filtresi kaldırılır.
+* Element var mı kontrol et "stockCheckedBox"
+* Elementine tıkla "stockCheckedBox"
+* Element var mı kontrol et "stockCheckbox"
+* Elementine tıkla "filterButton"
+
+# Filtre kontrol edilir.
+* Elementine tıkla "urunDetay"
+* "4" kere aşağıya kaydır
+* Element var mı kontrol et "com.gratis.android:id/product_info_table"
+//* "marka adı" olarak saklanan değerin sayfa üzerinde olup olmadığını kontrol et
+* "filterCtrl" li elementin text degeri hafizada "marka adı" olarak saklanan text ile esit mi kontrol et
+
+# Filtre sıfırla butonuna tıklanır.
+* Element var mı kontrol et "filterResetBtn"
+* Elementine tıkla "filterResetBtn"
+* "1" saniye bekle
