@@ -104,12 +104,9 @@ public class HookImpl {
             if (System.getenv("platform").equals("ANDROID")) {
                 isDeviceAnd=true;
                 capabilities.setCapability("key", System.getenv("key"));
-                desiredCapabilities
-                        .setCapability(AndroidMobileCapabilityType.APP_PACKAGE,
-                                "com.gratis.android");
-                desiredCapabilities
-                        .setCapability(AndroidMobileCapabilityType.APP_ACTIVITY,
-                                "com.app.gratis.ui.splash.SplashActivity");
+                capabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.gratis.android");
+                capabilities.setCapability("appWaitActivity", ".activities.MainActivity");
+                capabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "com.app.gratis.ui.splash.SplashActivity");
                 capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"uiautomator2");
                 capabilities.setCapability(MobileCapabilityType.NO_RESET, false);
                 capabilities.setCapability(MobileCapabilityType.FULL_RESET, false);
