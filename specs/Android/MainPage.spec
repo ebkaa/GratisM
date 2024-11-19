@@ -26,12 +26,12 @@ Non-Login Add Favorite
 tags:Gratis_Android_AnasayfaNonLoginFavoriEkleme
 * Uygulama baslatilir.
 * Kategoriler sayfasina gecilir.
-* "Makyaj" isimli kategori seçilir.
-* Alt kategorilerden biri "Göz Makyajı", "Göz Kalemi" seçilir.
-* Listeleme alanından bir ürünün favori butonuna tıklanır.
-* Favori ikonu ile Gratis0 login olunur.
-* Urun favorilere eklenir.
-* Favori listesi kontrol edilerek temizlenir.
+//* "Makyaj" isimli kategori seçilir.
+//* Alt kategorilerden biri "Göz Makyajı", "Göz Kalemi" seçilir.
+//* Listeleme alanından bir ürünün favori butonuna tıklanır.
+//* Favori ikonu ile Gratis0 login olunur.
+//* Urun favorilere eklenir.
+//* Favori listesi kontrol edilerek temizlenir.
 
 Non-Login Add Favorite List
 ---------------------------
