@@ -93,13 +93,15 @@ public class HookImpl {
             }
         } else {
 
+            System.out.println("Works Here");
 
-            String hubURL = "http://localhost:4444/wd/hub";
+            String hubURL = "http://host.docker.internal:4444/wd/hub";
             DesiredCapabilities capabilities = new DesiredCapabilities();
 
             System.out.println("key:" + System.getenv("key"));
             System.out.println("platform" + System.getenv("platform"));
             System.out.println("version" + System.getenv("version"));
+            System.out.println("hubUrl" + System.getenv("hubUrl"));
 
             if (System.getenv("platform").equals("ANDROID")) {
                 isDeviceAnd=true;
